@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: 315dc542f9c59af4b95b425883ec7e2a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1672433346329546339
+    second: AirStrike_FireField_MAX_0
+  - first:
+      213: -1574041977034489218
+    second: AirStrike_FireField_MAX_1
+  - first:
+      213: 1861895514584690766
+    second: AirStrike_FireField_MAX_2
+  - first:
+      213: -8793138503103415546
+    second: AirStrike_FireField_MAX_3
+  - first:
+      213: -7891282442669973243
+    second: AirStrike_FireField_MAX_4
+  - first:
+      213: -6881650213025628061
+    second: AirStrike_FireField_MAX_5
+  - first:
+      213: 6821887108019685754
+    second: AirStrike_FireField_MAX_6
+  - first:
+      213: -4582213085857245468
+    second: AirStrike_FireField_MAX_7
+  - first:
+      213: -8725894088890019829
+    second: AirStrike_FireField_MAX_8
+  - first:
+      213: -3354817357440057910
+    second: AirStrike_FireField_MAX_9
+  - first:
+      213: -4391899228445611520
+    second: AirStrike_FireField_MAX_10
+  - first:
+      213: 903089266995005117
+    second: AirStrike_FireField_MAX_11
+  - first:
+      213: -6519958940241225110
+    second: AirStrike_FireField_MAX_12
+  - first:
+      213: 8515022387035838632
+    second: AirStrike_FireField_MAX_13
+  - first:
+      213: 4499703919674443891
+    second: AirStrike_FireField_MAX_14
+  - first:
+      213: 4154888686275069732
+    second: AirStrike_FireField_MAX_15
+  - first:
+      213: 4028205945539722855
+    second: AirStrike_FireField_MAX_16
+  - first:
+      213: 3511772284526974075
+    second: AirStrike_FireField_MAX_17
+  - first:
+      213: -2085610425205739749
+    second: AirStrike_FireField_MAX_18
+  - first:
+      213: 7721485131870263771
+    second: AirStrike_FireField_MAX_19
+  - first:
+      213: 8812774536851022827
+    second: AirStrike_FireField_MAX_20
+  - first:
+      213: 6392160306758525622
+    second: AirStrike_FireField_MAX_21
+  - first:
+      213: -3611537949391818541
+    second: AirStrike_FireField_MAX_22
+  - first:
+      213: 1951775306223658654
+    second: AirStrike_FireField_MAX_23
+  - first:
+      213: -3468340487303513420
+    second: AirStrike_FireField_MAX_24
+  - first:
+      213: 8230271180736762570
+    second: AirStrike_FireField_MAX_25
+  - first:
+      213: -1350865489595022102
+    second: AirStrike_FireField_MAX_26
+  - first:
+      213: -3611244684541852045
+    second: AirStrike_FireField_MAX_27
+  - first:
+      213: 8502263383246926281
+    second: AirStrike_FireField_MAX_28
+  - first:
+      213: 4676547065700969361
+    second: AirStrike_FireField_MAX_29
+  - first:
+      213: 4739942537668842525
+    second: AirStrike_FireField_MAX_30
+  - first:
+      213: -6939144337759391084
+    second: AirStrike_FireField_MAX_31
+  - first:
+      213: -6410143125258993791
+    second: AirStrike_FireField_MAX_32
+  - first:
+      213: -500378490719690149
+    second: AirStrike_FireField_MAX_33
+  - first:
+      213: -4730559458791807149
+    second: AirStrike_FireField_MAX_34
+  - first:
+      213: -7623266008081457948
+    second: AirStrike_FireField_MAX_35
+  - first:
+      213: -8690308033122190677
+    second: AirStrike_FireField_MAX_36
+  - first:
+      213: 8744290946994757352
+    second: AirStrike_FireField_MAX_37
+  - first:
+      213: -4548030436928294535
+    second: AirStrike_FireField_MAX_38
+  - first:
+      213: -9008644863622471781
+    second: AirStrike_FireField_MAX_39
+  - first:
+      213: 4461519893661526749
+    second: AirStrike_FireField_MAX_40
+  - first:
+      213: -7404329939662479092
+    second: AirStrike_FireField_MAX_41
+  - first:
+      213: -1656884996713875104
+    second: AirStrike_FireField_MAX_42
+  - first:
+      213: -362147830068330473
+    second: AirStrike_FireField_MAX_43
+  - first:
+      213: -2691526442852692953
+    second: AirStrike_FireField_MAX_44
+  - first:
+      213: -5467367748316974697
+    second: AirStrike_FireField_MAX_45
+  - first:
+      213: -641550467752578560
+    second: AirStrike_FireField_MAX_46
+  - first:
+      213: -5595706369453680601
+    second: AirStrike_FireField_MAX_47
+  - first:
+      213: 2338304705504500629
+    second: AirStrike_FireField_MAX_48
+  - first:
+      213: -648245934271966121
+    second: AirStrike_FireField_MAX_49
+  - first:
+      213: 2659481519368304913
+    second: AirStrike_FireField_MAX_50
+  - first:
+      213: 2986107418811373540
+    second: AirStrike_FireField_MAX_51
+  - first:
+      213: -5411871402598387153
+    second: AirStrike_FireField_MAX_52
+  - first:
+      213: 2591221731109213931
+    second: AirStrike_FireField_MAX_53
+  - first:
+      213: -8453012460503966879
+    second: AirStrike_FireField_MAX_54
+  - first:
+      213: 9136898634845187472
+    second: AirStrike_FireField_MAX_55
+  - first:
+      213: -1879837059576941581
+    second: AirStrike_FireField_MAX_56
+  - first:
+      213: -4903218558819049942
+    second: AirStrike_FireField_MAX_57
+  - first:
+      213: 629522025565424338
+    second: AirStrike_FireField_MAX_58
+  - first:
+      213: -644812763808752742
+    second: AirStrike_FireField_MAX_59
+  - first:
+      213: 1210889562402378333
+    second: AirStrike_FireField_MAX_60
+  - first:
+      213: 1907861099351892371
+    second: AirStrike_FireField_MAX_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AirStrike_FireField_MAX_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 369
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e8d7e744da53710800000000000000
+      internalID: 1672433346329546339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirStrike_FireField_MAX_1
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 0
+        width: 363
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e724e495921e72ae0800000000000000
+      internalID: -1574041977034489218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirStrike_FireField_MAX_2
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 0
+        width: 356
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40b6b31b18c6d910800000000000000
+      internalID: 1861895514584690766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirStrike_FireField_MAX_3
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 0
+        width: 351
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60bf5b59e1f78f580800000000000000
+      internalID: -8793138503103415546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirStrike_FireField_MAX_4
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 0
+        width: 362
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501216e9d688c7290800000000000000
+      internalID: -7891282442669973243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AirStrike_FireField_MAX_5
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 0
+        width: 362
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360cd1087977f70a0800000000000000
+      internalID: -6881650213025628061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e5a18d16a997e4c47941cd3d2e3b057e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AirStrike_FireField_MAX_0: 1672433346329546339
+      AirStrike_FireField_MAX_1: -1574041977034489218
+      AirStrike_FireField_MAX_2: 1861895514584690766
+      AirStrike_FireField_MAX_3: -8793138503103415546
+      AirStrike_FireField_MAX_4: -7891282442669973243
+      AirStrike_FireField_MAX_5: -6881650213025628061
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

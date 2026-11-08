@@ -1,0 +1,359 @@
+fileFormatVersion: 2
+guid: 501c7920aa952c44fba70cf228dd485b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4915955341325862252
+    second: ThunderDragon_MAX_0
+  - first:
+      213: -4040459246708234376
+    second: ThunderDragon_MAX_1
+  - first:
+      213: 146557342875996310
+    second: ThunderDragon_MAX_2
+  - first:
+      213: 8419805941258169503
+    second: ThunderDragon_MAX_3
+  - first:
+      213: 8630990364775022942
+    second: ThunderDragon_MAX_4
+  - first:
+      213: -357947129564167791
+    second: ThunderDragon_MAX_5
+  - first:
+      213: -8228200843063630041
+    second: ThunderDragon_MAX_6
+  - first:
+      213: -6364130501897979393
+    second: ThunderDragon_MAX_7
+  - first:
+      213: 3723472563346551565
+    second: ThunderDragon_MAX_8
+  - first:
+      213: -3577055717592818870
+    second: ThunderDragon_MAX_9
+  - first:
+      213: 1109191920349046973
+    second: ThunderDragon_MAX_10
+  - first:
+      213: 7543124939828857404
+    second: ThunderDragon_MAX_11
+  - first:
+      213: -9183712577909151106
+    second: ThunderDragon_MAX_12
+  - first:
+      213: -1653692061341334915
+    second: ThunderDragon_MAX_13
+  - first:
+      213: -5610212838276640578
+    second: ThunderDragon_MAX_14
+  - first:
+      213: 6066033897136129527
+    second: ThunderDragon_MAX_15
+  - first:
+      213: -2074624131032211126
+    second: ThunderDragon_MAX_16
+  - first:
+      213: 3440442430948695474
+    second: ThunderDragon_MAX_17
+  - first:
+      213: -9077288709168781859
+    second: ThunderDragon_MAX_18
+  - first:
+      213: 349902588378010437
+    second: ThunderDragon_MAX_19
+  - first:
+      213: -3198171545961468501
+    second: ThunderDragon_MAX_20
+  - first:
+      213: 9022224476381473297
+    second: ThunderDragon_MAX_21
+  - first:
+      213: -861336470717998966
+    second: ThunderDragon_MAX_22
+  - first:
+      213: 6531141338869007176
+    second: ThunderDragon_MAX_23
+  - first:
+      213: 5695902805287215646
+    second: ThunderDragon_MAX_24
+  - first:
+      213: -4395066204463332865
+    second: ThunderDragon_MAX_25
+  - first:
+      213: -2370054050556520233
+    second: ThunderDragon_MAX_26
+  - first:
+      213: -1285148058934306709
+    second: ThunderDragon_MAX_27
+  - first:
+      213: 9074392021164085866
+    second: ThunderDragon_MAX_28
+  - first:
+      213: 9115228927516422850
+    second: ThunderDragon_MAX_29
+  - first:
+      213: 5640388606467119542
+    second: ThunderDragon_MAX_30
+  - first:
+      213: -5143920875259367783
+    second: ThunderDragon_MAX_31
+  - first:
+      213: 7017193198447624508
+    second: ThunderDragon_MAX_32
+  - first:
+      213: -6777195144963403158
+    second: ThunderDragon_MAX_33
+  - first:
+      213: 7593322914540364559
+    second: ThunderDragon_MAX_34
+  - first:
+      213: 4746387099875057624
+    second: ThunderDragon_MAX_35
+  - first:
+      213: -3961724712746914040
+    second: ThunderDragon_MAX_36
+  - first:
+      213: 3141667530483678793
+    second: ThunderDragon_MAX_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ThunderDragon_MAX_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 396
+        height: 793
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a7694b9a407cbb0800000000000000
+      internalID: -4915955341325862252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThunderDragon_MAX_1
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 404
+        height: 793
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877638ee8b76de7c0800000000000000
+      internalID: -4040459246708234376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThunderDragon_MAX_2
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 0
+        width: 389
+        height: 793
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6905959702da80200800000000000000
+      internalID: 146557342875996310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThunderDragon_MAX_3
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 0
+        width: 374
+        height: 793
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd942d3e84ad17f49a3e66fead37f5c5
+      internalID: 8419805941258169503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThunderDragon_MAX_4
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 0
+        width: 396
+        height: 793
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f174c6bc939a54daa12dae40421edb
+      internalID: 8630990364775022942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b90e64392cec7a84bbec0a1fd2ccd120
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ThunderDragon_MAX_0: -4915955341325862252
+      ThunderDragon_MAX_1: -4040459246708234376
+      ThunderDragon_MAX_2: 146557342875996310
+      ThunderDragon_MAX_3: 8419805941258169503
+      ThunderDragon_MAX_4: 8630990364775022942
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
