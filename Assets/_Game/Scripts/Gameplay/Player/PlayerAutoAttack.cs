@@ -1,4 +1,6 @@
+using DienGame.Gameplay.Balance;
 using DienGame.Gameplay.Combat;
+using DienGame.Gameplay.Core.Pooling;
 using DienGame.Gameplay.Skills;
 using DienGame.Gameplay.Skills.Marksman;
 using UnityEngine;
@@ -12,48 +14,32 @@ namespace DienGame.Gameplay.Player
     public sealed class PlayerAutoAttack : MonoBehaviour
     {
         [Header("References")]
-
-        [SerializeField]
-        private PlayerCharacter playerCharacter;
-
-        [SerializeField]
-        private GameObject projectilePrefab;
+        [SerializeField] private PlayerCharacter playerCharacter;
+        [SerializeField] private GameObject projectilePrefab;
 
         [Header("Projectile")]
+        [SerializeField, Min(0f)] private float projectileSpawnDistance = 0.6f;
 
-        [SerializeField, Min(0f)]
-        private float projectileSpawnDistance = 0.6f;
-
-        [SerializeField, Min(0.1f)]
-        private float projectileSpeed = 10f;
-
-        [Header("Fallback Stats")]
-
-        [SerializeField, Min(0f)]
-        private float attackDamage = 20f;
-
-        [SerializeField, Min(0.01f)]
-        private float attackInterval = 1f;
+        [Header("Pooling")]
+        [SerializeField, Min(0)] private int projectilePrewarmCount = 32;
 
         private PlayerTargeting _targeting;
-
-        private PlayerShootVisualSignal
-            _shootVisualSignal;
-
-        private MarksmanSkillController
-            _marksmanSkills;
-
+        private PlayerShootVisualSignal _shootVisualSignal;
+        private MarksmanSkillController _marksmanSkills;
         private float _attackTimer;
 
         public float AttackDamage =>
             playerCharacter != null
                 ? playerCharacter.Damage
-                : attackDamage;
+                : GameBalance.PlayerDamage;
 
         public float AttackInterval =>
             playerCharacter != null
                 ? playerCharacter.AttackInterval
-                : attackInterval;
+                : GameBalance.PlayerAttackInterval;
+
+        public float ProjectileSpeed =>
+            GameBalance.PlayerProjectileSpeed;
 
         public GameObject ProjectilePrefab =>
             projectilePrefab;
@@ -63,25 +49,21 @@ namespace DienGame.Gameplay.Player
 
         private void Awake()
         {
-            _targeting =
-                GetComponent<PlayerTargeting>();
-
-            _shootVisualSignal =
-                GetComponent<
-                    PlayerShootVisualSignal
-                >();
-
-            _marksmanSkills =
-                GetComponent<
-                    MarksmanSkillController
-                >();
+            _targeting = GetComponent<PlayerTargeting>();
+            _shootVisualSignal = GetComponent<PlayerShootVisualSignal>();
+            _marksmanSkills = GetComponent<MarksmanSkillController>();
 
             if (playerCharacter == null)
             {
-                playerCharacter =
-                    GetComponent<
-                        PlayerCharacter
-                    >();
+                playerCharacter = GetComponent<PlayerCharacter>();
+            }
+
+            if (projectilePrefab != null && projectilePrewarmCount > 0)
+            {
+                GameObjectPoolService.Warm(
+                    projectilePrefab,
+                    projectilePrewarmCount
+                );
             }
         }
 
@@ -89,8 +71,7 @@ namespace DienGame.Gameplay.Player
         {
             if (_attackTimer > 0f)
             {
-                _attackTimer -=
-                    Time.deltaTime;
+                _attackTimer -= Time.deltaTime;
             }
 
             TryAttack();
@@ -103,24 +84,16 @@ namespace DienGame.Gameplay.Player
                     ? _targeting.CurrentTarget
                     : null;
 
-            if (target == null)
-            {
-                return;
-            }
-
-            if (_attackTimer > 0f)
+            if (target == null || _attackTimer > 0f)
             {
                 return;
             }
 
             Shoot(target);
-
-            _attackTimer =
-                AttackInterval;
+            _attackTimer = AttackInterval;
         }
 
-        private void Shoot(
-            Transform target)
+        private void Shoot(Transform target)
         {
             if (projectilePrefab == null)
             {
@@ -128,7 +101,6 @@ namespace DienGame.Gameplay.Player
                     "PlayerAutoAttack: Chưa gán Projectile Prefab.",
                     this
                 );
-
                 return;
             }
 
@@ -136,10 +108,7 @@ namespace DienGame.Gameplay.Player
                 (Vector2)target.position -
                 (Vector2)transform.position;
 
-            if (
-                direction.sqrMagnitude <=
-                0.0001f
-            )
+            if (direction.sqrMagnitude <= 0.0001f)
             {
                 return;
             }
@@ -148,38 +117,33 @@ namespace DienGame.Gameplay.Player
 
             Vector2 spawnPosition =
                 (Vector2)transform.position +
-                direction *
-                projectileSpawnDistance;
-
-            // =====================================
-            // THUNDER COUNTER
-            // =====================================
+                direction * projectileSpawnDistance;
 
             int thunderLevel = 0;
 
             if (_marksmanSkills != null)
             {
                 thunderLevel =
-                    _marksmanSkills
-                        .RegisterNormalShotAndGetThunderLevel();
+                    _marksmanSkills.RegisterNormalShotAndGetThunderLevel();
             }
 
             GameObject projectileObject =
-                Instantiate(
+                GameObjectPoolService.Spawn(
                     projectilePrefab,
                     spawnPosition,
                     Quaternion.identity
                 );
 
-            if (
-                projectileObject.TryGetComponent(
-                    out Projectile projectile
-                )
-            )
+            if (projectileObject == null)
+            {
+                return;
+            }
+
+            if (projectileObject.TryGetComponent(out Projectile projectile))
             {
                 projectile.Initialize(
                     direction,
-                    projectileSpeed,
+                    ProjectileSpeed,
                     AttackDamage,
                     _marksmanSkills,
                     thunderLevel
@@ -192,46 +156,26 @@ namespace DienGame.Gameplay.Player
                     projectileObject
                 );
 
-                Destroy(projectileObject);
+                GameObjectPoolService.Release(projectileObject);
             }
 
-            if (_shootVisualSignal != null)
-            {
-                _shootVisualSignal.TriggerShot();
-            }
+            _shootVisualSignal?.TriggerShot();
         }
 
-        public void MultiplyAttackDamage(
-            float multiplier)
+        public void MultiplyAttackDamage(float multiplier)
         {
-            if (multiplier <= 0f)
+            if (multiplier <= 0f || playerCharacter == null)
             {
                 return;
             }
 
-            if (playerCharacter != null)
-            {
-                playerCharacter.MultiplyDamage(
-                    multiplier
-                );
-
-                return;
-            }
-
-            attackDamage *=
-                multiplier;
+            playerCharacter.MultiplyDamage(multiplier);
         }
 
-        public void MultiplyProjectileSpeed(
-            float multiplier)
+        public void MultiplyProjectileSpeed(float multiplier)
         {
-            if (multiplier <= 0f)
-            {
-                return;
-            }
-
-            projectileSpeed *=
-                multiplier;
+            // Projectile speed hiện được quản lý tập trung trong GameBalance.
+            // Giữ method để tương thích API cũ.
         }
     }
 }

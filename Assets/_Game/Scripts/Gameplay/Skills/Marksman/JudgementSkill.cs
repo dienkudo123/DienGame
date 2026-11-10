@@ -3,116 +3,91 @@ namespace DienGame.Gameplay.Skills.Marksman
     public static class JudgementSkill
     {
         // =========================================
-        // COOLDOWN
+        // ACTIVE ULTIMATE
+        // "Vong Vay Tu Than"
         // =========================================
 
-        public const float Cooldown = 30f;
+        public const float Cooldown = 28f;
 
-        // =========================================
-        // TARGET
-        // =========================================
+        public const float ChargeDuration = 0.35f;
+        public const float BarrageDuration = 1.55f;
+        public const float FinishDuration = 0.42f;
 
-        public const float TargetRange = 12f;
+        public const float OrbitRadius = 1.35f;
+        public const float RotationSpeed = 165f;
 
-        // =========================================
-        // BOMB
-        // =========================================
+        public const float PulseDamageFraction = 0.55f;
+        public const float FinalDamageFraction = 0.45f;
 
-        public const float BombStartHeight = 7f;
+        public const float PulseShakeDuration = 0.10f;
+        public const float PulseShakeStrength = 0.055f;
 
-        public const float BombFallDuration = 0.55f;
-
-        // =========================================
-        // LEVEL
-        // =========================================
+        public const float FinalShakeDuration = 0.48f;
+        public const float FinalShakeStrength = 0.24f;
 
         public static bool IsMaxLevel(int level)
         {
             return level >= 5;
         }
 
-        // =========================================
-        // DAMAGE
-        // =========================================
-
-        public static float GetDamageMultiplier(int level)
+        public static float GetRadius(int level)
         {
             return level switch
             {
                 <= 1 => 4.0f,
-                2 => 5.0f,
-                3 => 6.5f,
-                4 => 8.0f,
-                _ => 12.0f,
+                2 => 4.5f,
+                3 => 5.0f,
+                4 => 5.5f,
+                _ => 6.2f,
             };
         }
 
-        // =========================================
-        // DAMAGE RADIUS
-        // =========================================
-
-        public static float GetExplosionRadius(int level)
+        public static float GetTotalDamageMultiplier(int level)
         {
             return level switch
             {
-                <= 1 => 3.0f,
-                2 => 3.4f,
-                3 => 3.8f,
-                4 => 4.3f,
-                _ => 5.5f,
+                <= 1 => 4.5f,
+                2 => 5.5f,
+                3 => 7.0f,
+                4 => 8.5f,
+                _ => 11.5f,
             };
         }
 
-        // =========================================
-        // BOMB VISUAL
-        // =========================================
-
-        public static float GetBombVisualMultiplier(int level)
+        public static int GetCannonCount(int level)
         {
             return level switch
             {
-                <= 1 => 1.0f,
-                2 => 1.1f,
-                3 => 1.25f,
-                4 => 1.45f,
-
-                // MAX: bom khổng lồ.
-                _ => 2.4f,
+                <= 1 => 6,
+                2 => 7,
+                3 => 8,
+                4 => 10,
+                _ => 12,
             };
         }
 
-        // =========================================
-        // EXPLOSION VISUAL
-        // =========================================
-
-        public static float GetExplosionVisualMultiplier(int level)
+        public static int GetPulseCount(int level)
         {
             return level switch
             {
-                <= 1 => 1.0f,
-                2 => 1.05f,
-                3 => 1.15f,
-                4 => 1.30f,
-
-                // MAX
-                _ => 1.65f,
+                <= 2 => 3,
+                <= 4 => 4,
+                _ => 5,
             };
         }
 
-        // =========================================
-        // MAX PLANE
-        // =========================================
+        public static float GetBeamWidth(int level)
+        {
+            return IsMaxLevel(level)
+                ? 0.18f
+                : 0.12f;
+        }
 
-        public const float MaxPlaneDuration = 0.7f;
-
-        public const float MaxPlaneTravelDistance = 16f;
-
-        // =========================================
-        // MAX CAMERA SHAKE
-        // =========================================
-
-        public const float MaxShakeDuration = 0.55f;
-
-        public const float MaxShakeStrength = 0.28f;
+        public static float GetNodeSize(int level)
+        {
+            return IsMaxLevel(level)
+                ? 0.44f
+                : 0.34f;
+        }
     }
 }

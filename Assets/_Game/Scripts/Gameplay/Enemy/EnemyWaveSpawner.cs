@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using DienGame.Gameplay.Balance;
 using DienGame.Gameplay.Map;
 using DienGame.Gameplay.Player;
 using UnityEngine;
@@ -6,120 +8,54 @@ namespace DienGame.Gameplay.Enemy
 {
     public sealed class EnemyWaveSpawner : MonoBehaviour
     {
-        // =========================================
-        // REFERENCES
-        // =========================================
-
         [Header("References")]
+        [SerializeField] private GameObject enemyPrefab;
+        [SerializeField] private GameObject experienceOrbPrefab;
+        [SerializeField] private Collider2D mapBounds;
+        [SerializeField] private RectangularMapBoundary mapBoundary;
 
-        [SerializeField]
-        private GameObject enemyPrefab;
+        [Header("Spawn Position")]
+        [SerializeField, Min(0f)] private float safeDistanceFromPlayer = 5f;
+        [SerializeField, Min(0f)] private float boundaryPadding = 1.5f;
+        [SerializeField, Min(0f)] private float zoneSpread = 1.5f;
 
-        [SerializeField]
-        private GameObject experienceOrbPrefab;
-
-        [SerializeField, Min(1)]
-        private int experiencePerEnemy = 10;
-
-        // Giữ lại để tương thích code cũ.
-        // Nếu có RectangularMapBoundary thì MapBoundary
-        // sẽ được ưu tiên.
-        [SerializeField]
-        private Collider2D mapBounds;
-
-        [SerializeField]
-        private RectangularMapBoundary mapBoundary;
-
-        // =========================================
-        // WAVE
-        // =========================================
-
-        [Header("Wave")]
-
-        [SerializeField, Min(1)]
-        private int enemiesPerWave = 6;
-
-        [SerializeField, Min(0.1f)]
-        private float waveInterval = 5f;
-
-        [SerializeField, Min(0f)]
-        private float firstWaveDelay = 1f;
-
-        // =========================================
-        // SPAWN
-        // =========================================
-
-        [Header("Spawn")]
-
-        [SerializeField, Min(0f)]
-        private float safeDistanceFromPlayer = 5f;
-
-        [Tooltip(
-            "Khoảng cách spawn tính từ phía trong tường. " +
-            "Tăng nếu quái vẫn sinh sát hoặc ngoài tường."
-        )]
-        [SerializeField, Min(0f)]
-        private float boundaryPadding = 1.5f;
-
-        [SerializeField, Min(0f)]
-        private float zoneSpread = 1.5f;
-
-        // =========================================
-        // RUNTIME
-        // =========================================
+        private readonly HashSet<EnemyHealth> _aliveEnemies = new();
 
         private Transform _player;
-
+        private EnemyFactory _enemyFactory;
         private float _spawnTimer;
-
+        private float _elapsedRunTime;
+        private float _eliteCooldown;
         private bool _canSpawn = true;
 
-        // =========================================
-        // COMPATIBILITY
-        // =========================================
-
-        public GameObject EnemyPrefab =>
-            enemyPrefab;
-
-        public Collider2D MapBounds =>
-            mapBounds;
-
-        // =========================================
-        // UNITY
-        // =========================================
+        public GameObject EnemyPrefab => enemyPrefab;
+        public Collider2D MapBounds => mapBounds;
+        public int AliveEnemyCount => _aliveEnemies.Count;
+        public float RunProgress => GetDifficultyProgress();
 
         private void Start()
         {
             ResolveReferences();
-
-            _spawnTimer =
-                firstWaveDelay;
-
+            _enemyFactory = new EnemyFactory(enemyPrefab, experienceOrbPrefab);
+            _spawnTimer = GameBalance.FirstWaveDelay;
             ValidateSetup();
         }
 
         private void Update()
         {
-            if (!_canSpawn)
+            if (!_canSpawn || enemyPrefab == null)
             {
                 return;
             }
 
-            if (enemyPrefab == null)
+            if (mapBoundary == null && mapBounds == null)
             {
                 return;
             }
 
-            if (
-                mapBoundary == null &&
-                mapBounds == null
-            )
-            {
-                return;
-            }
-
-            _spawnTimer -=
-                Time.deltaTime;
+            _elapsedRunTime += Time.deltaTime;
+            _spawnTimer -= Time.deltaTime;
+            _eliteCooldown = Mathf.Max(0f, _eliteCooldown - Time.deltaTime);
 
             if (_spawnTimer > 0f)
             {
@@ -127,303 +63,322 @@ namespace DienGame.Gameplay.Enemy
             }
 
             SpawnWave();
-
-            _spawnTimer =
-                waveInterval;
+            _spawnTimer = GetCurrentWaveInterval();
         }
-
-        // =========================================
-        // REFERENCES
-        // =========================================
 
         private void ResolveReferences()
         {
             if (mapBoundary == null)
             {
-                mapBoundary =
-                    FindFirstObjectByType<
-                        RectangularMapBoundary
-                    >();
+                mapBoundary = FindFirstObjectByType<RectangularMapBoundary>();
             }
 
-            PlayerMovement player =
-                FindFirstObjectByType<
-                    PlayerMovement
-                >();
+            PlayerMovement player = FindFirstObjectByType<PlayerMovement>();
 
             if (player != null)
             {
-                _player =
-                    player.transform;
+                _player = player.transform;
             }
         }
-
-        // =========================================
-        // VALIDATION
-        // =========================================
 
         private void ValidateSetup()
         {
             if (enemyPrefab == null)
             {
-                Debug.LogError(
-                    "EnemyWaveSpawner: " +
-                    "Chưa gán Enemy Prefab.",
-                    this
-                );
+                Debug.LogError("EnemyWaveSpawner: Chưa gán Enemy Prefab.", this);
             }
 
             if (experienceOrbPrefab == null)
             {
-                Debug.LogError(
-                    "EnemyWaveSpawner: " +
-                    "Chưa gán Experience Orb Prefab. " +
-                    "Enemy sẽ không thể rơi EXP.",
+                Debug.LogWarning(
+                    "EnemyWaveSpawner: Chưa gán Experience Orb Prefab.",
                     this
                 );
             }
 
-            if (
-                mapBoundary == null &&
-                mapBounds == null
-            )
+            if (mapBoundary == null && mapBounds == null)
             {
                 Debug.LogError(
-                    "EnemyWaveSpawner: " +
-                    "Không tìm thấy RectangularMapBoundary " +
-                    "hoặc Map Bounds.",
+                    "EnemyWaveSpawner: Không tìm thấy RectangularMapBoundary hoặc Map Bounds.",
+                    this
+                );
+            }
+
+            if (EnemyCatalogProvider.Catalog == null)
+            {
+                Debug.LogError(
+                    "EnemyWaveSpawner: EnemyCatalog chưa được tạo. " +
+                    "Chọn DienGame > Enemies > Rebuild Enemy Catalog.",
                     this
                 );
             }
         }
-
-        // =========================================
-        // WAVE
-        // =========================================
 
         private void SpawnWave()
         {
-            Bounds bounds =
-                GetSpawnBounds();
+            int availableSlots = GameBalance.MaxAliveEnemies - _aliveEnemies.Count;
 
-            int edge =
-                Random.Range(
-                    0,
-                    4
-                );
-
-            float zoneCenter =
-                GetZoneCenter(
-                    bounds,
-                    edge
-                );
-
-            for (
-                int i = 0;
-                i < enemiesPerWave;
-                i++
-            )
+            if (availableSlots <= 0)
             {
-                Vector2 spawnPosition =
-                    FindSpawnPosition(
-                        bounds,
-                        edge,
-                        zoneCenter
-                    );
+                return;
+            }
+
+            Bounds bounds = GetSpawnBounds();
+            int edge = Random.Range(0, 4);
+            float zoneCenter = GetZoneCenter(bounds, edge);
+
+            int spawnCount = Mathf.Min(
+                GetCurrentEnemiesPerWave(),
+                availableSlots
+            );
+
+            for (int i = 0; i < spawnCount; i++)
+            {
+                Vector2 spawnPosition = FindSpawnPosition(
+                    bounds,
+                    edge,
+                    zoneCenter
+                );
 
                 SpawnEnemy(
-                    spawnPosition
+                    spawnPosition,
+                    RollArchetype(),
+                    RollElite()
                 );
             }
         }
-
-        // =========================================
-        // SPAWN ENEMY
-        // =========================================
 
         private void SpawnEnemy(
-            Vector2 spawnPosition)
+            Vector2 spawnPosition,
+            EnemyArchetype archetype,
+            bool isElite)
         {
-            GameObject enemyObject =
-                Instantiate(
+            EnsureFactory();
+
+            GameObject enemyObject = _enemyFactory?.Spawn(
+                spawnPosition,
+                archetype,
+                isElite,
+                GetDifficultyProgress()
+            );
+
+            if (enemyObject != null)
+            {
+                TrackEnemy(enemyObject);
+            }
+        }
+
+        public EnemyHealth SpawnBoss(Vector2 spawnPosition)
+        {
+            EnsureFactory();
+
+            GameObject boss = _enemyFactory?.Spawn(
+                spawnPosition,
+                EnemyArchetype.Boss,
+                false,
+                0f
+            );
+
+            if (boss == null)
+            {
+                return null;
+            }
+
+            boss.name = "Boss_Judgement";
+            EnemyHealth health = boss.GetComponent<EnemyHealth>();
+
+            if (health != null)
+            {
+                TrackEnemy(boss);
+            }
+
+            return health;
+        }
+
+        private void EnsureFactory()
+        {
+            if (_enemyFactory == null)
+            {
+                _enemyFactory = new EnemyFactory(
                     enemyPrefab,
-                    spawnPosition,
-                    Quaternion.identity
+                    experienceOrbPrefab
                 );
-
-            if (enemyObject == null)
-            {
-                Debug.LogError(
-                    "EnemyWaveSpawner: " +
-                    "Không thể tạo Enemy.",
-                    this
-                );
-
-                return;
             }
-
-            SetupExperienceDrop(
-                enemyObject
-            );
         }
 
-        // =========================================
-        // EXPERIENCE DROP
-        // =========================================
-
-        private void SetupExperienceDrop(
-            GameObject enemyObject)
+        private EnemyArchetype RollArchetype()
         {
-            if (enemyObject == null)
+            float progress = GetDifficultyProgress();
+            float roll = Random.value;
+
+            if (progress < 0.20f)
+            {
+                return roll < 0.72f
+                    ? EnemyArchetype.Grunt
+                    : EnemyArchetype.Swarm;
+            }
+
+            if (progress < 0.40f)
+            {
+                if (roll < 0.45f) return EnemyArchetype.Grunt;
+                if (roll < 0.75f) return EnemyArchetype.Runner;
+                return EnemyArchetype.Swarm;
+            }
+
+            if (progress < 0.60f)
+            {
+                if (roll < 0.35f) return EnemyArchetype.Grunt;
+                if (roll < 0.60f) return EnemyArchetype.Runner;
+                if (roll < 0.75f) return EnemyArchetype.Tank;
+                if (roll < 0.88f) return EnemyArchetype.Ranged;
+                return EnemyArchetype.Swarm;
+            }
+
+            if (progress < 0.80f)
+            {
+                if (roll < 0.27f) return EnemyArchetype.Grunt;
+                if (roll < 0.51f) return EnemyArchetype.Runner;
+                if (roll < 0.71f) return EnemyArchetype.Tank;
+                if (roll < 0.87f) return EnemyArchetype.Ranged;
+                return EnemyArchetype.Swarm;
+            }
+
+            if (roll < 0.20f) return EnemyArchetype.Grunt;
+            if (roll < 0.40f) return EnemyArchetype.Runner;
+            if (roll < 0.66f) return EnemyArchetype.Tank;
+            if (roll < 0.86f) return EnemyArchetype.Ranged;
+            return EnemyArchetype.Swarm;
+        }
+
+        private bool RollElite()
+        {
+            float progress = GetDifficultyProgress();
+
+            if (progress < GameBalance.EliteStartProgress ||
+                _eliteCooldown > 0f)
+            {
+                return false;
+            }
+
+            float eliteProgress = Mathf.InverseLerp(
+                GameBalance.EliteStartProgress,
+                1f,
+                progress
+            );
+
+            float chance = Mathf.Lerp(
+                0.02f,
+                GameBalance.EliteMaxSpawnChance,
+                eliteProgress
+            );
+
+            if (Random.value > chance)
+            {
+                return false;
+            }
+
+            _eliteCooldown = GameBalance.EliteMinimumInterval;
+            return true;
+        }
+
+        private void TrackEnemy(GameObject enemyObject)
+        {
+            EnemyHealth health = enemyObject.GetComponent<EnemyHealth>();
+
+            if (health == null)
             {
                 return;
             }
 
-            if (experienceOrbPrefab == null)
+            _aliveEnemies.Add(health);
+            health.Died -= OnTrackedEnemyDied;
+            health.Died += OnTrackedEnemyDied;
+        }
+
+        private void OnTrackedEnemyDied(EnemyHealth enemy)
+        {
+            if (enemy == null)
             {
                 return;
             }
 
-            EnemyExperienceDrop experienceDrop =
-                enemyObject.GetComponent<
-                    EnemyExperienceDrop
-                >();
+            enemy.Died -= OnTrackedEnemyDied;
+            _aliveEnemies.Remove(enemy);
+        }
 
-            if (experienceDrop == null)
-            {
-                experienceDrop =
-                    enemyObject.AddComponent<
-                        EnemyExperienceDrop
-                    >();
-            }
-
-            experienceDrop.Initialize(
-                experienceOrbPrefab,
-                experiencePerEnemy
+        private float GetDifficultyProgress()
+        {
+            return Mathf.Clamp01(
+                _elapsedRunTime / GameBalance.DifficultyRampDuration
             );
         }
 
-        // =========================================
-        // MAP BOUNDS
-        // =========================================
+        private int GetCurrentEnemiesPerWave()
+        {
+            return Mathf.RoundToInt(
+                Mathf.Lerp(
+                    GameBalance.BaseEnemiesPerWave,
+                    GameBalance.MaxEnemiesPerWave,
+                    GetDifficultyProgress()
+                )
+            );
+        }
+
+        private float GetCurrentWaveInterval()
+        {
+            return Mathf.Lerp(
+                GameBalance.BaseWaveInterval,
+                GameBalance.MinWaveInterval,
+                GetDifficultyProgress()
+            );
+        }
 
         private Bounds GetSpawnBounds()
         {
-            // =====================================
-            // MAP MỚI
-            // =====================================
-
             if (mapBoundary != null)
             {
-                Vector2 size =
-                    mapBoundary.MapSize;
-
-                Vector3 center =
-                    mapBoundary
-                        .transform
-                        .position;
+                Vector2 size = mapBoundary.MapSize;
+                Vector3 center = mapBoundary.transform.position;
 
                 return new Bounds(
                     center,
-                    new Vector3(
-                        size.x,
-                        size.y,
-                        0f
-                    )
+                    new Vector3(size.x, size.y, 0f)
                 );
             }
-
-            // =====================================
-            // FALLBACK MAP CŨ
-            // =====================================
 
             if (mapBounds != null)
             {
-                return
-                    mapBounds.bounds;
+                return mapBounds.bounds;
             }
 
-            return new Bounds(
-                Vector3.zero,
-                Vector3.one
-            );
+            return new Bounds(Vector3.zero, Vector3.one);
         }
 
-        // =========================================
-        // ZONE
-        // =========================================
-
-        private float GetZoneCenter(
-            Bounds bounds,
-            int edge)
+        private float GetZoneCenter(Bounds bounds, int edge)
         {
-            float minX =
-                bounds.min.x +
-                boundaryPadding;
+            float minX = bounds.min.x + boundaryPadding;
+            float maxX = bounds.max.x - boundaryPadding;
+            float minY = bounds.min.y + boundaryPadding;
+            float maxY = bounds.max.y - boundaryPadding;
 
-            float maxX =
-                bounds.max.x -
-                boundaryPadding;
-
-            float minY =
-                bounds.min.y +
-                boundaryPadding;
-
-            float maxY =
-                bounds.max.y -
-                boundaryPadding;
-
-            bool horizontalEdge =
-                edge == 0 ||
-                edge == 2;
-
-            if (horizontalEdge)
-            {
-                return Random.Range(
-                    minX,
-                    maxX
-                );
-            }
-
-            return Random.Range(
-                minY,
-                maxY
-            );
+            return edge == 0 || edge == 2
+                ? Random.Range(minX, maxX)
+                : Random.Range(minY, maxY);
         }
-
-        // =========================================
-        // FIND POSITION
-        // =========================================
 
         private Vector2 FindSpawnPosition(
             Bounds bounds,
             int edge,
             float zoneCenter)
         {
-            const int MaxAttempts =
-                20;
+            const int MaxAttempts = 20;
+            Vector2 position = bounds.center;
 
-            Vector2 position =
-                bounds.center;
-
-            for (
-                int i = 0;
-                i < MaxAttempts;
-                i++
-            )
+            for (int i = 0; i < MaxAttempts; i++)
             {
-                position =
-                    GeneratePosition(
-                        bounds,
-                        edge,
-                        zoneCenter
-                    );
+                position = GeneratePosition(bounds, edge, zoneCenter);
 
-                if (
-                    IsFarEnoughFromPlayer(
-                        position
-                    )
-                )
+                if (IsFarEnoughFromPlayer(position))
                 {
                     return position;
                 }
@@ -432,136 +387,62 @@ namespace DienGame.Gameplay.Enemy
             return position;
         }
 
-        // =========================================
-        // GENERATE EDGE POSITION
-        // =========================================
-
         private Vector2 GeneratePosition(
             Bounds bounds,
             int edge,
             float zoneCenter)
         {
-            float minX =
-                bounds.min.x +
-                boundaryPadding;
+            float minX = bounds.min.x + boundaryPadding;
+            float maxX = bounds.max.x - boundaryPadding;
+            float minY = bounds.min.y + boundaryPadding;
+            float maxY = bounds.max.y - boundaryPadding;
+            float spread = Random.Range(-zoneSpread, zoneSpread);
 
-            float maxX =
-                bounds.max.x -
-                boundaryPadding;
-
-            float minY =
-                bounds.min.y +
-                boundaryPadding;
-
-            float maxY =
-                bounds.max.y -
-                boundaryPadding;
-
-            float spread =
-                Random.Range(
-                    -zoneSpread,
-                    zoneSpread
-                );
-
-            switch (edge)
+            return edge switch
             {
-                // TOP
-                case 0:
-                {
-                    return new Vector2(
-                        Mathf.Clamp(
-                            zoneCenter + spread,
-                            minX,
-                            maxX
-                        ),
-                        maxY
-                    );
-                }
-
-                // RIGHT
-                case 1:
-                {
-                    return new Vector2(
-                        maxX,
-                        Mathf.Clamp(
-                            zoneCenter + spread,
-                            minY,
-                            maxY
-                        )
-                    );
-                }
-
-                // BOTTOM
-                case 2:
-                {
-                    return new Vector2(
-                        Mathf.Clamp(
-                            zoneCenter + spread,
-                            minX,
-                            maxX
-                        ),
-                        minY
-                    );
-                }
-
-                // LEFT
-                default:
-                {
-                    return new Vector2(
-                        minX,
-                        Mathf.Clamp(
-                            zoneCenter + spread,
-                            minY,
-                            maxY
-                        )
-                    );
-                }
-            }
+                0 => new Vector2(
+                    Mathf.Clamp(zoneCenter + spread, minX, maxX),
+                    maxY
+                ),
+                1 => new Vector2(
+                    maxX,
+                    Mathf.Clamp(zoneCenter + spread, minY, maxY)
+                ),
+                2 => new Vector2(
+                    Mathf.Clamp(zoneCenter + spread, minX, maxX),
+                    minY
+                ),
+                _ => new Vector2(
+                    minX,
+                    Mathf.Clamp(zoneCenter + spread, minY, maxY)
+                ),
+            };
         }
 
-        // =========================================
-        // SAFE DISTANCE
-        // =========================================
-
-        private bool IsFarEnoughFromPlayer(
-            Vector2 position)
+        private bool IsFarEnoughFromPlayer(Vector2 position)
         {
             if (_player == null)
             {
                 return true;
             }
 
-            Vector2 playerPosition =
-                _player.position;
-
-            float minimumDistanceSquared =
-                safeDistanceFromPlayer *
-                safeDistanceFromPlayer;
+            float minDistanceSquared =
+                safeDistanceFromPlayer * safeDistanceFromPlayer;
 
             return (
-                position -
-                playerPosition
-            ).sqrMagnitude >=
-                minimumDistanceSquared;
+                position - (Vector2)_player.position
+            ).sqrMagnitude >= minDistanceSquared;
         }
-
-        // =========================================
-        // CONTROL
-        // =========================================
 
         public void StopSpawning()
         {
-            _canSpawn =
-                false;
+            _canSpawn = false;
         }
 
         public void StartSpawning()
         {
-            _canSpawn =
-                true;
-
-            _spawnTimer =
-                firstWaveDelay;
+            _canSpawn = true;
+            _spawnTimer = GameBalance.FirstWaveDelay;
         }
     }
 }

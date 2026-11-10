@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using DienGame.Gameplay.Combat;
+using DienGame.Gameplay.Core.Pooling;
 using DienGame.Gameplay.Enemy;
 using DienGame.Gameplay.Player;
 using UnityEngine;
@@ -252,7 +253,7 @@ namespace DienGame.Gameplay.Skills.Marksman
                 _autoAttack.ProjectileSpawnDistance;
 
             GameObject projectileObject =
-                Instantiate(
+                GameObjectPoolService.Spawn(
                     projectilePrefab,
                     spawnPosition,
                     Quaternion.identity
@@ -264,7 +265,7 @@ namespace DienGame.Gameplay.Skills.Marksman
                 )
             )
             {
-                Destroy(projectileObject);
+                GameObjectPoolService.Release(projectileObject);
 
                 return;
             }
@@ -455,26 +456,15 @@ namespace DienGame.Gameplay.Skills.Marksman
                 return;
             }
 
-            GameObject lightningObject =
-                new GameObject(
-                    maxForm
-                        ? "ThunderLightning_MAX"
-                        : "ThunderLightning"
-                );
-
-            ThunderLightningVisual visual =
-                lightningObject.AddComponent<
-                    ThunderLightningVisual
-                >();
-
-            visual.Initialize(
+            ThunderLightningVisual.Spawn(
                 frames,
                 thunderAnimationFPS,
                 from,
                 to,
                 thunderWidthScale,
                 thunderVisualDuration,
-                thunderSortingOrder
+                thunderSortingOrder,
+                maxForm
             );
         }
 
@@ -592,17 +582,7 @@ namespace DienGame.Gameplay.Skills.Marksman
                 ThunderBulletSkill
                     .DragonDamageMultiplier;
 
-            GameObject dragonObject =
-                new GameObject(
-                    "ThunderDragon_MAX"
-                );
-
-            ThunderDragonVisual dragon =
-                dragonObject.AddComponent<
-                    ThunderDragonVisual
-                >();
-
-            dragon.Initialize(
+            ThunderDragonVisual.Spawn(
                 thunderDragonFrames,
                 thunderDragonAnimationFPS,
                 startPosition,
@@ -1044,67 +1024,58 @@ namespace DienGame.Gameplay.Skills.Marksman
         // FIND NEAREST ENEMY
         // =========================================
 
+        private static readonly List<Collider2D> s_enemySearchResults = new(64);
+
         private static EnemyHealth FindNearestEnemy(
             Vector3 origin,
             float maxRange,
             HashSet<EnemyHealth> excluded)
         {
-            EnemyHealth[] enemies =
-                FindObjectsByType<
-                    EnemyHealth
-                >(
-                    FindObjectsSortMode.None
-                );
+            s_enemySearchResults.Clear();
 
-            EnemyHealth nearestEnemy =
-                null;
+            ContactFilter2D filter = new ContactFilter2D();
+            filter.NoFilter();
 
-            float nearestDistanceSquared =
-                maxRange *
-                maxRange;
+            Physics2D.OverlapCircle(
+                origin,
+                maxRange,
+                filter,
+                s_enemySearchResults
+            );
 
-            foreach (
-                EnemyHealth enemy
-                in enemies
-            )
+            EnemyHealth nearestEnemy = null;
+            float nearestDistanceSquared = maxRange * maxRange;
+
+            for (int i = 0; i < s_enemySearchResults.Count; i++)
             {
-                if (
-                    enemy == null ||
-                    enemy.IsDead
-                )
+                Collider2D hit = s_enemySearchResults[i];
+                if (hit == null)
                 {
                     continue;
                 }
 
-                if (
-                    excluded != null &&
-                    excluded.Contains(
-                        enemy
-                    )
-                )
+                EnemyHealth enemy = hit.GetComponentInParent<EnemyHealth>();
+
+                if (enemy == null || enemy.IsDead)
+                {
+                    continue;
+                }
+
+                if (excluded != null && excluded.Contains(enemy))
                 {
                     continue;
                 }
 
                 float distanceSquared =
-                    (
-                        enemy.transform.position -
-                        origin
-                    ).sqrMagnitude;
+                    (enemy.transform.position - origin).sqrMagnitude;
 
-                if (
-                    distanceSquared >
-                    nearestDistanceSquared
-                )
+                if (distanceSquared > nearestDistanceSquared)
                 {
                     continue;
                 }
 
-                nearestDistanceSquared =
-                    distanceSquared;
-
-                nearestEnemy =
-                    enemy;
+                nearestDistanceSquared = distanceSquared;
+                nearestEnemy = enemy;
             }
 
             return nearestEnemy;
@@ -1120,55 +1091,12 @@ namespace DienGame.Gameplay.Skills.Marksman
             float duration,
             float width)
         {
-            GameObject tracer =
-                new GameObject(
-                    "DroneTracer"
-                );
-
-            LineRenderer line =
-                tracer.AddComponent<
-                    LineRenderer
-                >();
-
-            line.positionCount = 2;
-
-            line.useWorldSpace = true;
-
-            line.SetPosition(
-                0,
-                from
-            );
-
-            line.SetPosition(
-                1,
-                to
-            );
-
-            line.startWidth =
-                width;
-
-            line.endWidth =
-                width *
-                0.35f;
-
-            Shader shader =
-                Shader.Find(
-                    "Sprites/Default"
-                );
-
-            if (shader != null)
-            {
-                line.material =
-                    new Material(
-                        shader
-                    );
-            }
-
-            line.sortingOrder = 30;
-
-            Destroy(
-                tracer,
-                duration
+            RuntimeLineVfx.Show(
+                from,
+                to,
+                duration,
+                width,
+                30
             );
         }
 

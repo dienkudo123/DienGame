@@ -6190,7 +6190,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputReader: {fileID: 1479704183}
   playerCharacter: {fileID: 0}
-  moveSpeed: 5
 --- !u!114 &1479704183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6219,9 +6218,6 @@ MonoBehaviour:
   playerCharacter: {fileID: 0}
   projectilePrefab: {fileID: 8496467180025562843, guid: 34a19499c1a3ac94eadd5a5d0eb20848, type: 3}
   projectileSpawnDistance: 0.6
-  projectileSpeed: 10
-  attackDamage: 199
-  attackInterval: 1
 --- !u!114 &1479704186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6235,7 +6231,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCharacter: {fileID: 0}
-  maxHealth: 100
 --- !u!114 &1479704188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6261,7 +6256,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52bc4992a8bd18443b46abc76a1d8253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetRange: 5
   enemyLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -6292,8 +6286,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingLevel: 1
-  baseExperienceToLevel: 30
-  experienceIncreasePerLevel: 20
 --- !u!114 &1479704192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6395,31 +6387,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skillLevel: 1
-  bombFrames:
-  - {fileID: 4831942098066113620, guid: dd5c9308180da8c4d9de1851d3c412d0, type: 3}
-  - {fileID: -8246591019208376083, guid: dd5c9308180da8c4d9de1851d3c412d0, type: 3}
-  - {fileID: 6337911811817716909, guid: dd5c9308180da8c4d9de1851d3c412d0, type: 3}
-  - {fileID: -4585733042553481847, guid: dd5c9308180da8c4d9de1851d3c412d0, type: 3}
-  - {fileID: 8241362414132033205, guid: dd5c9308180da8c4d9de1851d3c412d0, type: 3}
-  explosionFrames:
-  - {fileID: 3450955240475396905, guid: 9a53d2a764eaabe47a0f0d433ed5cf00, type: 3}
-  - {fileID: 6020869131805372172, guid: 9a53d2a764eaabe47a0f0d433ed5cf00, type: 3}
-  - {fileID: 753152284752126661, guid: 9a53d2a764eaabe47a0f0d433ed5cf00, type: 3}
-  - {fileID: 551789354001036539, guid: 9a53d2a764eaabe47a0f0d433ed5cf00, type: 3}
-  - {fileID: 3727203409733273483, guid: 9a53d2a764eaabe47a0f0d433ed5cf00, type: 3}
-  - {fileID: -8003419122506710585, guid: 9a53d2a764eaabe47a0f0d433ed5cf00, type: 3}
-  - {fileID: -5145998960658602835, guid: 9a53d2a764eaabe47a0f0d433ed5cf00, type: 3}
-  - {fileID: -462583557093115636, guid: 9a53d2a764eaabe47a0f0d433ed5cf00, type: 3}
-  planeShadowSprite: {fileID: 5207005546699773407, guid: 90703a0c5ab4c864da02ae590f6e95fc, type: 3}
   ultimateIcon: {fileID: 4911165376736169419, guid: 3c5d5bcfb8992c04084fb235cb43b516, type: 3}
+  useAssignedIcon: 0
   autoCreateButton: 1
-  baseBombWorldHeight: 1.5
-  planeShadowWorldWidth: 7
-  explosionFPS: 16
   sortingLayerName: Default
-  planeShadowSortingOrder: 5
-  bombSortingOrder: 100
-  explosionSortingOrder: 120
+  ringSortingOrder: 115
+  beamSortingOrder: 116
+  nodeSortingOrder: 117
 --- !u!1 &1501838112
 GameObject:
   m_ObjectHideFlags: 0
@@ -7874,12 +7848,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 5516253766153545899, guid: 26eff4c0451386049a0003c39259d106, type: 3}
   experienceOrbPrefab: {fileID: 2014433985}
-  experiencePerEnemy: 10
   mapBounds: {fileID: 413652329}
   mapBoundary: {fileID: 0}
-  enemiesPerWave: 6
-  waveInterval: 5
-  firstWaveDelay: 1
   safeDistanceFromPlayer: 5
   boundaryPadding: 1.5
   zoneSpread: 1.5
@@ -8273,9 +8243,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48d02460e739e6a4584ee99d93aca58b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  survivalDuration: 60
-  bossMaxHealth: 500
-  bossScale: 1.5
   bossSpawnInset: 1
 --- !u!4 &1946930073
 Transform:

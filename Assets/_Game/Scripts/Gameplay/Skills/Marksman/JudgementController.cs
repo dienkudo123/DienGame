@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using DienGame.Gameplay.Enemy;
 using DienGame.Gameplay.Player;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace DienGame.Gameplay.Skills.Marksman
 {
@@ -10,180 +11,78 @@ namespace DienGame.Gameplay.Skills.Marksman
     [RequireComponent(typeof(PlayerAutoAttack))]
     public sealed class JudgementController : MonoBehaviour
     {
-        // =========================================
-        // LEVEL
-        // =========================================
-
         [Header("Skill Level")]
-
         [SerializeField, Range(1, 5)]
         private int skillLevel = 1;
 
-        // =========================================
-        // REUSE AIR STRIKE ASSETS
-        // =========================================
-
-        [Header("Reuse Air Strike - Bomb Frames")]
-
-        [SerializeField]
-        private Sprite[] bombFrames;
-
-        [Header("Reuse Air Strike - Explosion Frames")]
-
-        [SerializeField]
-        private Sprite[] explosionFrames;
-
-        // =========================================
-        // MAX ASSET
-        // =========================================
-
-        [Header("Judgement MAX - Plane Shadow")]
-
-        [SerializeField]
-        private Sprite planeShadowSprite;
-
-        // =========================================
-        // BUTTON
-        // =========================================
-
         [Header("Ultimate Button")]
-
         [SerializeField]
         private Sprite ultimateIcon;
 
         [SerializeField]
+        private bool useAssignedIcon = false;
+
+        [SerializeField]
         private bool autoCreateButton = true;
 
-        // =========================================
-        // VISUAL
-        // =========================================
-
-        [Header("Visual")]
-
-        [SerializeField, Min(0.1f)]
-        private float baseBombWorldHeight = 1.5f;
-
-        [SerializeField, Min(0.1f)]
-        private float planeShadowWorldWidth = 7f;
-
-        [SerializeField, Min(1f)]
-        private float explosionFPS = 16f;
-
-        // =========================================
-        // SORTING
-        // =========================================
-
-        [Header("Sorting")]
-
+        [Header("VFX")]
         [SerializeField]
         private string sortingLayerName = "Default";
 
         [SerializeField]
-        private int planeShadowSortingOrder = 5;
+        private int ringSortingOrder = 115;
 
         [SerializeField]
-        private int bombSortingOrder = 100;
+        private int beamSortingOrder = 116;
 
         [SerializeField]
-        private int explosionSortingOrder = 120;
-
-        // =========================================
-        // REFERENCES
-        // =========================================
+        private int nodeSortingOrder = 117;
 
         private PlayerAutoAttack _autoAttack;
-
-        private Transform _cachedTransform;
-
         private Material _vfxMaterial;
-
-        // =========================================
-        // PHYSICS
-        // =========================================
+        private Sprite _nodeSprite;
+        private Texture2D _nodeTexture;
 
         private ContactFilter2D _physicsFilter;
-
-        private readonly List<Collider2D> _physicsResults =
-            new(128);
-
-        private readonly List<EnemyHealth> _targetCandidates =
-            new(128);
-
-        private readonly HashSet<EnemyHealth> _enemySet =
-            new();
-
-        private readonly HashSet<EnemyHealth> _damagedEnemies =
-            new();
-
-        // =========================================
-        // RUNTIME
-        // =========================================
+        private readonly List<Collider2D> _physicsResults = new(160);
+        private readonly HashSet<EnemyHealth> _damagedEnemies = new();
 
         private float _cooldownRemaining;
-
         private bool _isCasting;
+        private GameObject _activeVfxRoot;
 
-        // =========================================
-        // PUBLIC
-        // =========================================
-
-        public int SkillLevel =>
-            skillLevel;
-
-        public float CooldownRemaining =>
-            Mathf.Max(
-                0f,
-                _cooldownRemaining
-            );
-
-        public float CooldownNormalized
+        private sealed class CannonVisual
         {
-            get
-            {
-                if (
-                    JudgementSkill.Cooldown <=
-                    0.001f
-                )
-                {
-                    return 0f;
-                }
-
-                return Mathf.Clamp01(
-                    _cooldownRemaining /
-                    JudgementSkill.Cooldown
-                );
-            }
+            public Transform NodeTransform;
+            public SpriteRenderer NodeRenderer;
+            public LineRenderer BeamRenderer;
+            public float BaseAngle;
         }
 
-        public bool IsReady =>
-            !_isCasting &&
-            _cooldownRemaining <= 0f;
+        public int SkillLevel => skillLevel;
 
-        // =========================================
-        // UNITY
-        // =========================================
+        public float CooldownRemaining => Mathf.Max(0f, _cooldownRemaining);
+
+        public float CooldownNormalized =>
+            JudgementSkill.Cooldown <= 0.001f
+                ? 0f
+                : Mathf.Clamp01(_cooldownRemaining / JudgementSkill.Cooldown);
+
+        public bool IsReady => !_isCasting && _cooldownRemaining <= 0f;
 
         private void Awake()
         {
-            _cachedTransform =
-                transform;
+            _autoAttack = GetComponent<PlayerAutoAttack>();
 
-            _autoAttack =
-                GetComponent<PlayerAutoAttack>();
-
-            // Unity 6:
-            // NoFilter() là instance method.
-            _physicsFilter =
-                new ContactFilter2D();
-
+            _physicsFilter = new ContactFilter2D();
             _physicsFilter.NoFilter();
 
             CreateVfxMaterial();
+            CreateNodeSprite();
         }
 
         private void Start()
         {
-            // Vào game Ultimate sẵn sàng dùng.
             _cooldownRemaining = 0f;
 
             if (autoCreateButton)
@@ -199,566 +98,620 @@ namespace DienGame.Gameplay.Skills.Marksman
                 return;
             }
 
-            UpdateCooldown();
-        }
+            if (_cooldownRemaining > 0f)
+            {
+                _cooldownRemaining -= Time.deltaTime;
 
-        // =========================================
-        // LEVEL
-        // =========================================
+                if (_cooldownRemaining < 0f)
+                {
+                    _cooldownRemaining = 0f;
+                }
+            }
+        }
 
         public void SetSkillLevel(int level)
         {
-            skillLevel =
-                Mathf.Clamp(
-                    level,
-                    1,
-                    5
-                );
+            skillLevel = Mathf.Clamp(level, 1, 5);
         }
 
         public void UpgradeSkill()
         {
-            skillLevel =
-                Mathf.Clamp(
-                    skillLevel + 1,
-                    1,
-                    5
-                );
+            SetSkillLevel(skillLevel + 1);
         }
-
-        // =========================================
-        // COOLDOWN
-        // =========================================
-
-        private void UpdateCooldown()
-        {
-            if (_cooldownRemaining <= 0f)
-            {
-                return;
-            }
-
-            _cooldownRemaining -=
-                Time.deltaTime;
-
-            if (_cooldownRemaining < 0f)
-            {
-                _cooldownRemaining = 0f;
-            }
-        }
-
-        // =========================================
-        // ACTIVATE
-        // =========================================
 
         public bool TryActivate()
         {
-            if (!IsReady)
+            if (!IsReady || _autoAttack == null)
             {
                 return false;
             }
 
-            if (
-                !TryGetRandomTargetPosition(
-                    out Vector3 targetPosition
-                )
-            )
-            {
-                // Không có quái:
-                // không mất cooldown.
-                return false;
-            }
-
-            _cooldownRemaining =
-                JudgementSkill.Cooldown;
-
+            _cooldownRemaining = JudgementSkill.Cooldown;
             _isCasting = true;
 
-            StartCoroutine(
-                CastRoutine(
-                    targetPosition
-                )
-            );
-
+            StartCoroutine(CastRoutine());
             return true;
         }
 
-        // =========================================
-        // TARGET
-        // =========================================
-
-        private bool TryGetRandomTargetPosition(
-            out Vector3 targetPosition)
+        private IEnumerator CastRoutine()
         {
-            targetPosition =
-                Vector3.zero;
+            float radius = JudgementSkill.GetRadius(skillLevel);
+            int cannonCount = JudgementSkill.GetCannonCount(skillLevel);
+            int pulseCount = JudgementSkill.GetPulseCount(skillLevel);
 
-            _physicsResults.Clear();
-            _targetCandidates.Clear();
-            _enemySet.Clear();
+            float totalDamage =
+                _autoAttack.AttackDamage *
+                JudgementSkill.GetTotalDamageMultiplier(skillLevel);
 
-            Physics2D.OverlapCircle(
-                _cachedTransform.position,
-                JudgementSkill.TargetRange,
-                _physicsFilter,
-                _physicsResults
-            );
+            float pulseDamage =
+                totalDamage *
+                JudgementSkill.PulseDamageFraction /
+                Mathf.Max(1, pulseCount);
 
-            foreach (
-                Collider2D hit
-                in _physicsResults
-            )
-            {
-                if (hit == null)
-                {
-                    continue;
-                }
+            float finalDamage =
+                totalDamage *
+                JudgementSkill.FinalDamageFraction;
 
-                EnemyHealth enemy =
-                    hit.GetComponentInParent<EnemyHealth>();
+            GameObject root = new GameObject("Judgement_DeathRing_VFX");
+            _activeVfxRoot = root;
+            root.transform.SetParent(transform, false);
+            root.transform.localPosition = Vector3.zero;
 
-                if (
-                    enemy == null ||
-                    enemy.IsDead
-                )
-                {
-                    continue;
-                }
+            Color primaryColor =
+                JudgementSkill.IsMaxLevel(skillLevel)
+                    ? new Color(1f, 0.18f, 0.12f, 1f)
+                    : new Color(1f, 0.58f, 0.08f, 1f);
 
-                // Một enemy có nhiều collider
-                // vẫn chỉ được thêm một lần.
-                if (!_enemySet.Add(enemy))
-                {
-                    continue;
-                }
+            Color secondaryColor =
+                JudgementSkill.IsMaxLevel(skillLevel)
+                    ? new Color(1f, 0.82f, 0.28f, 1f)
+                    : new Color(1f, 0.92f, 0.55f, 1f);
 
-                _targetCandidates.Add(
-                    enemy
-                );
-            }
-
-            if (_targetCandidates.Count == 0)
-            {
-                return false;
-            }
-
-            EnemyHealth selected =
-                _targetCandidates[
-                    Random.Range(
-                        0,
-                        _targetCandidates.Count
-                    )
-                ];
-
-            if (
-                selected == null ||
-                selected.IsDead
-            )
-            {
-                return false;
-            }
-
-            // Khóa vị trí lúc bấm skill.
-            // Sau đó bom không đuổi theo enemy.
-            targetPosition =
-                selected.transform.position;
-
-            return true;
-        }
-
-        // =========================================
-        // CAST
-        // =========================================
-
-        private IEnumerator CastRoutine(
-            Vector3 targetPosition)
-        {
-            // =====================================
-            // LV5 MAX - PLANE SHADOW
-            // =====================================
-
-            if (
-                JudgementSkill.IsMaxLevel(
-                    skillLevel
-                )
-            )
-            {
-                yield return
-                    PlayPlaneShadowRoutine(
-                        targetPosition
-                    );
-            }
-
-            // =====================================
-            // BOMB
-            // =====================================
-
-            yield return
-                DropBombRoutine(
-                    targetPosition
+            LineRenderer innerRing =
+                CreateRing(
+                    root.transform,
+                    "Judgement_InnerRing",
+                    JudgementSkill.OrbitRadius,
+                    0.055f,
+                    secondaryColor,
+                    ringSortingOrder
                 );
 
-            // =====================================
-            // EXPLOSION
-            // =====================================
+            LineRenderer outerRing =
+                CreateRing(
+                    root.transform,
+                    "Judgement_OuterRing",
+                    radius,
+                    0.04f,
+                    primaryColor,
+                    ringSortingOrder
+                );
 
-            Explode(
-                targetPosition
+            List<CannonVisual> cannons =
+                CreateCannons(
+                    root.transform,
+                    cannonCount,
+                    radius,
+                    primaryColor,
+                    secondaryColor
+                );
+
+            yield return ChargeRoutine(
+                cannons,
+                innerRing,
+                outerRing,
+                radius,
+                primaryColor,
+                secondaryColor
             );
+
+            yield return BarrageRoutine(
+                cannons,
+                innerRing,
+                outerRing,
+                radius,
+                pulseCount,
+                pulseDamage,
+                primaryColor,
+                secondaryColor
+            );
+
+            DamageEnemiesInRadius(
+                transform.position,
+                radius,
+                finalDamage
+            );
+
+            TriggerCameraShake(
+                JudgementSkill.FinalShakeDuration,
+                JudgementSkill.FinalShakeStrength
+            );
+
+            StartCoroutine(PlayScreenFlashRoutine());
+
+            yield return FinishRoutine(
+                cannons,
+                innerRing,
+                outerRing,
+                radius,
+                primaryColor,
+                secondaryColor
+            );
+
+            if (root != null)
+            {
+                Destroy(root);
+            }
+
+            if (_activeVfxRoot == root)
+            {
+                _activeVfxRoot = null;
+            }
 
             _isCasting = false;
         }
 
-        // =========================================
-        // MAX PLANE SHADOW
-        // =========================================
-
-        private IEnumerator PlayPlaneShadowRoutine(
-            Vector3 targetPosition)
+        private IEnumerator ChargeRoutine(
+            List<CannonVisual> cannons,
+            LineRenderer innerRing,
+            LineRenderer outerRing,
+            float radius,
+            Color primaryColor,
+            Color secondaryColor)
         {
-            if (planeShadowSprite == null)
+            float elapsed = 0f;
+
+            while (elapsed < JudgementSkill.ChargeDuration)
             {
-                yield break;
-            }
+                elapsed += Time.deltaTime;
 
-            Vector3 direction =
-                Random.value < 0.5f
-                    ? Vector3.right
-                    : Vector3.left;
-
-            float halfDistance =
-                JudgementSkill
-                    .MaxPlaneTravelDistance *
-                0.5f;
-
-            Vector3 startPosition =
-                targetPosition -
-                direction *
-                halfDistance;
-
-            Vector3 endPosition =
-                targetPosition +
-                direction *
-                halfDistance;
-
-            SpriteRenderer renderer =
-                CreateVfxRenderer(
-                    "Judgement_MAX_PlaneShadow",
-                    planeShadowSprite,
-                    startPosition,
-                    planeShadowSortingOrder
+                float t = Mathf.Clamp01(
+                    elapsed / JudgementSkill.ChargeDuration
                 );
 
-            SetWorldWidth(
-                renderer,
-                planeShadowWorldWidth
-            );
+                float eased = 1f - Mathf.Pow(1f - t, 3f);
 
-            // Bóng máy bay mờ.
-            renderer.color =
-                new Color(
-                    0f,
-                    0f,
-                    0f,
-                    0.45f
+                SetRingRadius(
+                    innerRing,
+                    Mathf.Lerp(0.25f, JudgementSkill.OrbitRadius, eased)
                 );
 
-            Transform planeTransform =
-                renderer.transform;
-
-            renderer.flipX =
-                direction.x < 0f;
-
-            float duration =
-                Mathf.Max(
-                    0.05f,
-                    JudgementSkill.MaxPlaneDuration
+                SetRingRadius(
+                    outerRing,
+                    Mathf.Lerp(radius * 0.72f, radius, eased)
                 );
 
-            float timer = 0f;
+                SetLineAlpha(innerRing, secondaryColor, Mathf.Lerp(0.1f, 0.95f, t));
+                SetLineAlpha(outerRing, primaryColor, Mathf.Lerp(0.05f, 0.7f, t));
 
-            while (timer < duration)
-            {
-                timer +=
-                    Time.deltaTime;
-
-                float progress =
-                    Mathf.Clamp01(
-                        timer /
-                        duration
-                    );
-
-                planeTransform.position =
-                    Vector3.Lerp(
-                        startPosition,
-                        endPosition,
-                        progress
-                    );
+                UpdateCannons(
+                    cannons,
+                    radius,
+                    elapsed * JudgementSkill.RotationSpeed * 0.35f,
+                    Mathf.Lerp(0.15f, 1f, eased),
+                    0f,
+                    primaryColor,
+                    secondaryColor
+                );
 
                 yield return null;
             }
-
-            Destroy(
-                renderer.gameObject
-            );
         }
 
-        // =========================================
-        // BOMB
-        // =========================================
-
-        private IEnumerator DropBombRoutine(
-            Vector3 targetPosition)
+        private IEnumerator BarrageRoutine(
+            List<CannonVisual> cannons,
+            LineRenderer innerRing,
+            LineRenderer outerRing,
+            float radius,
+            int pulseCount,
+            float pulseDamage,
+            Color primaryColor,
+            Color secondaryColor)
         {
-            Sprite firstFrame =
-                GetFirstValidSprite(
-                    bombFrames
-                );
+            float elapsed = 0f;
+            float pulseSpacing =
+                JudgementSkill.BarrageDuration /
+                Mathf.Max(1, pulseCount);
 
-            if (firstFrame == null)
+            int nextPulseIndex = 0;
+            float pulseGlow = 0f;
+
+            while (elapsed < JudgementSkill.BarrageDuration)
             {
-                yield return
-                    WaitForDuration(
-                        JudgementSkill
-                            .BombFallDuration
+                elapsed += Time.deltaTime;
+
+                while (
+                    nextPulseIndex < pulseCount &&
+                    elapsed >= nextPulseIndex * pulseSpacing)
+                {
+                    DamageEnemiesInRadius(
+                        transform.position,
+                        radius,
+                        pulseDamage
                     );
 
-                yield break;
+                    TriggerCameraShake(
+                        JudgementSkill.PulseShakeDuration,
+                        JudgementSkill.PulseShakeStrength
+                    );
+
+                    pulseGlow = 1f;
+                    nextPulseIndex++;
+                }
+
+                pulseGlow = Mathf.MoveTowards(
+                    pulseGlow,
+                    0f,
+                    Time.deltaTime * 5.5f
+                );
+
+                float rotation =
+                    elapsed *
+                    JudgementSkill.RotationSpeed;
+
+                float pulseScale =
+                    1f +
+                    Mathf.Sin(elapsed * 13f) * 0.035f;
+
+                UpdateCannons(
+                    cannons,
+                    radius,
+                    rotation,
+                    pulseScale,
+                    pulseGlow,
+                    primaryColor,
+                    secondaryColor
+                );
+
+                SetRingRadius(
+                    innerRing,
+                    JudgementSkill.OrbitRadius +
+                    Mathf.Sin(elapsed * 8f) * 0.05f
+                );
+
+                SetRingRadius(
+                    outerRing,
+                    radius +
+                    Mathf.Sin(elapsed * 5f) * 0.08f
+                );
+
+                SetLineAlpha(
+                    innerRing,
+                    secondaryColor,
+                    0.72f + pulseGlow * 0.28f
+                );
+
+                SetLineAlpha(
+                    outerRing,
+                    primaryColor,
+                    0.42f + pulseGlow * 0.38f
+                );
+
+                yield return null;
             }
+        }
 
-            Vector3 startPosition =
-                targetPosition +
-                Vector3.up *
-                JudgementSkill
-                    .BombStartHeight;
-
-            SpriteRenderer renderer =
-                CreateVfxRenderer(
-                    "Judgement_Bomb",
-                    firstFrame,
-                    startPosition,
-                    bombSortingOrder
+        private IEnumerator FinishRoutine(
+            List<CannonVisual> cannons,
+            LineRenderer innerRing,
+            LineRenderer outerRing,
+            float radius,
+            Color primaryColor,
+            Color secondaryColor)
+        {
+            LineRenderer shockwave =
+                CreateRing(
+                    _activeVfxRoot.transform,
+                    "Judgement_FinalShockwave",
+                    JudgementSkill.OrbitRadius,
+                    0.32f,
+                    secondaryColor,
+                    beamSortingOrder + 2
                 );
 
-            Transform bombTransform =
-                renderer.transform;
+            float elapsed = 0f;
 
-            float duration =
-                Mathf.Max(
-                    0.05f,
-                    JudgementSkill.BombFallDuration
-                );
-
-            float timer = 0f;
-
-            float bombMultiplier =
-                JudgementSkill
-                    .GetBombVisualMultiplier(
-                        skillLevel
-                    );
-
-            while (timer < duration)
+            while (elapsed < JudgementSkill.FinishDuration)
             {
-                timer +=
-                    Time.deltaTime;
+                elapsed += Time.deltaTime;
 
-                float progress =
-                    Mathf.Clamp01(
-                        timer /
-                        duration
-                    );
-
-                // Bom tăng tốc dần.
-                float fallProgress =
-                    progress *
-                    progress;
-
-                bombTransform.position =
-                    Vector3.Lerp(
-                        startPosition,
-                        targetPosition,
-                        fallProgress
-                    );
-
-                UpdateProgressFrame(
-                    renderer,
-                    bombFrames,
-                    progress
+                float t = Mathf.Clamp01(
+                    elapsed / JudgementSkill.FinishDuration
                 );
 
-                float currentHeight =
+                float eased = 1f - Mathf.Pow(1f - t, 3f);
+
+                SetRingRadius(
+                    shockwave,
                     Mathf.Lerp(
-                        baseBombWorldHeight *
-                        0.7f,
-                        baseBombWorldHeight,
-                        progress
-                    );
-
-                currentHeight *=
-                    bombMultiplier;
-
-                SetWorldHeight(
-                    renderer,
-                    currentHeight
+                        JudgementSkill.OrbitRadius,
+                        radius * 1.08f,
+                        eased
+                    )
                 );
+
+                float width = Mathf.Lerp(0.32f, 0.025f, t);
+                shockwave.startWidth = width;
+                shockwave.endWidth = width;
+                SetLineAlpha(shockwave, secondaryColor, 1f - t);
+
+                UpdateCannons(
+                    cannons,
+                    radius,
+                    JudgementSkill.BarrageDuration *
+                    JudgementSkill.RotationSpeed +
+                    elapsed * 70f,
+                    Mathf.Lerp(1.15f, 0.15f, t),
+                    1f - t,
+                    primaryColor,
+                    secondaryColor
+                );
+
+                SetLineAlpha(innerRing, secondaryColor, 1f - t);
+                SetLineAlpha(outerRing, primaryColor, 1f - t);
 
                 yield return null;
             }
-
-            Destroy(
-                renderer.gameObject
-            );
         }
 
-        // =========================================
-        // EXPLOSION
-        // =========================================
-
-        private void Explode(
-            Vector3 position)
+        private List<CannonVisual> CreateCannons(
+            Transform parent,
+            int count,
+            float radius,
+            Color primaryColor,
+            Color secondaryColor)
         {
-            float radius =
-                JudgementSkill
-                    .GetExplosionRadius(
-                        skillLevel
-                    );
+            List<CannonVisual> cannons = new(count);
 
-            float damage =
-                _autoAttack.AttackDamage *
-                JudgementSkill
-                    .GetDamageMultiplier(
-                        skillLevel
-                    );
+            for (int i = 0; i < count; i++)
+            {
+                float angle = 360f * i / Mathf.Max(1, count);
 
-            DamageEnemiesInRadius(
-                position,
-                radius,
-                damage
-            );
+                GameObject nodeObject = new GameObject($"Cannon_{i:00}");
+                nodeObject.transform.SetParent(parent, false);
 
-            Sprite firstFrame =
-                GetFirstValidSprite(
-                    explosionFrames
+                SpriteRenderer nodeRenderer =
+                    nodeObject.AddComponent<SpriteRenderer>();
+
+                nodeRenderer.sprite = _nodeSprite;
+                nodeRenderer.color = secondaryColor;
+                nodeRenderer.sortingLayerName = sortingLayerName;
+                nodeRenderer.sortingOrder = nodeSortingOrder;
+
+                if (_vfxMaterial != null)
+                {
+                    nodeRenderer.sharedMaterial = _vfxMaterial;
+                }
+
+                GameObject beamObject = new GameObject($"Beam_{i:00}");
+                beamObject.transform.SetParent(parent, false);
+
+                LineRenderer beam = beamObject.AddComponent<LineRenderer>();
+                ConfigureLineRenderer(
+                    beam,
+                    JudgementSkill.GetBeamWidth(skillLevel),
+                    primaryColor,
+                    beamSortingOrder
                 );
 
-            if (firstFrame != null)
+                beam.positionCount = 2;
+
+                cannons.Add(
+                    new CannonVisual
+                    {
+                        NodeTransform = nodeObject.transform,
+                        NodeRenderer = nodeRenderer,
+                        BeamRenderer = beam,
+                        BaseAngle = angle,
+                    }
+                );
+            }
+
+            UpdateCannons(
+                cannons,
+                radius,
+                0f,
+                0.15f,
+                0f,
+                primaryColor,
+                secondaryColor
+            );
+
+            return cannons;
+        }
+
+        private void UpdateCannons(
+            List<CannonVisual> cannons,
+            float radius,
+            float rotationDegrees,
+            float visualScale,
+            float pulseGlow,
+            Color primaryColor,
+            Color secondaryColor)
+        {
+            float orbitRadius = JudgementSkill.OrbitRadius;
+            float nodeSize = JudgementSkill.GetNodeSize(skillLevel);
+            float beamWidth = JudgementSkill.GetBeamWidth(skillLevel);
+
+            for (int i = 0; i < cannons.Count; i++)
             {
-                StartCoroutine(
-                    PlayExplosionRoutine(
-                        position,
-                        radius
+                CannonVisual cannon = cannons[i];
+
+                float angle = cannon.BaseAngle + rotationDegrees;
+                float radians = angle * Mathf.Deg2Rad;
+
+                Vector3 direction = new Vector3(
+                    Mathf.Cos(radians),
+                    Mathf.Sin(radians),
+                    0f
+                );
+
+                Vector3 nodePosition = direction * orbitRadius;
+                Vector3 beamEnd = direction * radius;
+
+                cannon.NodeTransform.localPosition = nodePosition;
+
+                float scale =
+                    nodeSize *
+                    Mathf.Max(0.05f, visualScale) *
+                    (1f + pulseGlow * 0.22f);
+
+                cannon.NodeTransform.localScale =
+                    new Vector3(scale, scale, 1f);
+
+                cannon.NodeRenderer.color =
+                    Color.Lerp(
+                        secondaryColor,
+                        Color.white,
+                        pulseGlow * 0.75f
+                    );
+
+                LineRenderer beam = cannon.BeamRenderer;
+                beam.SetPosition(0, nodePosition);
+                beam.SetPosition(1, beamEnd);
+
+                float currentWidth =
+                    beamWidth *
+                    (1f + pulseGlow * 1.2f);
+
+                beam.startWidth = currentWidth;
+                beam.endWidth = currentWidth * 0.28f;
+
+                Color beamColor =
+                    Color.Lerp(
+                        primaryColor,
+                        Color.white,
+                        pulseGlow * 0.8f
+                    );
+
+                beam.startColor = beamColor;
+                beam.endColor = new Color(
+                    beamColor.r,
+                    beamColor.g,
+                    beamColor.b,
+                    0.12f + pulseGlow * 0.28f
+                );
+            }
+        }
+
+        private LineRenderer CreateRing(
+            Transform parent,
+            string objectName,
+            float radius,
+            float width,
+            Color color,
+            int sortingOrder)
+        {
+            GameObject ringObject = new GameObject(objectName);
+            ringObject.transform.SetParent(parent, false);
+
+            LineRenderer ring = ringObject.AddComponent<LineRenderer>();
+            ConfigureLineRenderer(ring, width, color, sortingOrder);
+
+            ring.loop = true;
+            ring.positionCount = 72;
+
+            SetRingRadius(ring, radius);
+            return ring;
+        }
+
+        private void ConfigureLineRenderer(
+            LineRenderer line,
+            float width,
+            Color color,
+            int sortingOrder)
+        {
+            line.useWorldSpace = false;
+            line.textureMode = LineTextureMode.Stretch;
+            line.alignment = LineAlignment.View;
+            line.numCapVertices = 4;
+            line.numCornerVertices = 4;
+
+            line.startWidth = width;
+            line.endWidth = width;
+            line.startColor = color;
+            line.endColor = color;
+
+            line.sortingLayerName = sortingLayerName;
+            line.sortingOrder = sortingOrder;
+
+            if (_vfxMaterial != null)
+            {
+                line.sharedMaterial = _vfxMaterial;
+            }
+        }
+
+        private static void SetRingRadius(
+            LineRenderer ring,
+            float radius)
+        {
+            if (ring == null)
+            {
+                return;
+            }
+
+            int count = ring.positionCount;
+
+            for (int i = 0; i < count; i++)
+            {
+                float angle =
+                    i * Mathf.PI * 2f / count;
+
+                ring.SetPosition(
+                    i,
+                    new Vector3(
+                        Mathf.Cos(angle) * radius,
+                        Mathf.Sin(angle) * radius,
+                        0f
                     )
                 );
             }
-
-            // Chỉ Lv5 MAX mới rung màn hình.
-            if (
-                JudgementSkill.IsMaxLevel(
-                    skillLevel
-                )
-            )
-            {
-                TriggerCameraShake();
-            }
         }
 
-        // =========================================
-        // EXPLOSION VISUAL
-        // =========================================
-
-        private IEnumerator PlayExplosionRoutine(
-            Vector3 position,
-            float radius)
+        private static void SetLineAlpha(
+            LineRenderer line,
+            Color baseColor,
+            float alpha)
         {
-            Sprite firstFrame =
-                GetFirstValidSprite(
-                    explosionFrames
-                );
-
-            if (firstFrame == null)
+            if (line == null)
             {
-                yield break;
+                return;
             }
 
-            SpriteRenderer renderer =
-                CreateVfxRenderer(
-                    "Judgement_Explosion",
-                    firstFrame,
-                    position,
-                    explosionSortingOrder
-                );
+            alpha = Mathf.Clamp01(alpha);
 
-            float visualMultiplier =
-                JudgementSkill
-                    .GetExplosionVisualMultiplier(
-                        skillLevel
-                    );
-
-            float visualWidth =
-                radius *
-                2f *
-                visualMultiplier;
-
-            float frameDuration =
-                1f /
-                Mathf.Max(
-                    1f,
-                    explosionFPS
-                );
-
-            for (
-                int i = 0;
-                i < explosionFrames.Length;
-                i++
-            )
-            {
-                Sprite frame =
-                    explosionFrames[i];
-
-                if (frame != null)
-                {
-                    renderer.sprite =
-                        frame;
-
-                    SetWorldWidth(
-                        renderer,
-                        visualWidth
-                    );
-                }
-
-                yield return
-                    WaitForDuration(
-                        frameDuration
-                    );
-            }
-
-            Destroy(
-                renderer.gameObject
+            Color color = new Color(
+                baseColor.r,
+                baseColor.g,
+                baseColor.b,
+                alpha
             );
-        }
 
-        // =========================================
-        // DAMAGE
-        // =========================================
+            line.startColor = color;
+            line.endColor = color;
+        }
 
         private void DamageEnemiesInRadius(
-            Vector3 position,
+            Vector3 center,
             float radius,
             float damage)
         {
+            if (damage <= 0f)
+            {
+                return;
+            }
+
             _physicsResults.Clear();
             _damagedEnemies.Clear();
 
             Physics2D.OverlapCircle(
-                position,
+                center,
                 radius,
                 _physicsFilter,
                 _physicsResults
             );
 
-            foreach (
-                Collider2D hit
-                in _physicsResults
-            )
+            foreach (Collider2D hit in _physicsResults)
             {
                 if (hit == null)
                 {
@@ -768,35 +721,25 @@ namespace DienGame.Gameplay.Skills.Marksman
                 EnemyHealth enemy =
                     hit.GetComponentInParent<EnemyHealth>();
 
-                if (
-                    enemy == null ||
-                    enemy.IsDead
-                )
+                if (enemy == null || enemy.IsDead)
                 {
                     continue;
                 }
 
-                // Một enemy có nhiều collider
-                // vẫn chỉ ăn damage 1 lần.
                 if (!_damagedEnemies.Add(enemy))
                 {
                     continue;
                 }
 
-                enemy.TakeDamage(
-                    damage
-                );
+                enemy.TakeDamage(damage);
             }
         }
 
-        // =========================================
-        // CAMERA SHAKE
-        // =========================================
-
-        private static void TriggerCameraShake()
+        private static void TriggerCameraShake(
+            float duration,
+            float strength)
         {
-            Camera camera =
-                Camera.main;
+            Camera camera = Camera.main;
 
             if (camera == null)
             {
@@ -804,293 +747,179 @@ namespace DienGame.Gameplay.Skills.Marksman
             }
 
             JudgementCameraShake shake =
-                camera.GetComponent<
-                    JudgementCameraShake
-                >();
+                camera.GetComponent<JudgementCameraShake>();
 
             if (shake == null)
             {
-                shake =
-                    camera.gameObject
-                        .AddComponent<
-                            JudgementCameraShake
-                        >();
+                shake = camera.gameObject.AddComponent<JudgementCameraShake>();
             }
 
-            shake.Shake(
-                JudgementSkill.MaxShakeDuration,
-                JudgementSkill.MaxShakeStrength
-            );
+            shake.Shake(duration, strength);
         }
 
-        // =========================================
-        // UI
-        // =========================================
+        private IEnumerator PlayScreenFlashRoutine()
+        {
+            GameObject canvasObject = new GameObject(
+                "Judgement_FinalFlashCanvas",
+                typeof(Canvas),
+                typeof(CanvasScaler)
+            );
+
+            Canvas canvas = canvasObject.GetComponent<Canvas>();
+            canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+            canvas.sortingOrder = 3000;
+
+            CanvasScaler scaler = canvasObject.GetComponent<CanvasScaler>();
+            scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
+            scaler.referenceResolution = new Vector2(1080f, 1920f);
+
+            GameObject flashObject = new GameObject(
+                "Flash",
+                typeof(RectTransform),
+                typeof(Image)
+            );
+
+            flashObject.transform.SetParent(canvasObject.transform, false);
+
+            RectTransform rect = flashObject.GetComponent<RectTransform>();
+            rect.anchorMin = Vector2.zero;
+            rect.anchorMax = Vector2.one;
+            rect.offsetMin = Vector2.zero;
+            rect.offsetMax = Vector2.zero;
+
+            Image image = flashObject.GetComponent<Image>();
+            image.raycastTarget = false;
+
+            float duration = 0.16f;
+            float elapsed = 0f;
+
+            while (elapsed < duration)
+            {
+                elapsed += Time.deltaTime;
+                float t = Mathf.Clamp01(elapsed / duration);
+
+                float alpha =
+                    t < 0.25f
+                        ? Mathf.Lerp(0f, 0.36f, t / 0.25f)
+                        : Mathf.Lerp(0.36f, 0f, (t - 0.25f) / 0.75f);
+
+                image.color = new Color(1f, 0.90f, 0.66f, alpha);
+                yield return null;
+            }
+
+            Destroy(canvasObject);
+        }
 
         private void SetupButton()
         {
             JudgementUltimateButton button =
-                GetComponent<
-                    JudgementUltimateButton
-                >();
+                GetComponent<JudgementUltimateButton>();
 
             if (button == null)
             {
-                button =
-                    gameObject.AddComponent<
-                        JudgementUltimateButton
-                    >();
+                button = gameObject.AddComponent<JudgementUltimateButton>();
             }
 
-            button.Initialize(
-                this,
-                ultimateIcon
-            );
+            Sprite icon =
+                useAssignedIcon
+                    ? ultimateIcon
+                    : null;
+
+            button.Initialize(this, icon);
         }
-
-        // =========================================
-        // CREATE VFX
-        // =========================================
-
-        private SpriteRenderer CreateVfxRenderer(
-            string objectName,
-            Sprite sprite,
-            Vector3 position,
-            int sortingOrder)
-        {
-            GameObject obj =
-                new GameObject(
-                    objectName
-                );
-
-            obj.transform.position =
-                position;
-
-            SpriteRenderer renderer =
-                obj.AddComponent<SpriteRenderer>();
-
-            renderer.sprite =
-                sprite;
-
-            renderer.color =
-                Color.white;
-
-            renderer.sortingLayerName =
-                sortingLayerName;
-
-            renderer.sortingOrder =
-                sortingOrder;
-
-            if (_vfxMaterial != null)
-            {
-                renderer.sharedMaterial =
-                    _vfxMaterial;
-            }
-
-            return renderer;
-        }
-
-        // =========================================
-        // FRAME
-        // =========================================
-
-        private static void UpdateProgressFrame(
-            SpriteRenderer renderer,
-            Sprite[] frames,
-            float progress)
-        {
-            if (
-                renderer == null ||
-                frames == null ||
-                frames.Length == 0
-            )
-            {
-                return;
-            }
-
-            int index =
-                Mathf.FloorToInt(
-                    progress *
-                    frames.Length
-                );
-
-            index =
-                Mathf.Clamp(
-                    index,
-                    0,
-                    frames.Length - 1
-                );
-
-            Sprite frame =
-                frames[index];
-
-            if (frame != null)
-            {
-                renderer.sprite =
-                    frame;
-            }
-        }
-
-        // =========================================
-        // SIZE
-        // =========================================
-
-        private static void SetWorldWidth(
-            SpriteRenderer renderer,
-            float desiredWidth)
-        {
-            if (
-                renderer == null ||
-                renderer.sprite == null
-            )
-            {
-                return;
-            }
-
-            float width =
-                renderer.sprite
-                    .bounds
-                    .size
-                    .x;
-
-            if (width <= 0.001f)
-            {
-                return;
-            }
-
-            float scale =
-                desiredWidth /
-                width;
-
-            renderer.transform.localScale =
-                new Vector3(
-                    scale,
-                    scale,
-                    1f
-                );
-        }
-
-        private static void SetWorldHeight(
-            SpriteRenderer renderer,
-            float desiredHeight)
-        {
-            if (
-                renderer == null ||
-                renderer.sprite == null
-            )
-            {
-                return;
-            }
-
-            float height =
-                renderer.sprite
-                    .bounds
-                    .size
-                    .y;
-
-            if (height <= 0.001f)
-            {
-                return;
-            }
-
-            float scale =
-                desiredHeight /
-                height;
-
-            renderer.transform.localScale =
-                new Vector3(
-                    scale,
-                    scale,
-                    1f
-                );
-        }
-
-        // =========================================
-        // SPRITE
-        // =========================================
-
-        private static Sprite GetFirstValidSprite(
-            Sprite[] frames)
-        {
-            if (frames == null)
-            {
-                return null;
-            }
-
-            for (
-                int i = 0;
-                i < frames.Length;
-                i++
-            )
-            {
-                if (frames[i] != null)
-                {
-                    return frames[i];
-                }
-            }
-
-            return null;
-        }
-
-        // =========================================
-        // WAIT
-        // =========================================
-
-        private static IEnumerator WaitForDuration(
-            float duration)
-        {
-            float timer = 0f;
-
-            while (timer < duration)
-            {
-                timer +=
-                    Time.deltaTime;
-
-                yield return null;
-            }
-        }
-
-        // =========================================
-        // MATERIAL
-        // =========================================
 
         private void CreateVfxMaterial()
         {
-            Shader shader =
-                Shader.Find(
+            Shader shader = Shader.Find("Sprites/Default");
+
+            if (shader == null)
+            {
+                shader = Shader.Find(
                     "Universal Render Pipeline/2D/Sprite-Unlit-Default"
                 );
-
-            if (shader == null)
-            {
-                shader =
-                    Shader.Find(
-                        "Sprites/Default"
-                    );
             }
 
-            if (shader == null)
+            if (shader != null)
             {
-                return;
+                _vfxMaterial = new Material(shader);
             }
-
-            _vfxMaterial =
-                new Material(
-                    shader
-                );
         }
 
-        // =========================================
-        // CLEANUP
-        // =========================================
+        private void CreateNodeSprite()
+        {
+            const int size = 48;
+
+            _nodeTexture = new Texture2D(
+                size,
+                size,
+                TextureFormat.RGBA32,
+                false
+            );
+
+            _nodeTexture.name = "Judgement_RuntimeNodeTexture";
+            _nodeTexture.wrapMode = TextureWrapMode.Clamp;
+            _nodeTexture.filterMode = FilterMode.Bilinear;
+
+            Color32[] pixels = new Color32[size * size];
+            Vector2 center = new Vector2((size - 1) * 0.5f, (size - 1) * 0.5f);
+            float maxRadius = size * 0.5f;
+
+            for (int y = 0; y < size; y++)
+            {
+                for (int x = 0; x < size; x++)
+                {
+                    float distance = Vector2.Distance(
+                        new Vector2(x, y),
+                        center
+                    );
+
+                    float normalized = Mathf.Clamp01(1f - distance / maxRadius);
+                    float alpha = normalized * normalized;
+
+                    pixels[y * size + x] =
+                        new Color(1f, 1f, 1f, alpha);
+                }
+            }
+
+            _nodeTexture.SetPixels32(pixels);
+            _nodeTexture.Apply(false, false);
+
+            _nodeSprite = Sprite.Create(
+                _nodeTexture,
+                new Rect(0f, 0f, size, size),
+                new Vector2(0.5f, 0.5f),
+                size
+            );
+
+            _nodeSprite.name = "Judgement_RuntimeNodeSprite";
+        }
+
+        private void OnDisable()
+        {
+            if (_activeVfxRoot != null)
+            {
+                Destroy(_activeVfxRoot);
+                _activeVfxRoot = null;
+            }
+
+            _isCasting = false;
+        }
 
         private void OnDestroy()
         {
             if (_vfxMaterial != null)
             {
-                Destroy(
-                    _vfxMaterial
-                );
+                Destroy(_vfxMaterial);
+            }
+
+            if (_nodeSprite != null)
+            {
+                Destroy(_nodeSprite);
+            }
+
+            if (_nodeTexture != null)
+            {
+                Destroy(_nodeTexture);
             }
         }
     }

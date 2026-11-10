@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2a0c6edecfc69147a192b855c833194, type: 3}
+  m_Name: EnemyCatalog
+  m_EditorClassIdentifier: 
+  definitions:
+  - archetype: 0
+    displayName: Grunt
+    attackKind: 0
+    maxHealth: 30
+    damage: 8
+    moveSpeed: 2.2
+    experience: 2
+    preferredDistance: 0.8
+    retreatDistance: 0
+    attackInterval: 1.15
+    projectileSpeed: 0
+    maxAttackDistance: 0
+    visual:
+      frames: []
+      framesPerSecond: 6
+      visualScale: 1
+    eliteVisual:
+      frames:
+      - {fileID: -7645590052986066916, guid: 42424694044a59848b6dc4f1c1321b62, type: 3}
+      - {fileID: 1262555119, guid: 42424694044a59848b6dc4f1c1321b62, type: 3}
+      - {fileID: -393813585, guid: 42424694044a59848b6dc4f1c1321b62, type: 3}
+      - {fileID: 1578565523, guid: 42424694044a59848b6dc4f1c1321b62, type: 3}
+      framesPerSecond: 8
+      visualScale: 1.15
+  - archetype: 1
+    displayName: Runner
+    attackKind: 0
+    maxHealth: 18
+    damage: 6
+    moveSpeed: 3.7
+    experience: 2
+    preferredDistance: 0.8
+    retreatDistance: 0
+    attackInterval: 1.15
+    projectileSpeed: 0
+    maxAttackDistance: 0
+    visual:
+      frames:
+      - {fileID: -7184241317777213640, guid: 01aadb24d162f444c8c2d057d3109ecb, type: 3}
+      - {fileID: -3170019399473518457, guid: 01aadb24d162f444c8c2d057d3109ecb, type: 3}
+      - {fileID: 4889731297021297855, guid: 01aadb24d162f444c8c2d057d3109ecb, type: 3}
+      - {fileID: 6076317558733680999, guid: 01aadb24d162f444c8c2d057d3109ecb, type: 3}
+      framesPerSecond: 10
+      visualScale: 0.88
+    eliteVisual:
+      frames:
+      - {fileID: -7645590052986066916, guid: 42424694044a59848b6dc4f1c1321b62, type: 3}
+      - {fileID: 1262555119, guid: 42424694044a59848b6dc4f1c1321b62, type: 3}
+      - {fileID: -393813585, guid: 42424694044a59848b6dc4f1c1321b62, type: 3}
+      - {fileID: 1578565523, guid: 42424694044a59848b6dc4f1c1321b62, type: 3}
+      framesPerSecond: 8
+      visualScale: 1.15
+  - archetype: 2
+    displayName: Tank
+    attackKind: 0
+    maxHealth: 110
+    damage: 16
+    moveSpeed: 1.45
+    experience: 6
+    preferredDistance: 0.9
+    retreatDistance: 0
+    attackInterval: 1.15
+    projectileSpeed: 0
+    maxAttackDistance: 0
+    visual:
+      frames:
+      - {fileID: -5741688539721330119, guid: 322322a09e764894cac375109463f6a2, type: 3}
+      - {fileID: -1766735647581829390, guid: 322322a09e764894cac375109463f6a2, type: 3}
+      - {fileID: 7080847577489862677, guid: 322322a09e764894cac375109463f6a2, type: 3}
+      - {fileID: -4902650741576602228, guid: 322322a09e764894cac375109463f6a2, type: 3}
+      framesPerSecond: 5
+      visualScale: 1.22
+    eliteVisual:
+      frames:
+      - {fileID: -7645590052986066916, guid: 42424694044a59848b6dc4f1c1321b62, type: 3}
+      - {fileID: 1262555119, guid: 42424694044a59848b6dc4f1c1321b62, type: 3}
+      - {fileID: -393813585, guid: 42424694044a59848b6dc4f1c1321b62, type: 3}
+      - {fileID: 1578565523, guid: 42424694044a59848b6dc4f1c1321b62, type: 3}
+      framesPerSecond: 8
+      visualScale: 1.15
+  - archetype: 3
+    displayName: Ranged
+    attackKind: 1
+    maxHealth: 28
+    damage: 7
+    moveSpeed: 1.8
+    experience: 4
+    preferredDistance: 5.25
+    retreatDistance: 3.25
+    attackInterval: 1.6
+    projectileSpeed: 7
+    maxAttackDistance: 8
+    visual:
+      frames:
+      - {fileID: -8298319804249451089, guid: f215ba5f65bcd164b8389ba281073da2, type: 3}
+      - {fileID: -5912159867947595492, guid: f215ba5f65bcd164b8389ba281073da2, type: 3}
+      - {fileID: -5647447541375320893, guid: f215ba5f65bcd164b8389ba281073da2, type: 3}
+      - {fileID: -5975571610457537777, guid: f215ba5f65bcd164b8389ba281073da2, type: 3}
+      framesPerSecond: 6
+      visualScale: 0.95
+    eliteVisual:
+      frames:
+      - {fileID: -7645590052986066916, guid: 42424694044a59848b6dc4f1c1321b62, type: 3}
+      - {fileID: 1262555119, guid: 42424694044a59848b6dc4f1c1321b62, type: 3}
+      - {fileID: -393813585, guid: 42424694044a59848b6dc4f1c1321b62, type: 3}
+      - {fileID: 1578565523, guid: 42424694044a59848b6dc4f1c1321b62, type: 3}
+      framesPerSecond: 8
+      visualScale: 1.15
+  - archetype: 4
+    displayName: Swarm
+    attackKind: 0
+    maxHealth: 12
+    damage: 4
+    moveSpeed: 3
+    experience: 1
+    preferredDistance: 0.65
+    retreatDistance: 0
+    attackInterval: 1.15
+    projectileSpeed: 0
+    maxAttackDistance: 0
+    visual:
+      frames:
+      - {fileID: -6395046570955382579, guid: e0a28f9a5bdac264cb54888a5527fcf4, type: 3}
+      - {fileID: 801124009915114395, guid: e0a28f9a5bdac264cb54888a5527fcf4, type: 3}
+      - {fileID: 7075024625140923225, guid: e0a28f9a5bdac264cb54888a5527fcf4, type: 3}
+      - {fileID: -2026374342224744341, guid: e0a28f9a5bdac264cb54888a5527fcf4, type: 3}
+      framesPerSecond: 11
+      visualScale: 0.6
+    eliteVisual:
+      frames:
+      - {fileID: -7645590052986066916, guid: 42424694044a59848b6dc4f1c1321b62, type: 3}
+      - {fileID: 1262555119, guid: 42424694044a59848b6dc4f1c1321b62, type: 3}
+      - {fileID: -393813585, guid: 42424694044a59848b6dc4f1c1321b62, type: 3}
+      - {fileID: 1578565523, guid: 42424694044a59848b6dc4f1c1321b62, type: 3}
+      framesPerSecond: 8
+      visualScale: 1.15
+  - archetype: 5
+    displayName: Boss_Judgement
+    attackKind: 2
+    maxHealth: 6000
+    damage: 20
+    moveSpeed: 1.85
+    experience: 0
+    preferredDistance: 1.05
+    retreatDistance: 0
+    attackInterval: 1.15
+    projectileSpeed: 0
+    maxAttackDistance: 0
+    visual:
+      frames:
+      - {fileID: -3884539284683528470, guid: 4c2e2c3be346c59459e57d1e4cb16125, type: 3}
+      - {fileID: -6662695695242622184, guid: 4c2e2c3be346c59459e57d1e4cb16125, type: 3}
+      - {fileID: 223719812321914426, guid: 4c2e2c3be346c59459e57d1e4cb16125, type: 3}
+      - {fileID: 5480241072034928176, guid: 4c2e2c3be346c59459e57d1e4cb16125, type: 3}
+      framesPerSecond: 5
+      visualScale: 1.8
+    eliteVisual:
+      frames: []
+      framesPerSecond: 5
+      visualScale: 1.8

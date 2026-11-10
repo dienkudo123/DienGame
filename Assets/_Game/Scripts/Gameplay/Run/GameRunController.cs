@@ -1,13 +1,19 @@
+using System;
 using System.Collections.Generic;
+using DienGame.Gameplay.Balance;
+using DienGame.Gameplay.Core;
 using DienGame.Gameplay.Enemy;
 using DienGame.Gameplay.Player;
+using DienGame.Gameplay.UI;
 using UnityEngine;
 
 namespace DienGame.Gameplay.Run
 {
     public sealed class GameRunController : MonoBehaviour
     {
-        private enum RunPhase
+        private const string RunEndedPauseReason = "RunEnded";
+
+        public enum RunPhase
         {
             Survival,
             Boss,
@@ -15,53 +21,38 @@ namespace DienGame.Gameplay.Run
             Lost,
         }
 
-        [Header("Survival")]
-        [SerializeField]
-        [Min(1f)]
-        private float survivalDuration = 60f;
-
-        [Header("Boss")]
-        [SerializeField]
-        [Min(1f)]
-        private float bossMaxHealth = 500f;
-
-        [SerializeField]
-        [Min(1f)]
-        private float bossScale = 1.5f;
-
-        [SerializeField]
-        [Min(0f)]
-        private float bossSpawnInset = 1f;
+        [Header("Boss Spawn")]
+        [SerializeField, Min(0f)] private float bossSpawnInset = 1f;
 
         private EnemyWaveSpawner _waveSpawner;
         private PlayerHealth _playerHealth;
+        private PlayerExperience _playerExperience;
         private EnemyHealth _bossHealth;
         private Collider2D _mapBounds;
-
         private RunPhase _phase;
         private float _survivalTimer;
+        private bool _runRecorded;
 
-        public float RemainingSurvivalTime =>
-            Mathf.Max(0f, _survivalTimer);
+        public RunPhase Phase => _phase;
+        public float RemainingSurvivalTime => Mathf.Max(0f, _survivalTimer);
+        public float SurvivalDuration => GameBalance.SurvivalDuration;
+        public EnemyHealth BossHealth => _bossHealth;
+
+        public event Action<EnemyHealth> BossSpawned;
+        public event Action<RunPhase> RunEnded;
 
         private void Start()
         {
-            Time.timeScale = 1f;
-
             FindReferences();
-
+            EnsureRunUI();
             _phase = RunPhase.Survival;
-            _survivalTimer = survivalDuration;
-
+            _survivalTimer = GameBalance.SurvivalDuration;
             Debug.Log("RUN START - SURVIVAL PHASE");
         }
 
         private void Update()
         {
-            if (
-                _phase == RunPhase.Won ||
-                _phase == RunPhase.Lost
-            )
+            if (_phase == RunPhase.Won || _phase == RunPhase.Lost)
             {
                 return;
             }
@@ -69,241 +60,150 @@ namespace DienGame.Gameplay.Run
             CheckPlayerDeath();
 
             if (_phase == RunPhase.Lost)
+            {
                 return;
+            }
 
             if (_phase == RunPhase.Survival)
             {
-                UpdateSurvival();
+                _survivalTimer -= Time.deltaTime;
+
+                if (_survivalTimer <= 0f)
+                {
+                    EnterBossPhase();
+                }
             }
         }
 
         private void FindReferences()
         {
-            _waveSpawner =
-                FindFirstObjectByType<EnemyWaveSpawner>();
-
-            _playerHealth =
-                FindFirstObjectByType<PlayerHealth>();
+            _waveSpawner = FindFirstObjectByType<EnemyWaveSpawner>();
+            _playerHealth = FindFirstObjectByType<PlayerHealth>();
+            _playerExperience = FindFirstObjectByType<PlayerExperience>();
 
             if (_waveSpawner != null)
             {
                 _mapBounds = _waveSpawner.MapBounds;
             }
 
-            if (_waveSpawner == null)
-            {
-                Debug.LogError(
-                    "GameRunController: Không tìm thấy EnemyWaveSpawner.",
-                    this
-                );
-            }
-
-            if (_playerHealth == null)
-            {
-                Debug.LogError(
-                    "GameRunController: Không tìm thấy PlayerHealth.",
-                    this
-                );
-            }
-
-            if (_mapBounds == null)
-            {
-                Debug.LogError(
-                    "GameRunController: Không tìm thấy MapBounds.",
-                    this
-                );
-            }
+            if (_waveSpawner == null) Debug.LogError("GameRunController: Không tìm thấy EnemyWaveSpawner.", this);
+            if (_playerHealth == null) Debug.LogError("GameRunController: Không tìm thấy PlayerHealth.", this);
         }
 
-        private void UpdateSurvival()
+        private void EnsureRunUI()
         {
-            _survivalTimer -= Time.deltaTime;
+            Canvas canvas = FindFirstObjectByType<Canvas>();
+            if (canvas == null) return;
 
-            if (_survivalTimer > 0f)
-                return;
-
-            EnterBossPhase();
+            GameRunUI runUI = canvas.GetComponent<GameRunUI>();
+            if (runUI == null) runUI = canvas.gameObject.AddComponent<GameRunUI>();
+            runUI.Bind(this);
         }
 
         private void EnterBossPhase()
         {
-            if (_waveSpawner == null)
-                return;
-
-            if (_playerHealth == null)
-                return;
-
-            if (_mapBounds == null)
-                return;
-
-            if (_waveSpawner.EnemyPrefab == null)
-            {
-                Debug.LogError(
-                    "GameRunController: Enemy Prefab chưa được gán.",
-                    this
-                );
-
-                return;
-            }
+            if (_waveSpawner == null || _playerHealth == null) return;
 
             _phase = RunPhase.Boss;
-
             _waveSpawner.StopSpawning();
-
             SpawnBoss();
-
-            Debug.Log(
-                "BOSS PHASE - wave spawn đã dừng. " +
-                "Quái cũ vẫn tồn tại."
-            );
         }
 
         private void SpawnBoss()
         {
-            Vector2 spawnPosition =
-                GetFarthestSpawnPosition();
-
-            GameObject boss =
-                Instantiate(
-                    _waveSpawner.EnemyPrefab,
-                    spawnPosition,
-                    Quaternion.identity
-                );
-
-            boss.name = "Boss";
-
-            boss.transform.localScale *= bossScale;
-
-            _bossHealth =
-                boss.GetComponent<EnemyHealth>();
+            Vector2 spawnPosition = GetFarthestSpawnPosition();
+            _bossHealth = _waveSpawner.SpawnBoss(spawnPosition);
 
             if (_bossHealth == null)
             {
-                Debug.LogError(
-                    "GameRunController: Boss không có EnemyHealth.",
-                    boss
-                );
-
-                Destroy(boss);
+                Debug.LogError("GameRunController: EnemyFactory không spawn được Boss.", this);
                 return;
             }
 
-            _bossHealth.SetMaxHealth(
-                bossMaxHealth
-            );
-
             _bossHealth.Died += OnBossDied;
-
-            Debug.Log(
-                $"Boss spawn tại {spawnPosition}. " +
-                $"HP = {bossMaxHealth}"
-            );
+            BossSpawned?.Invoke(_bossHealth);
         }
 
         private Vector2 GetFarthestSpawnPosition()
         {
+            if (_mapBounds == null)
+            {
+                Vector2 playerPosition = _playerHealth != null ? _playerHealth.transform.position : Vector2.zero;
+                return playerPosition + Vector2.up * 7f;
+            }
+
             Bounds bounds = _mapBounds.bounds;
-
-            float minX =
-                bounds.min.x + bossSpawnInset;
-
-            float maxX =
-                bounds.max.x - bossSpawnInset;
-
-            float minY =
-                bounds.min.y + bossSpawnInset;
-
-            float maxY =
-                bounds.max.y - bossSpawnInset;
-
+            float minX = bounds.min.x + bossSpawnInset;
+            float maxX = bounds.max.x - bossSpawnInset;
+            float minY = bounds.min.y + bossSpawnInset;
+            float maxY = bounds.max.y - bossSpawnInset;
             float centerX = bounds.center.x;
             float centerY = bounds.center.y;
 
             var positions = new List<Vector2>
             {
-                new(minX, maxY),
-                new(centerX, maxY),
-                new(maxX, maxY),
-
-                new(maxX, centerY),
-
-                new(maxX, minY),
-                new(centerX, minY),
-                new(minX, minY),
-
-                new(minX, centerY),
+                new(minX, maxY), new(centerX, maxY), new(maxX, maxY), new(maxX, centerY),
+                new(maxX, minY), new(centerX, minY), new(minX, minY), new(minX, centerY),
             };
 
-            Vector2 playerPosition =
-                _playerHealth.transform.position;
-
-            Vector2 farthestPosition =
-                positions[0];
-
+            Vector2 player = _playerHealth.transform.position;
+            Vector2 farthest = positions[0];
             float farthestDistance = -1f;
 
             foreach (Vector2 position in positions)
             {
-                float distance =
-                    (position - playerPosition)
-                    .sqrMagnitude;
-
-                if (distance <= farthestDistance)
-                    continue;
-
-                farthestDistance = distance;
-                farthestPosition = position;
+                float distance = (position - player).sqrMagnitude;
+                if (distance > farthestDistance)
+                {
+                    farthestDistance = distance;
+                    farthest = position;
+                }
             }
 
-            return farthestPosition;
+            return farthest;
         }
 
         private void CheckPlayerDeath()
         {
-            if (_playerHealth == null)
-                return;
-
-            if (!_playerHealth.IsDead)
-                return;
-
-            Lose();
+            if (_playerHealth != null && _playerHealth.IsDead)
+            {
+                Lose();
+            }
         }
 
-        private void OnBossDied(
-            EnemyHealth bossHealth)
+        private void OnBossDied(EnemyHealth bossHealth)
         {
-            if (_phase != RunPhase.Boss)
-                return;
-
-            Win();
+            if (_phase == RunPhase.Boss) Win();
         }
 
         private void Win()
         {
             _phase = RunPhase.Won;
-
-            if (_waveSpawner != null)
-            {
-                _waveSpawner.StopSpawning();
-            }
-
-            Debug.Log("YOU WIN");
-
-            Time.timeScale = 0f;
+            _waveSpawner?.StopSpawning();
+            FinishRun(true);
         }
 
         private void Lose()
         {
             _phase = RunPhase.Lost;
+            _waveSpawner?.StopSpawning();
+            FinishRun(false);
+        }
 
-            if (_waveSpawner != null)
+        private void FinishRun(bool won)
+        {
+            if (!_runRecorded)
             {
-                _waveSpawner.StopSpawning();
+                int level = _playerExperience != null ? _playerExperience.CurrentLevel : 1;
+                GameProgressService.RecordRun(won, level);
+                _runRecorded = true;
             }
 
-            Debug.Log("GAME OVER");
+            RunEnded?.Invoke(_phase);
+            GamePauseService.RequestPause(RunEndedPauseReason);
 
-            Time.timeScale = 0f;
+            GameShellUI shell = FindFirstObjectByType<GameShellUI>();
+            shell?.RefreshStats();
         }
 
         private void OnDestroy()
@@ -312,6 +212,8 @@ namespace DienGame.Gameplay.Run
             {
                 _bossHealth.Died -= OnBossDied;
             }
+
+            GamePauseService.ReleasePause(RunEndedPauseReason);
         }
     }
 }

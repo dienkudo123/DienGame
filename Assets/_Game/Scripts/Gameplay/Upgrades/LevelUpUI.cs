@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using DienGame.Gameplay.Skills.Visuals;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -19,6 +20,12 @@ namespace DienGame.Gameplay.Upgrades
         private readonly TMP_Text[] _buttonTexts =
             new TMP_Text[OptionCount];
 
+        private readonly Image[] _buttonIcons =
+            new Image[OptionCount];
+
+        private readonly RectTransform[] _buttonTextRects =
+            new RectTransform[OptionCount];
+
         private IReadOnlyList<UpgradeDefinition>
             _currentOptions;
 
@@ -28,7 +35,6 @@ namespace DienGame.Gameplay.Upgrades
         private void Awake()
         {
             BuildUI();
-
             Hide();
         }
 
@@ -43,20 +49,19 @@ namespace DienGame.Gameplay.Upgrades
             {
                 if (i >= options.Count)
                 {
-                    _buttons[i].gameObject
-                        .SetActive(false);
-
+                    _buttons[i].gameObject.SetActive(false);
                     continue;
                 }
 
-                _buttons[i].gameObject
-                    .SetActive(true);
+                _buttons[i].gameObject.SetActive(true);
 
-                UpgradeDefinition option =
-                    options[i];
+                UpgradeDefinition option = options[i];
+                Sprite icon = SkillIconCatalogProvider.GetIcon(option.SkillId);
+
+                ApplyIcon(i, icon);
 
                 _buttonTexts[i].text =
-                    $"{option.Title}\n" +
+                    $"<b>{option.Title}</b>\n" +
                     $"<size=28>{option.Description}</size>";
             }
 
@@ -74,59 +79,39 @@ namespace DienGame.Gameplay.Upgrades
         private void SelectOption(int index)
         {
             if (_currentOptions == null)
+            {
                 return;
+            }
 
-            if (index < 0)
+            if (index < 0 || index >= _currentOptions.Count)
+            {
                 return;
+            }
 
-            if (index >= _currentOptions.Count)
-                return;
-
-            UpgradeDefinition option =
-                _currentOptions[index];
-
+            UpgradeDefinition option = _currentOptions[index];
             _onSelected?.Invoke(option);
         }
 
         private void BuildUI()
         {
-            _panel =
-                CreateUIObject(
-                    "LevelUpPanel",
-                    transform
-                );
+            _panel = CreateUIObject(
+                "LevelUpPanel",
+                transform);
 
             RectTransform panelRect =
                 _panel.GetComponent<RectTransform>();
 
-            panelRect.anchorMin =
-                new Vector2(0f, 0f);
+            panelRect.anchorMin = Vector2.zero;
+            panelRect.anchorMax = Vector2.one;
+            panelRect.offsetMin = Vector2.zero;
+            panelRect.offsetMax = Vector2.zero;
 
-            panelRect.anchorMax =
-                new Vector2(1f, 1f);
-
-            panelRect.offsetMin =
-                Vector2.zero;
-
-            panelRect.offsetMax =
-                Vector2.zero;
-
-            Image background =
-                _panel.AddComponent<Image>();
-
-            background.color =
-                new Color(
-                    0f,
-                    0f,
-                    0f,
-                    0.75f
-                );
+            Image background = _panel.AddComponent<Image>();
+            background.color = new Color(0f, 0f, 0f, 0.78f);
 
             CreateTitle();
 
-            for (int i = 0;
-                 i < OptionCount;
-                 i++)
+            for (int i = 0; i < OptionCount; i++)
             {
                 CreateOptionButton(i);
             }
@@ -134,161 +119,145 @@ namespace DienGame.Gameplay.Upgrades
 
         private void CreateTitle()
         {
-            GameObject titleObject =
-                CreateUIObject(
-                    "Title",
-                    _panel.transform
-                );
+            GameObject titleObject = CreateUIObject(
+                "Title",
+                _panel.transform);
 
             RectTransform rect =
                 titleObject.GetComponent<RectTransform>();
 
-            rect.anchorMin =
-                new Vector2(0.5f, 0.5f);
-
-            rect.anchorMax =
-                new Vector2(0.5f, 0.5f);
-
-            rect.pivot =
-                new Vector2(0.5f, 0.5f);
-
-            rect.sizeDelta =
-                new Vector2(800f, 120f);
-
-            rect.anchoredPosition =
-                new Vector2(0f, 400f);
+            rect.anchorMin = new Vector2(0.5f, 0.5f);
+            rect.anchorMax = new Vector2(0.5f, 0.5f);
+            rect.pivot = new Vector2(0.5f, 0.5f);
+            rect.sizeDelta = new Vector2(820f, 130f);
+            rect.anchoredPosition = new Vector2(0f, 430f);
 
             TextMeshProUGUI text =
                 titleObject.AddComponent<TextMeshProUGUI>();
 
-            text.text =
-                "LEVEL UP";
-
-            text.fontSize = 56f;
-
-            text.alignment =
-                TextAlignmentOptions.Center;
+            text.text = "LÊN CẤP";
+            text.fontSize = 58f;
+            text.fontStyle = FontStyles.Bold;
+            text.alignment = TextAlignmentOptions.Center;
+            text.color = new Color(1f, 0.82f, 0.28f, 1f);
         }
 
-        private void CreateOptionButton(
-            int index)
+        private void CreateOptionButton(int index)
         {
-            GameObject buttonObject =
-                CreateUIObject(
-                    $"UpgradeButton_{index + 1}",
-                    _panel.transform
-                );
+            GameObject buttonObject = CreateUIObject(
+                $"UpgradeButton_{index + 1}",
+                _panel.transform);
 
             RectTransform rect =
                 buttonObject.GetComponent<RectTransform>();
 
-            rect.anchorMin =
-                new Vector2(0.5f, 0.5f);
+            rect.anchorMin = new Vector2(0.5f, 0.5f);
+            rect.anchorMax = new Vector2(0.5f, 0.5f);
+            rect.pivot = new Vector2(0.5f, 0.5f);
+            rect.sizeDelta = new Vector2(860f, 205f);
 
-            rect.anchorMax =
-                new Vector2(0.5f, 0.5f);
+            float y = 180f - index * 235f;
+            rect.anchoredPosition = new Vector2(0f, y);
 
-            rect.pivot =
-                new Vector2(0.5f, 0.5f);
+            Image image = buttonObject.AddComponent<Image>();
+            image.color = new Color(0.12f, 0.12f, 0.16f, 0.97f);
 
-            rect.sizeDelta =
-                new Vector2(800f, 180f);
+            Outline outline = buttonObject.AddComponent<Outline>();
+            outline.effectColor = new Color(1f, 0.55f, 0.10f, 0.75f);
+            outline.effectDistance = new Vector2(2f, -2f);
 
-            float y =
-                180f -
-                index * 220f;
-
-            rect.anchoredPosition =
-                new Vector2(
-                    0f,
-                    y
-                );
-
-            Image image =
-                buttonObject.AddComponent<Image>();
-
-            image.color =
-                new Color(
-                    0.20f,
-                    0.20f,
-                    0.20f,
-                    0.95f
-                );
-
-            Button button =
-                buttonObject.AddComponent<Button>();
+            Button button = buttonObject.AddComponent<Button>();
+            button.targetGraphic = image;
 
             int capturedIndex = index;
-
             button.onClick.AddListener(
-                () =>
-                    SelectOption(
-                        capturedIndex
-                    )
-            );
+                () => SelectOption(capturedIndex));
 
             _buttons[index] = button;
 
-            CreateButtonText(
-                buttonObject.transform,
-                index
-            );
+            CreateButtonIcon(buttonObject.transform, index);
+            CreateButtonText(buttonObject.transform, index);
         }
 
-        private void CreateButtonText(
-            Transform parent,
-            int index)
+        private void CreateButtonIcon(Transform parent, int index)
         {
-            GameObject textObject =
-                CreateUIObject(
-                    "Text",
-                    parent
-                );
+            GameObject iconObject = CreateUIObject(
+                "SkillIcon",
+                parent);
+
+            RectTransform rect =
+                iconObject.GetComponent<RectTransform>();
+
+            rect.anchorMin = new Vector2(0f, 0.5f);
+            rect.anchorMax = new Vector2(0f, 0.5f);
+            rect.pivot = new Vector2(0.5f, 0.5f);
+            rect.sizeDelta = new Vector2(150f, 150f);
+            rect.anchoredPosition = new Vector2(105f, 0f);
+
+            Image image = iconObject.AddComponent<Image>();
+            image.preserveAspect = true;
+            image.raycastTarget = false;
+            image.enabled = false;
+
+            _buttonIcons[index] = image;
+        }
+
+        private void CreateButtonText(Transform parent, int index)
+        {
+            GameObject textObject = CreateUIObject(
+                "Text",
+                parent);
 
             RectTransform rect =
                 textObject.GetComponent<RectTransform>();
 
-            rect.anchorMin =
-                Vector2.zero;
-
-            rect.anchorMax =
-                Vector2.one;
-
-            rect.offsetMin =
-                new Vector2(25f, 15f);
-
-            rect.offsetMax =
-                new Vector2(-25f, -15f);
+            rect.anchorMin = Vector2.zero;
+            rect.anchorMax = Vector2.one;
+            rect.offsetMin = new Vector2(205f, 18f);
+            rect.offsetMax = new Vector2(-35f, -18f);
 
             TextMeshProUGUI text =
                 textObject.AddComponent<TextMeshProUGUI>();
 
-            text.fontSize = 38f;
-
-            text.alignment =
-                TextAlignmentOptions.Center;
-
+            text.fontSize = 37f;
+            text.alignment = TextAlignmentOptions.MidlineLeft;
             text.enableWordWrapping = true;
+            text.color = Color.white;
+            text.raycastTarget = false;
 
             _buttonTexts[index] = text;
+            _buttonTextRects[index] = rect;
+        }
+
+        private void ApplyIcon(int index, Sprite icon)
+        {
+            Image image = _buttonIcons[index];
+            RectTransform textRect = _buttonTextRects[index];
+
+            bool hasIcon = icon != null;
+
+            image.sprite = icon;
+            image.enabled = hasIcon;
+
+            if (hasIcon)
+            {
+                textRect.offsetMin = new Vector2(205f, 18f);
+            }
+            else
+            {
+                textRect.offsetMin = new Vector2(35f, 18f);
+            }
         }
 
         private static GameObject CreateUIObject(
             string objectName,
             Transform parent)
         {
-            var gameObject =
-                new GameObject(
-                    objectName,
-                    typeof(RectTransform)
-                );
+            GameObject gameObject = new(
+                objectName,
+                typeof(RectTransform));
 
-            gameObject.transform
-                .SetParent(
-                    parent,
-                    false
-                );
-
+            gameObject.transform.SetParent(parent, false);
             return gameObject;
         }
     }
