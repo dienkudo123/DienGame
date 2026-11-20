@@ -1,0 +1,3218 @@
+fileFormatVersion: 2
+guid: aa2e1f84271d3f045ac7ee7be2884dcc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 761862618110853022
+    second: ChimeraAttack4x5_0
+  - first:
+      213: 7815192489439018590
+    second: ChimeraAttack4x5_1
+  - first:
+      213: -5686707031064908809
+    second: ChimeraAttack4x5_2
+  - first:
+      213: -3514686925377009722
+    second: ChimeraAttack4x5_3
+  - first:
+      213: -7211269674897366988
+    second: ChimeraAttack4x5_4
+  - first:
+      213: -725450443480813486
+    second: ChimeraAttack4x5_5
+  - first:
+      213: 3223729558138802825
+    second: ChimeraAttack4x5_6
+  - first:
+      213: -3073689433748826719
+    second: ChimeraAttack4x5_7
+  - first:
+      213: 4213477494624890188
+    second: ChimeraAttack4x5_8
+  - first:
+      213: 1162387349687390034
+    second: ChimeraAttack4x5_9
+  - first:
+      213: -6152148091848823443
+    second: ChimeraAttack4x5_10
+  - first:
+      213: 4170235157068738765
+    second: ChimeraAttack4x5_11
+  - first:
+      213: -1473433736137865967
+    second: ChimeraAttack4x5_12
+  - first:
+      213: 1161853197443663579
+    second: ChimeraAttack4x5_13
+  - first:
+      213: 2432479775844560822
+    second: ChimeraAttack4x5_14
+  - first:
+      213: -6157569766389568592
+    second: ChimeraAttack4x5_15
+  - first:
+      213: 3721294755134983653
+    second: ChimeraAttack4x5_16
+  - first:
+      213: 5823604566990332248
+    second: ChimeraAttack4x5_17
+  - first:
+      213: -3080260801665308962
+    second: ChimeraAttack4x5_18
+  - first:
+      213: -5986156831127338204
+    second: ChimeraAttack4x5_19
+  - first:
+      213: -3220687364746594320
+    second: ChimeraAttack4x5_20
+  - first:
+      213: 1205607975052353826
+    second: ChimeraAttack4x5_21
+  - first:
+      213: -3221742567776823595
+    second: ChimeraAttack4x5_22
+  - first:
+      213: -112432164027906038
+    second: ChimeraAttack4x5_23
+  - first:
+      213: -6855235312566113229
+    second: ChimeraAttack4x5_24
+  - first:
+      213: 1145506545835228553
+    second: ChimeraAttack4x5_25
+  - first:
+      213: -3627628740798651205
+    second: ChimeraAttack4x5_26
+  - first:
+      213: 3055193592205479538
+    second: ChimeraAttack4x5_27
+  - first:
+      213: 715322134300566876
+    second: ChimeraAttack4x5_28
+  - first:
+      213: 8298470251187238488
+    second: ChimeraAttack4x5_29
+  - first:
+      213: -1848685455846617766
+    second: ChimeraAttack4x5_30
+  - first:
+      213: -1951666947672156295
+    second: ChimeraAttack4x5_31
+  - first:
+      213: -8855497486455518204
+    second: ChimeraAttack4x5_32
+  - first:
+      213: 2631681841191016860
+    second: ChimeraAttack4x5_33
+  - first:
+      213: -1106820132187566076
+    second: ChimeraAttack4x5_34
+  - first:
+      213: -5309290947831753051
+    second: ChimeraAttack4x5_35
+  - first:
+      213: -228451439136090039
+    second: ChimeraAttack4x5_36
+  - first:
+      213: 6151808840483881626
+    second: ChimeraAttack4x5_37
+  - first:
+      213: -4201838743853061097
+    second: ChimeraAttack4x5_38
+  - first:
+      213: -4401466591690559811
+    second: ChimeraAttack4x5_39
+  - first:
+      213: -3994860025655384234
+    second: ChimeraAttack4x5_40
+  - first:
+      213: -3616118379996372802
+    second: ChimeraAttack4x5_41
+  - first:
+      213: 8426466215196023722
+    second: ChimeraAttack4x5_42
+  - first:
+      213: -8385026251663930039
+    second: ChimeraAttack4x5_43
+  - first:
+      213: 7889021374152453569
+    second: ChimeraAttack4x5_44
+  - first:
+      213: -3165980823306708651
+    second: ChimeraAttack4x5_45
+  - first:
+      213: 3422850897898105453
+    second: ChimeraAttack4x5_46
+  - first:
+      213: -6443417872773935549
+    second: ChimeraAttack4x5_47
+  - first:
+      213: -9161712390251307219
+    second: ChimeraAttack4x5_48
+  - first:
+      213: -6635865377604378338
+    second: ChimeraAttack4x5_49
+  - first:
+      213: 4941923739409974887
+    second: ChimeraAttack4x5_50
+  - first:
+      213: -8496563499307795348
+    second: ChimeraAttack4x5_51
+  - first:
+      213: -632465831916792316
+    second: ChimeraAttack4x5_52
+  - first:
+      213: -5176481390405023472
+    second: ChimeraAttack4x5_53
+  - first:
+      213: 4061453376407229655
+    second: ChimeraAttack4x5_54
+  - first:
+      213: 3060322602304994121
+    second: ChimeraAttack4x5_55
+  - first:
+      213: 5165430700757717075
+    second: ChimeraAttack4x5_56
+  - first:
+      213: 3105584209525984715
+    second: ChimeraAttack4x5_57
+  - first:
+      213: -1668524007635863447
+    second: ChimeraAttack4x5_58
+  - first:
+      213: 8358142626299055466
+    second: ChimeraAttack4x5_59
+  - first:
+      213: -6353338533244190170
+    second: ChimeraAttack4x5_60
+  - first:
+      213: 7593118742668218354
+    second: ChimeraAttack4x5_61
+  - first:
+      213: 7356846499111114851
+    second: ChimeraAttack4x5_62
+  - first:
+      213: 3569294071018664138
+    second: ChimeraAttack4x5_63
+  - first:
+      213: 6273025370501074948
+    second: ChimeraAttack4x5_64
+  - first:
+      213: 5135364588638065367
+    second: ChimeraAttack4x5_65
+  - first:
+      213: -8082051848849896736
+    second: ChimeraAttack4x5_66
+  - first:
+      213: -4215800545470648969
+    second: ChimeraAttack4x5_67
+  - first:
+      213: -1809672666651531788
+    second: ChimeraAttack4x5_68
+  - first:
+      213: 4144324134216187903
+    second: ChimeraAttack4x5_69
+  - first:
+      213: -6083045837297859788
+    second: ChimeraAttack4x5_70
+  - first:
+      213: -2387105543059880049
+    second: ChimeraAttack4x5_71
+  - first:
+      213: 6143170071576654805
+    second: ChimeraAttack4x5_72
+  - first:
+      213: 7293560297622755016
+    second: ChimeraAttack4x5_73
+  - first:
+      213: 2236730121923607744
+    second: ChimeraAttack4x5_74
+  - first:
+      213: -6510040529779296446
+    second: ChimeraAttack4x5_75
+  - first:
+      213: -8298566416917231979
+    second: ChimeraAttack4x5_76
+  - first:
+      213: -5839468581294416700
+    second: ChimeraAttack4x5_77
+  - first:
+      213: 2727532256289431284
+    second: ChimeraAttack4x5_78
+  - first:
+      213: -4728606233043667081
+    second: ChimeraAttack4x5_79
+  - first:
+      213: 571461819920779356
+    second: ChimeraAttack4x5_80
+  - first:
+      213: -6004567291781836153
+    second: ChimeraAttack4x5_81
+  - first:
+      213: 2890750132312949327
+    second: ChimeraAttack4x5_82
+  - first:
+      213: 2912981717914120174
+    second: ChimeraAttack4x5_83
+  - first:
+      213: -1244189321020664371
+    second: ChimeraAttack4x5_84
+  - first:
+      213: -2869824760529521000
+    second: ChimeraAttack4x5_85
+  - first:
+      213: -8562379663170711552
+    second: ChimeraAttack4x5_86
+  - first:
+      213: 3342260996294382851
+    second: ChimeraAttack4x5_87
+  - first:
+      213: 7062879046298018582
+    second: ChimeraAttack4x5_88
+  - first:
+      213: 632033528239486982
+    second: ChimeraAttack4x5_89
+  - first:
+      213: -3319539882333034829
+    second: ChimeraAttack4x5_90
+  - first:
+      213: -8711978003782039699
+    second: ChimeraAttack4x5_91
+  - first:
+      213: 8230938757269905858
+    second: ChimeraAttack4x5_92
+  - first:
+      213: 3020813170788811243
+    second: ChimeraAttack4x5_93
+  - first:
+      213: -1994105375871333930
+    second: ChimeraAttack4x5_94
+  - first:
+      213: 5302299468530295831
+    second: ChimeraAttack4x5_95
+  - first:
+      213: 8567645440021077408
+    second: ChimeraAttack4x5_96
+  - first:
+      213: 585490726568941518
+    second: ChimeraAttack4x5_97
+  - first:
+      213: 8135656731658332362
+    second: ChimeraAttack4x5_98
+  - first:
+      213: 2520394007775338201
+    second: ChimeraAttack4x5_99
+  - first:
+      213: 703094249379621062
+    second: ChimeraAttack4x5_100
+  - first:
+      213: 255250270466518846
+    second: ChimeraAttack4x5_101
+  - first:
+      213: -6732264223461427159
+    second: ChimeraAttack4x5_102
+  - first:
+      213: -1118567823943559600
+    second: ChimeraAttack4x5_103
+  - first:
+      213: -8321891116280709263
+    second: ChimeraAttack4x5_104
+  - first:
+      213: 1814770096998361390
+    second: ChimeraAttack4x5_105
+  - first:
+      213: 9039822439428342803
+    second: ChimeraAttack4x5_106
+  - first:
+      213: 7797314992446759050
+    second: ChimeraAttack4x5_107
+  - first:
+      213: 5352265540558329897
+    second: ChimeraAttack4x5_108
+  - first:
+      213: -6058684120352494272
+    second: ChimeraAttack4x5_109
+  - first:
+      213: -2433509300421128269
+    second: ChimeraAttack4x5_110
+  - first:
+      213: 2655694218739625239
+    second: ChimeraAttack4x5_111
+  - first:
+      213: -6491054185214367865
+    second: ChimeraAttack4x5_112
+  - first:
+      213: -4472714468631653899
+    second: ChimeraAttack4x5_113
+  - first:
+      213: -3116998767026200813
+    second: ChimeraAttack4x5_114
+  - first:
+      213: 5689360069975322864
+    second: ChimeraAttack4x5_115
+  - first:
+      213: -2714260151515789080
+    second: ChimeraAttack4x5_116
+  - first:
+      213: 757838830074350070
+    second: ChimeraAttack4x5_117
+  - first:
+      213: -2629662660055971575
+    second: ChimeraAttack4x5_118
+  - first:
+      213: -5995330677318843562
+    second: ChimeraAttack4x5_119
+  - first:
+      213: 4634081152671319121
+    second: ChimeraAttack4x5_120
+  - first:
+      213: 3015528480329737875
+    second: ChimeraAttack4x5_121
+  - first:
+      213: 7605026793673954312
+    second: ChimeraAttack4x5_122
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 844
+        width: 257
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f7520c30ea29a00800000000000000
+      internalID: 761862618110853022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_1
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 845
+        width: 269
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e30589924257c60800000000000000
+      internalID: 7815192489439018590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_2
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 845
+        width: 275
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fbe8afa512c411b0800000000000000
+      internalID: -5686707031064908809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_3
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1027
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7813cecd2593fc0800000000000000
+      internalID: -3514686925377009722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_4
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1041
+        width: 31
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4302238007c6ceb90800000000000000
+      internalID: -7211269674897366988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_5
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 834
+        width: 309
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2503d2e4aaeaee5f0800000000000000
+      internalID: -725450443480813486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_6
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1051
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9825accf3fcfcbc20800000000000000
+      internalID: 3223729558138802825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_7
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1053
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5978fbebf0855d0800000000000000
+      internalID: -3073689433748826719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_8
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 847
+        width: 209
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d28381577497a30800000000000000
+      internalID: 4213477494624890188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_9
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 993
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f468dc221a12010800000000000000
+      internalID: 1162387349687390034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_10
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 967
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6de0cbe7ed2f9aa0800000000000000
+      internalID: -6152148091848823443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_11
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 913
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc07deec7c6afd930800000000000000
+      internalID: 4170235157068738765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_12
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 951
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1150d65d2df4d8be0800000000000000
+      internalID: -1473433736137865967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_13
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 931
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd608cac35bbf1010800000000000000
+      internalID: 1161853197443663579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_14
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 913
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf6982e777e1c120800000000000000
+      internalID: 2432479775844560822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_15
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 899
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb2aa2fbeaeb8aa0800000000000000
+      internalID: -6157569766389568592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_16
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 888
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed48501dd1b4a330800000000000000
+      internalID: 3721294755134983653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 866
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8512dc7bf7991d050800000000000000
+      internalID: 5823604566990332248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_18
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 868
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6ed2dee17b045d0800000000000000
+      internalID: -3080260801665308962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_19
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 872
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42380eef316ececa0800000000000000
+      internalID: -5986156831127338204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_20
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 865
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7b0bbd7e1dd43d0800000000000000
+      internalID: -3220687364746594320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 852
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221af53d01e2bb010800000000000000
+      internalID: 1205607975052353826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_22
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 846
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d658e144321a43d0800000000000000
+      internalID: -3221742567776823595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_23
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 814
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08c9c1ea8f807ef0800000000000000
+      internalID: -112432164027906038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_24
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 840
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c68c6cdcf4dd0a0800000000000000
+      internalID: -6855235312566113229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_25
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 860
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98db4606228a5ef00800000000000000
+      internalID: 1145506545835228553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 269
+        width: 1402
+        height: 583
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4e2b751e218adc0800000000000000
+      internalID: -3627628740798651205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_27
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 822
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e057f826a366a20800000000000000
+      internalID: 3055193592205479538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_28
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 826
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55a5f2f0b55de900800000000000000
+      internalID: 715322134300566876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_29
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 832
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856792de9b61a2370800000000000000
+      internalID: 8298470251187238488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_30
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 832
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5dc4d66f562856e0800000000000000
+      internalID: -1848685455846617766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_31
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 843
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977512060494ae4e0800000000000000
+      internalID: -1951666947672156295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_32
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 847
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c447a54f3fa1580800000000000000
+      internalID: -8855497486455518204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_33
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 838
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99590af0bc958420800000000000000
+      internalID: 2631681841191016860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_34
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 837
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40095b634f8c3a0f0800000000000000
+      internalID: -1106820132187566076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_35
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 832
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a69a45430c9156b0800000000000000
+      internalID: -5309290947831753051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_36
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 835
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948ddd160a064dcf0800000000000000
+      internalID: -228451439136090039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_37
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 837
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a924627fb8d9f5550800000000000000
+      internalID: 6151808840483881626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_38
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 796
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c2a2dbce110b5c0800000000000000
+      internalID: -4201838743853061097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_39
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 836
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbee88f6479dae2c0800000000000000
+      internalID: -4401466591690559811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_40
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 832
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657276be8f76f88c0800000000000000
+      internalID: -3994860025655384234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_41
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 823
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb02e8e0e77f0ddc0800000000000000
+      internalID: -3616118379996372802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_42
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 832
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabd69c9062d0f470800000000000000
+      internalID: 8426466215196023722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_43
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 832
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d0f35cc0762ab80800000000000000
+      internalID: -8385026251663930039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_44
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 822
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd22d7542f6b7d60800000000000000
+      internalID: 7889021374152453569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_45
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 827
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559da1d173d2014d0800000000000000
+      internalID: -3165980823306708651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_46
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 790
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ae750b1c8608f20800000000000000
+      internalID: 3422850897898105453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_47
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 786
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e08e955916496a0800000000000000
+      internalID: -6443417872773935549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_48
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 560
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f96c43f1f0bd080800000000000000
+      internalID: -9161712390251307219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_49
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 318
+        width: 205
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11e39ee89ba8e3a0800000000000000
+      internalID: -6635865377604378338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_50
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 570
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7660a92257d359440800000000000000
+      internalID: 4941923739409974887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_51
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 589
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c753c9384261a80800000000000000
+      internalID: -8496563499307795348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_52
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 580
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40617044da70937f0800000000000000
+      internalID: -632465831916792316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_53
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 286
+        width: 211
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0190d720a917928b0800000000000000
+      internalID: -5176481390405023472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_54
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 592
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4509cc35e2d5830800000000000000
+      internalID: 4061453376407229655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_55
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 583
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bfc784133787a20800000000000000
+      internalID: 3060322602304994121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_56
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 564
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3509f8ecadb4fa740800000000000000
+      internalID: 5165430700757717075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_57
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 588
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcdcbdc6260491b20800000000000000
+      internalID: 3105584209525984715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_58
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 269
+        width: 255
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96837a9514638d8e0800000000000000
+      internalID: -1668524007635863447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_59
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 568
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d0b9e6f661ef370800000000000000
+      internalID: 8358142626299055466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_60
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 273
+        width: 191
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622cd24f34864d7a0800000000000000
+      internalID: -6353338533244190170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_61
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 582
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff8912344d206960800000000000000
+      internalID: 7593118742668218354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_62
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 582
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3681896a9e4c81660800000000000000
+      internalID: 7356846499111114851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_63
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 588
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0b9f1fb0ea88130800000000000000
+      internalID: 3569294071018664138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_64
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 315
+        width: 193
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400dabba6534e0750800000000000000
+      internalID: 6273025370501074948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_65
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 564
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d254e192ea744740800000000000000
+      internalID: 5135364588638065367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_66
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 550
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea430df9a8c6df80800000000000000
+      internalID: -8082051848849896736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_67
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 524
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77de25b7db77e75c0800000000000000
+      internalID: -4215800545470648969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_68
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 514
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f560883c40c2e6e0800000000000000
+      internalID: -1809672666651531788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_69
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 504
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffb80ea7d8938930800000000000000
+      internalID: 4144324134216187903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_70
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 512
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43341735a0ea49ba0800000000000000
+      internalID: -6083045837297859788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_71
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 500
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87cc80f72c4fded0800000000000000
+      internalID: -2387105543059880049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_72
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 500
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d33327d1ace04550800000000000000
+      internalID: 6143170071576654805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_73
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 448
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c652bf927ee73560800000000000000
+      internalID: 7293560297622755016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_74
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 392
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc3ca7f1367a0f10800000000000000
+      internalID: 2236730121923607744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_75
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 391
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247fb1d31a0b7a5a0800000000000000
+      internalID: -6510040529779296446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_76
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 350
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59689aebfc195dc80800000000000000
+      internalID: -8298566416917231979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_77
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 342
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc54ee934a06fea0800000000000000
+      internalID: -5839468581294416700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_78
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 323
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe1d81d2242ad520800000000000000
+      internalID: 2727532256289431284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_79
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 325
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777fbbc2fad906eb0800000000000000
+      internalID: -4728606233043667081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_80
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 327
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58831b5f7d3ee700800000000000000
+      internalID: 571461819920779356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_81
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 311
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7821a679cdd7baca0800000000000000
+      internalID: -6004567291781836153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_82
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 295
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f424de2fde10e1820800000000000000
+      internalID: 2890750132312949327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_83
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 287
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef6a75507dfc6820800000000000000
+      internalID: 2912981717914120174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_84
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 303
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc59a3f8760cbbee0800000000000000
+      internalID: -1244189321020664371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_85
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 304
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8967405d5955c28d0800000000000000
+      internalID: -2869824760529521000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_86
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 288
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0005ea0df015c2980800000000000000
+      internalID: -8562379663170711552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_87
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 270
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30515c60ba8126e20800000000000000
+      internalID: 3342260996294382851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_88
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 295
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613a4266213640260800000000000000
+      internalID: 7062879046298018582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_89
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 293
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608f9d0352f65c800800000000000000
+      internalID: 632033528239486982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_90
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 293
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b62ccf8010aee1d0800000000000000
+      internalID: -3319539882333034829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_91
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 289
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d670e81e926d81780800000000000000
+      internalID: -8711978003782039699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_92
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 273
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1611bb03b2a3270800000000000000
+      internalID: 8230938757269905858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_93
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 278
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be140b9e2951ce920800000000000000
+      internalID: 3020813170788811243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_94
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 273
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d90e72d9b38354e0800000000000000
+      internalID: -1994105375871333930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_95
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 273
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714ad7a164d859940800000000000000
+      internalID: 5302299468530295831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_96
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 279
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad93f5622466e670800000000000000
+      internalID: 8567645440021077408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_97
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 284
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec75d68b6b4102800800000000000000
+      internalID: 585490726568941518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_98
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 271
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8a20161b8a7e070800000000000000
+      internalID: 8135656731658332362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_99
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 281
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ded8771ffc3af220800000000000000
+      internalID: 2520394007775338201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_100
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 277
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c864e1ae74e1c900800000000000000
+      internalID: 703094249379621062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_101
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 282
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3faaf3c4c4da8300800000000000000
+      internalID: 255250270466518846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_102
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 285
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928b28a9b513292a0800000000000000
+      internalID: -6732264223461427159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_103
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 1373
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05699a49d7c0a70f0800000000000000
+      internalID: -1118567823943559600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_104
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 261
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ffb9afe14b28c80800000000000000
+      internalID: -8321891116280709263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_105
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 275
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29a694c9cb5f2910800000000000000
+      internalID: 1814770096998361390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_106
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 263
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3144bb61d96e37d70800000000000000
+      internalID: 9039822439428342803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_107
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 259
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80ed967ca0a53c60800000000000000
+      internalID: 7797314992446759050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_108
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 263
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9281b80d621174a40800000000000000
+      internalID: 5352265540558329897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_109
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 29
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04de61094ea3beba0800000000000000
+      internalID: -6058684120352494272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_110
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 22
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf0ace3f207a3ed0800000000000000
+      internalID: -2433509300421128269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_111
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 9
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71da80c42dbead420800000000000000
+      internalID: 2655694218739625239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_112
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 21
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7872c701c942be5a0800000000000000
+      internalID: -6491054185214367865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_113
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 31
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1d57363e9bde1c0800000000000000
+      internalID: -4472714468631653899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_114
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 21
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f921ec2223eb4d0800000000000000
+      internalID: -3116998767026200813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_115
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 33
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0bb2217daa4fe40800000000000000
+      internalID: 5689360069975322864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_116
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 17
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e847e0e5c2055ad0800000000000000
+      internalID: -2714260151515789080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_117
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 21
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f944979662648a00800000000000000
+      internalID: 757838830074350070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_118
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 15
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90941444ebf818bd0800000000000000
+      internalID: -2629662660055971575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_119
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 13
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653886b738e4ccca0800000000000000
+      internalID: -5995330677318843562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_120
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 18
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1548e4581409f4040800000000000000
+      internalID: 4634081152671319121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_121
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 17
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396a0280d2f49d920800000000000000
+      internalID: 3015528480329737875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChimeraAttack4x5_122
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 8
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8049340639b7a8960800000000000000
+      internalID: 7605026793673954312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

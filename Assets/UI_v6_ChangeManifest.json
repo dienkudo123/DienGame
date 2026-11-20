@@ -1,0 +1,36 @@
+{
+  "base": "DienGame UI v5 FULL (Phase4)",
+  "version": "v6 layout fix",
+  "unchanged_original_file_count": 1293,
+  "changed_original_file_count": 10,
+  "added_file_count": 6,
+  "removed_file_count": 0,
+  "changed_files": [
+    "_Game/Scripts/Client/DienGameUITheme.cs",
+    "_Game/Scripts/Client/LobbySafeAreaController.cs",
+    "_Game/Scripts/Client/LobbyUI.cs",
+    "_Game/Scripts/Client/WorldHubPanels.cs",
+    "_Game/Scripts/Gameplay/Run/GameRunUI.cs",
+    "_Game/Scripts/Gameplay/Skills/Mage/MageCompanionJoystick.cs",
+    "_Game/Scripts/Gameplay/UI/GameShellBootstrap.cs",
+    "_Game/Scripts/Gameplay/UI/GameShellUI.cs",
+    "_Game/Scripts/Gameplay/Upgrades/LevelUpUI.cs",
+    "_Game/Scripts/Gameplay/World/WorldStageHud.cs"
+  ],
+  "added_files": [
+    "README_UI_V6_LAYOUTFIX.md",
+    "UI_v6_ChangeManifest.json",
+    "_Game/Editor/DienGameUIBoundsAudit.cs",
+    "_Game/Editor/DienGameUIBoundsAudit.cs.meta",
+    "_Game/Scripts/Gameplay/UI/GameplayJoystickVisualFix.cs",
+    "_Game/Scripts/Gameplay/UI/GameplayJoystickVisualFix.cs.meta"
+  ],
+  "checks": [
+    "File SHA-256 comparison",
+    "No old file deleted",
+    "No old image/scene/prefab/data overwritten",
+    "C# delimiter scan",
+    "Action wiring source review"
+  ],
+  "unity_play_mode_tested": false
+}

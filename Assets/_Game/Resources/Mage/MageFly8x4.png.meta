@@ -1,0 +1,1417 @@
+fileFormatVersion: 2
+guid: 4ac1e141451e19742b6b061a3c1dfe4c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5572402787562380830
+    second: MageFly8x4_0
+  - first:
+      213: -4401363794045008803
+    second: MageFly8x4_1
+  - first:
+      213: 1966881527569645332
+    second: MageFly8x4_2
+  - first:
+      213: -5301674980670033591
+    second: MageFly8x4_3
+  - first:
+      213: -2395863039145252255
+    second: MageFly8x4_4
+  - first:
+      213: 4416608324905545737
+    second: MageFly8x4_5
+  - first:
+      213: 4527966465435118518
+    second: MageFly8x4_6
+  - first:
+      213: -4743038336390682807
+    second: MageFly8x4_7
+  - first:
+      213: -1048954022493476579
+    second: MageFly8x4_8
+  - first:
+      213: 7510021327588698265
+    second: MageFly8x4_9
+  - first:
+      213: 9143557590296268943
+    second: MageFly8x4_10
+  - first:
+      213: -7714511305534485238
+    second: MageFly8x4_11
+  - first:
+      213: -6015989622397557400
+    second: MageFly8x4_12
+  - first:
+      213: -6920333068446189507
+    second: MageFly8x4_13
+  - first:
+      213: 4636942769886722716
+    second: MageFly8x4_14
+  - first:
+      213: 2517992011942050290
+    second: MageFly8x4_15
+  - first:
+      213: -3725103360680238720
+    second: MageFly8x4_16
+  - first:
+      213: -7074783716420194603
+    second: MageFly8x4_17
+  - first:
+      213: -6472533194466536280
+    second: MageFly8x4_18
+  - first:
+      213: 6829371710826765861
+    second: MageFly8x4_19
+  - first:
+      213: 4083107994843006116
+    second: MageFly8x4_20
+  - first:
+      213: 4698434707998191688
+    second: MageFly8x4_21
+  - first:
+      213: 5324229743183900366
+    second: MageFly8x4_22
+  - first:
+      213: 3213936463351343492
+    second: MageFly8x4_23
+  - first:
+      213: 4419207059892236939
+    second: MageFly8x4_24
+  - first:
+      213: -854628133418419890
+    second: MageFly8x4_25
+  - first:
+      213: 6694258022905943122
+    second: MageFly8x4_26
+  - first:
+      213: 291542560816426702
+    second: MageFly8x4_27
+  - first:
+      213: 3837402541166560899
+    second: MageFly8x4_28
+  - first:
+      213: 208597968130743035
+    second: MageFly8x4_29
+  - first:
+      213: -5797392430191068817
+    second: MageFly8x4_30
+  - first:
+      213: -2099166046997077220
+    second: MageFly8x4_31
+  - first:
+      213: -8443029114300338337
+    second: MageFly8x4_32
+  - first:
+      213: -7832652318941691129
+    second: MageFly8x4_33
+  - first:
+      213: 8322716763050031363
+    second: MageFly8x4_34
+  - first:
+      213: 8434563194989409791
+    second: MageFly8x4_35
+  - first:
+      213: -8711165126940773253
+    second: MageFly8x4_36
+  - first:
+      213: -2346377003843445824
+    second: MageFly8x4_37
+  - first:
+      213: -7805864796489203224
+    second: MageFly8x4_38
+  - first:
+      213: -5787646670368368799
+    second: MageFly8x4_39
+  - first:
+      213: 4429315401875410506
+    second: MageFly8x4_40
+  - first:
+      213: -6543084705175119847
+    second: MageFly8x4_41
+  - first:
+      213: -5775411011204357227
+    second: MageFly8x4_42
+  - first:
+      213: -5530532179366037975
+    second: MageFly8x4_43
+  - first:
+      213: 975739455147990867
+    second: MageFly8x4_44
+  - first:
+      213: -2901755108797882137
+    second: MageFly8x4_45
+  - first:
+      213: 6956854395761252117
+    second: MageFly8x4_46
+  - first:
+      213: -5909979856974947919
+    second: MageFly8x4_47
+  - first:
+      213: 8114752441859940991
+    second: MageFly8x4_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MageFly8x4_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1076
+        width: 201
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1a2f54039daa2b0800000000000000
+      internalID: -5572402787562380830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_1
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1114
+        width: 14
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d548ea0e2f63be2c0800000000000000
+      internalID: -4401363794045008803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1076
+        width: 177
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ff01e0454cb4b10800000000000000
+      internalID: 1966881527569645332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_3
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1140
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941369ec1baac66b0800000000000000
+      internalID: -5301674980670033591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_4
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1121
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a624d724f20ced0800000000000000
+      internalID: -2395863039145252255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_5
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1076
+        width: 159
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900370e0fd1fa4d30800000000000000
+      internalID: 4416608324905545737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_6
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1120
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb2427928196de30800000000000000
+      internalID: 4527966465435118518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_7
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1076
+        width: 197
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947af5343c75d2eb0800000000000000
+      internalID: -4743038336390682807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_8
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1134
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d192f87cfdd5171f0800000000000000
+      internalID: -1048954022493476579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_9
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 926
+        width: 171
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998288e8b94f83860800000000000000
+      internalID: 7510021327588698265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_10
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 926
+        width: 167
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f809fe80f2174ee70800000000000000
+      internalID: 9143557590296268943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_11
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 926
+        width: 201
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0dc1e147dc80f490800000000000000
+      internalID: -7714511305534485238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_12
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 927
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865ae800059e28ca0800000000000000
+      internalID: -6015989622397557400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_13
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 926
+        width: 187
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3830ef5db906ff90800000000000000
+      internalID: -6920333068446189507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_14
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 943
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9af9e2b1eab95040800000000000000
+      internalID: 4636942769886722716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 779
+        width: 198
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9b31bd464b1f220800000000000000
+      internalID: 2517992011942050290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_16
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 779
+        width: 195
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0816a0bda36cd4cc0800000000000000
+      internalID: -3725103360680238720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_17
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 791
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de6e0891b151dd90800000000000000
+      internalID: -7074783716420194603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_18
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 779
+        width: 193
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4d5e24a51fc26a0800000000000000
+      internalID: -6472533194466536280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_19
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 801
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e5eee236dc6ce50800000000000000
+      internalID: 6829371710826765861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_20
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 779
+        width: 177
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4cc2c861d1aa830800000000000000
+      internalID: 4083107994843006116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 642
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840399a3971343140800000000000000
+      internalID: 4698434707998191688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_22
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 626
+        width: 157
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eceab011eb673e940800000000000000
+      internalID: 5324229743183900366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_23
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 626
+        width: 169
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4896bbc6f223a9c20800000000000000
+      internalID: 3213936463351343492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_24
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 626
+        width: 191
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8276c1386d245d30800000000000000
+      internalID: 4419207059892236939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_25
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 626
+        width: 139
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e493a8c9d30c324f0800000000000000
+      internalID: -854628133418419890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_26
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 483
+        width: 165
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2541e124438c6ec50800000000000000
+      internalID: 6694258022905943122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_27
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 483
+        width: 201
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eceee561a64cb0400800000000000000
+      internalID: 291542560816426702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_28
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 483
+        width: 201
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3860a6e9741314530800000000000000
+      internalID: 3837402541166560899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_29
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 483
+        width: 169
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa1d4f2fb615e200800000000000000
+      internalID: 208597968130743035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_30
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 338
+        width: 166
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f693ce6fc468b8fa0800000000000000
+      internalID: -5797392430191068817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_31
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 338
+        width: 165
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13ad242a934ed2e0800000000000000
+      internalID: -2099166046997077220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_32
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 338
+        width: 136
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fe8dde0c554da80800000000000000
+      internalID: -8443029114300338337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_33
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 419
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70347501734dc4390800000000000000
+      internalID: -7832652318941691129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_34
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 338
+        width: 189
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30939c3ecca308370800000000000000
+      internalID: 8322716763050031363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_35
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 345
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff57de0a9869d0570800000000000000
+      internalID: 8434563194989409791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_36
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 338
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74bce48879bb1780800000000000000
+      internalID: -8711165126940773253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_37
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 184
+        width: 165
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb14c0fb8eff6fd0800000000000000
+      internalID: -2346377003843445824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_38
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 231
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1c888235ffba390800000000000000
+      internalID: -7805864796489203224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_39
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 184
+        width: 195
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167983f74062eafa0800000000000000
+      internalID: -5787646670368368799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_40
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 185
+        width: 16
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e43f6f3e6187d30800000000000000
+      internalID: 4429315401875410506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_41
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 184
+        width: 181
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918debc902b4235a0800000000000000
+      internalID: -6543084705175119847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_42
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 184
+        width: 191
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593e845e84e99dfa0800000000000000
+      internalID: -5775411011204357227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_43
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 207
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926350ee84a9f33b0800000000000000
+      internalID: -5530532179366037975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_44
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 9
+        width: 191
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fdd616dd58a8d00800000000000000
+      internalID: 975739455147990867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_45
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 106
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e06dea4a15eab7d0800000000000000
+      internalID: -2901755108797882137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_46
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 9
+        width: 177
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517d675c636bb8060800000000000000
+      internalID: 6956854395761252117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_47
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 10
+        width: 173
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b95b4be1a88bfda0800000000000000
+      internalID: -5909979856974947919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MageFly8x4_48
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 9
+        width: 197
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72ab412a546d9070800000000000000
+      internalID: 8114752441859940991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MageFly8x4_0: -5572402787562380830
+      MageFly8x4_1: -4401363794045008803
+      MageFly8x4_10: 9143557590296268943
+      MageFly8x4_11: -7714511305534485238
+      MageFly8x4_12: -6015989622397557400
+      MageFly8x4_13: -6920333068446189507
+      MageFly8x4_14: 4636942769886722716
+      MageFly8x4_15: 2517992011942050290
+      MageFly8x4_16: -3725103360680238720
+      MageFly8x4_17: -7074783716420194603
+      MageFly8x4_18: -6472533194466536280
+      MageFly8x4_19: 6829371710826765861
+      MageFly8x4_2: 1966881527569645332
+      MageFly8x4_20: 4083107994843006116
+      MageFly8x4_21: 4698434707998191688
+      MageFly8x4_22: 5324229743183900366
+      MageFly8x4_23: 3213936463351343492
+      MageFly8x4_24: 4419207059892236939
+      MageFly8x4_25: -854628133418419890
+      MageFly8x4_26: 6694258022905943122
+      MageFly8x4_27: 291542560816426702
+      MageFly8x4_28: 3837402541166560899
+      MageFly8x4_29: 208597968130743035
+      MageFly8x4_3: -5301674980670033591
+      MageFly8x4_30: -5797392430191068817
+      MageFly8x4_31: -2099166046997077220
+      MageFly8x4_32: -8443029114300338337
+      MageFly8x4_33: -7832652318941691129
+      MageFly8x4_34: 8322716763050031363
+      MageFly8x4_35: 8434563194989409791
+      MageFly8x4_36: -8711165126940773253
+      MageFly8x4_37: -2346377003843445824
+      MageFly8x4_38: -7805864796489203224
+      MageFly8x4_39: -5787646670368368799
+      MageFly8x4_4: -2395863039145252255
+      MageFly8x4_40: 4429315401875410506
+      MageFly8x4_41: -6543084705175119847
+      MageFly8x4_42: -5775411011204357227
+      MageFly8x4_43: -5530532179366037975
+      MageFly8x4_44: 975739455147990867
+      MageFly8x4_45: -2901755108797882137
+      MageFly8x4_46: 6956854395761252117
+      MageFly8x4_47: -5909979856974947919
+      MageFly8x4_48: 8114752441859940991
+      MageFly8x4_5: 4416608324905545737
+      MageFly8x4_6: 4527966465435118518
+      MageFly8x4_7: -4743038336390682807
+      MageFly8x4_8: -1048954022493476579
+      MageFly8x4_9: 7510021327588698265
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

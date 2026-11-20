@@ -1,0 +1,2691 @@
+fileFormatVersion: 2
+guid: 44e14d96730735e4ba2acfe90a02f894
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 808587184969056984
+    second: BloodLv5_0
+  - first:
+      213: -1415465168299323130
+    second: BloodLv5_1
+  - first:
+      213: -2682946830453136627
+    second: BloodLv5_2
+  - first:
+      213: 7287376200642029267
+    second: BloodLv5_3
+  - first:
+      213: 3929318278731183315
+    second: BloodLv5_4
+  - first:
+      213: -7033022738187565676
+    second: BloodLv5_5
+  - first:
+      213: -2129579874138408959
+    second: BloodLv5_6
+  - first:
+      213: 336073549215178557
+    second: BloodLv5_7
+  - first:
+      213: 1183778361122682818
+    second: BloodLv5_8
+  - first:
+      213: -1139013473209108504
+    second: BloodLv5_9
+  - first:
+      213: 6959269767163315267
+    second: BloodLv5_10
+  - first:
+      213: 173895568336830698
+    second: BloodLv5_11
+  - first:
+      213: 2076668169270757806
+    second: BloodLv5_12
+  - first:
+      213: 5567064041450247071
+    second: BloodLv5_13
+  - first:
+      213: -6511993294083063070
+    second: BloodLv5_14
+  - first:
+      213: 1301311474300982263
+    second: BloodLv5_15
+  - first:
+      213: -5049964472208352900
+    second: BloodLv5_16
+  - first:
+      213: -2625862867842473313
+    second: BloodLv5_17
+  - first:
+      213: -3551671448187631063
+    second: BloodLv5_18
+  - first:
+      213: -809062762370902437
+    second: BloodLv5_19
+  - first:
+      213: -1413166507723057613
+    second: BloodLv5_20
+  - first:
+      213: -594555373216367947
+    second: BloodLv5_21
+  - first:
+      213: -9079359707769134596
+    second: BloodLv5_22
+  - first:
+      213: -6946212631500415952
+    second: BloodLv5_23
+  - first:
+      213: 5261666120103152043
+    second: BloodLv5_24
+  - first:
+      213: 6035392203018226688
+    second: BloodLv5_25
+  - first:
+      213: 1438253251418687519
+    second: BloodLv5_26
+  - first:
+      213: 6317460803921335627
+    second: BloodLv5_27
+  - first:
+      213: 5323474113358340420
+    second: BloodLv5_28
+  - first:
+      213: -5953645355110313082
+    second: BloodLv5_29
+  - first:
+      213: -3346361603374734254
+    second: BloodLv5_30
+  - first:
+      213: -7145801291890453583
+    second: BloodLv5_31
+  - first:
+      213: -7564977025234002249
+    second: BloodLv5_32
+  - first:
+      213: -1835931387763522892
+    second: BloodLv5_33
+  - first:
+      213: -3489061909746967767
+    second: BloodLv5_34
+  - first:
+      213: 6889671913448012759
+    second: BloodLv5_35
+  - first:
+      213: 6416072132889980821
+    second: BloodLv5_36
+  - first:
+      213: -7394881900463917628
+    second: BloodLv5_37
+  - first:
+      213: 7529306641015648986
+    second: BloodLv5_38
+  - first:
+      213: -2527553862467413624
+    second: BloodLv5_39
+  - first:
+      213: -6492713482737751926
+    second: BloodLv5_40
+  - first:
+      213: -5693863462738983307
+    second: BloodLv5_41
+  - first:
+      213: -439802392602248812
+    second: BloodLv5_42
+  - first:
+      213: 1712927996380744825
+    second: BloodLv5_43
+  - first:
+      213: 3046696943101726064
+    second: BloodLv5_44
+  - first:
+      213: -9022123086646823628
+    second: BloodLv5_45
+  - first:
+      213: 7965297830844366802
+    second: BloodLv5_46
+  - first:
+      213: 6680294182757426440
+    second: BloodLv5_47
+  - first:
+      213: -7539437987460022588
+    second: BloodLv5_48
+  - first:
+      213: -7682094680552518670
+    second: BloodLv5_49
+  - first:
+      213: 2859269191014900442
+    second: BloodLv5_50
+  - first:
+      213: 4408021003558866279
+    second: BloodLv5_51
+  - first:
+      213: -1353450121688806992
+    second: BloodLv5_52
+  - first:
+      213: -7924519478922102914
+    second: BloodLv5_53
+  - first:
+      213: 8833463919700387762
+    second: BloodLv5_54
+  - first:
+      213: -1191903693433936174
+    second: BloodLv5_55
+  - first:
+      213: -2057245065880446068
+    second: BloodLv5_56
+  - first:
+      213: -7340520573526007882
+    second: BloodLv5_57
+  - first:
+      213: -5761951831941828500
+    second: BloodLv5_58
+  - first:
+      213: -7378581526107947615
+    second: BloodLv5_59
+  - first:
+      213: 3322063676374963689
+    second: BloodLv5_60
+  - first:
+      213: 8452679617195179394
+    second: BloodLv5_61
+  - first:
+      213: 5099221792436414323
+    second: BloodLv5_62
+  - first:
+      213: -3732485484837545988
+    second: BloodLv5_63
+  - first:
+      213: -3687060119532924595
+    second: BloodLv5_64
+  - first:
+      213: -3018094032235709451
+    second: BloodLv5_65
+  - first:
+      213: 8433369726193144030
+    second: BloodLv5_66
+  - first:
+      213: 4969711980741134692
+    second: BloodLv5_67
+  - first:
+      213: 1228451702096796563
+    second: BloodLv5_68
+  - first:
+      213: 3222954013247214202
+    second: BloodLv5_69
+  - first:
+      213: 8897656167931453816
+    second: BloodLv5_70
+  - first:
+      213: 8703179448315941217
+    second: BloodLv5_71
+  - first:
+      213: 2054893941526803195
+    second: BloodLv5_72
+  - first:
+      213: -5101821238500525150
+    second: BloodLv5_73
+  - first:
+      213: -4324719161927516366
+    second: BloodLv5_74
+  - first:
+      213: 3036210842147386808
+    second: BloodLv5_75
+  - first:
+      213: -3766332001224687495
+    second: BloodLv5_76
+  - first:
+      213: -3550181959400384613
+    second: BloodLv5_77
+  - first:
+      213: 6480233985858475017
+    second: BloodLv5_78
+  - first:
+      213: -8439450157167069207
+    second: BloodLv5_79
+  - first:
+      213: 2638853020012312546
+    second: BloodLv5_80
+  - first:
+      213: -8606188745420641673
+    second: BloodLv5_81
+  - first:
+      213: 336016788337827441
+    second: BloodLv5_82
+  - first:
+      213: -4393105836468158212
+    second: BloodLv5_83
+  - first:
+      213: -1230986326125061475
+    second: BloodLv5_84
+  - first:
+      213: -6009888967339406297
+    second: BloodLv5_85
+  - first:
+      213: -5287044425536888
+    second: BloodLv5_86
+  - first:
+      213: 2685136448340242816
+    second: BloodLv5_87
+  - first:
+      213: -4065994904621514692
+    second: BloodLv5_88
+  - first:
+      213: 533275402720508345
+    second: BloodLv5_89
+  - first:
+      213: 4131100489559768097
+    second: BloodLv5_90
+  - first:
+      213: -4221674757044035988
+    second: BloodLv5_91
+  - first:
+      213: -8042849527263999883
+    second: BloodLv5_92
+  - first:
+      213: -3139451173557792233
+    second: BloodLv5_93
+  - first:
+      213: 6846676874128905318
+    second: BloodLv5_94
+  - first:
+      213: -2755640349882034327
+    second: BloodLv5_95
+  - first:
+      213: 6213632694056122934
+    second: BloodLv5_96
+  - first:
+      213: -4469314602202014247
+    second: BloodLv5_97
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BloodLv5_0
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 445
+        width: 19
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2830ab2cda83b00800000000000000
+      internalID: 808587184969056984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_1
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 468
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601949bcde14b5ce0800000000000000
+      internalID: -1415465168299323130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 469
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03a493921244cad0800000000000000
+      internalID: -2682946830453136627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_3
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 484
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d667e75b06f12560800000000000000
+      internalID: 7287376200642029267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 462
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4b835f72eb78630800000000000000
+      internalID: 3929318278731183315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_5
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 493
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495c519051fa56e90800000000000000
+      internalID: -7033022738187565676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_6
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 220
+        width: 253
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108b82133663272e0800000000000000
+      internalID: -2129579874138408959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_7
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 255
+        width: 265
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f1067cc19f9a400800000000000000
+      internalID: 336073549215178557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_8
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 486
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7f283c520ad6010800000000000000
+      internalID: 1183778361122682818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_9
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 480
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7bcf6e7496130f0800000000000000
+      internalID: -1139013473209108504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_10
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 465
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34482ef3bfa449060800000000000000
+      internalID: 6959269767163315267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 246
+        width: 254
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae04bba191dc96200800000000000000
+      internalID: 173895568336830698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_12
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 459
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea98eb182bec1dc10800000000000000
+      internalID: 2076668169270757806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_13
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 455
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f931e78004f224d40800000000000000
+      internalID: 5567064041450247071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_14
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 464
+        width: 36
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2047ed990c0a5a0800000000000000
+      internalID: -6511993294083063070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_15
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 246
+        width: 255
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f399d724ef2f0210800000000000000
+      internalID: 1301311474300982263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_16
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 441
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c799da1811ceae9b0800000000000000
+      internalID: -5049964472208352900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_17
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 438
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f926c5552af0f8bd0800000000000000
+      internalID: -2625862867842473313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_18
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 431
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a01eba2ade5bec0800000000000000
+      internalID: -3551671448187631063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_19
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 422
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56d2e744b1a5c4f0800000000000000
+      internalID: -809062762370902437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_20
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 399
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33610ba6c8c636ce0800000000000000
+      internalID: -1413166507723057613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_21
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 390
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba7324c907bfb7f0800000000000000
+      internalID: -594555373216367947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_22
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 377
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf12d664372aff180800000000000000
+      internalID: -9079359707769134596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_23
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 383
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c161d0a681a9f90800000000000000
+      internalID: -6946212631500415952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_24
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 381
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9c47f6571350940800000000000000
+      internalID: 5261666120103152043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_25
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 366
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c40155b3502c350800000000000000
+      internalID: 6035392203018226688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_26
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 345
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f188cd346b3b5f310800000000000000
+      internalID: 1438253251418687519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_27
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 339
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b455f2c31212ca750800000000000000
+      internalID: 6317460803921335627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_28
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 329
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44126b94087c0e940800000000000000
+      internalID: 5323474113358340420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_29
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 305
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683def1e717606da0800000000000000
+      internalID: -5953645355110313082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_30
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 308
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254a7dcf9d55f81d0800000000000000
+      internalID: -3346361603374734254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_31
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 303
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b39759c59305dc90800000000000000
+      internalID: -7145801291890453583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_32
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 309
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be9fecf97dc30790800000000000000
+      internalID: -7564977025234002249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_33
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 266
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b28d5841267586e0800000000000000
+      internalID: -1835931387763522892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_34
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 282
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b9f2ecdac549fc0800000000000000
+      internalID: -3489061909746967767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_35
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 292
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbfd0c2a180d9f50800000000000000
+      internalID: 6889671913448012759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_36
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 275
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59fa03e6c977a0950800000000000000
+      internalID: 6416072132889980821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_37
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 266
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5f1ee571a106990800000000000000
+      internalID: -7394881900463917628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_38
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 276
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad23abe7f787d7860800000000000000
+      internalID: 7529306641015648986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_39
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 274
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88996f457235cecd0800000000000000
+      internalID: -2527553862467413624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_40
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 279
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88e601cc7f35e5a0800000000000000
+      internalID: -6492713482737751926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_41
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 282
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5760ed719555bf0b0800000000000000
+      internalID: -5693863462738983307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_42
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 279
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4997399dd0285e9f0800000000000000
+      internalID: -439802392602248812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_43
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 273
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c881eefea85c710800000000000000
+      internalID: 1712927996380744825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_44
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 269
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07dc8d74aba084a20800000000000000
+      internalID: 3046696943101726064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_45
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 277
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435b09c9adafac280800000000000000
+      internalID: -9022123086646823628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_46
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 274
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dffaa9dc2c6a8e60800000000000000
+      internalID: 7965297830844366802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_47
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 255
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8056d5e5a2c25bc50800000000000000
+      internalID: 6680294182757426440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_48
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 254
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cefb5798198e5790800000000000000
+      internalID: -7539437987460022588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_49
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbcfbae697b36590800000000000000
+      internalID: -7682094680552518670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_50
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 266
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad269af1e2a2ea720800000000000000
+      internalID: 2859269191014900442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_51
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 260
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d469f7fbf6c2d30800000000000000
+      internalID: 4408021003558866279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_52
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 269
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b987830944973de0800000000000000
+      internalID: -1353450121688806992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_53
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 236
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e773f231583760290800000000000000
+      internalID: -7924519478922102914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_54
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 268
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7a8fd12a4c69a70800000000000000
+      internalID: 8833463919700387762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_55
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 273
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6e462e7e1857fe0800000000000000
+      internalID: -1191903693433936174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_56
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 253
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b554823823373e0800000000000000
+      internalID: -2057245065880446068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_57
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 265
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf198c1e6b312a90800000000000000
+      internalID: -7340520573526007882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_58
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 254
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c603234465f6900b0800000000000000
+      internalID: -5761951831941828500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_59
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 255
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad731602330a9990800000000000000
+      internalID: -7378581526107947615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_60
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 255
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5de8700575a1e20800000000000000
+      internalID: 3322063676374963689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_61
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 257
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d7a1fd353fd4570800000000000000
+      internalID: 8452679617195179394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_62
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 257
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3776a11143314c640800000000000000
+      internalID: 5099221792436414323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_63
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 264
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7d4f22a3c833cc0800000000000000
+      internalID: -3732485484837545988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_64
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 254
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d411bbd2b5ee4dcc0800000000000000
+      internalID: -3687060119532924595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_65
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 244
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb3dddd7739d16d0800000000000000
+      internalID: -3018094032235709451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_66
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 249
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed096458519590570800000000000000
+      internalID: 8433369726193144030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_67
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 254
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469041047b6f7f440800000000000000
+      internalID: 4969711980741134692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_68
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 255
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b143f70565c0110800000000000000
+      internalID: 1228451702096796563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_69
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 256
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72150f599b3abc20800000000000000
+      internalID: 3222954013247214202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 549
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8712e179423da7b70800000000000000
+      internalID: 8897656167931453816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_71
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 235
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1611a59c897e7c870800000000000000
+      internalID: 8703179448315941217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_72
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 241
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2becb0723748c10800000000000000
+      internalID: 2054893941526803195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_73
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 246
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abf1ab3d90b239b0800000000000000
+      internalID: -5101821238500525150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_74
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 230
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f3cf7e5d28bf3c0800000000000000
+      internalID: -4324719161927516366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_75
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 235
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b57265aca9c22a20800000000000000
+      internalID: 3036210842147386808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_76
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 221
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97001d0fffc4bbbc0800000000000000
+      internalID: -3766332001224687495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_77
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 224
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9790fd41583bbec0800000000000000
+      internalID: -3550181959400384613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_78
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 218
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9041284f97a6ee950800000000000000
+      internalID: 6480233985858475017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_79
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 213
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e73172dbcc01ea80800000000000000
+      internalID: -8439450157167069207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_80
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 193
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7fc4827d61f9420800000000000000
+      internalID: 2638853020012312546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_81
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 0
+        width: 233
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77aec3ffeeca09880800000000000000
+      internalID: -8606188745420641673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_82
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 8
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e917b1d75c9a400800000000000000
+      internalID: 336016788337827441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_83
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 17
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0ce94748d8803c0800000000000000
+      internalID: -4393105836468158212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_84
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 27
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ad3fb5578aaeee0800000000000000
+      internalID: -1230986326125061475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_85
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 13
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c023273d5989ca0800000000000000
+      internalID: -6009888967339406297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_86
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 11
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88aaa1b06773deff0800000000000000
+      internalID: -5287044425536888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_87
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 25
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08136c09f55834520800000000000000
+      internalID: 2685136448340242816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_88
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 14
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c308c734d2fa297c0800000000000000
+      internalID: -4065994904621514692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_89
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 11
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9fb924723966700800000000000000
+      internalID: 533275402720508345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_90
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 7
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12cf6abf10e945930800000000000000
+      internalID: 4131100489559768097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_91
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 17
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e18250d299965c0800000000000000
+      internalID: -4221674757044035988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_92
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 7
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578c281c7fe026090800000000000000
+      internalID: -8042849527263999883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_93
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712976a8acd6e64d0800000000000000
+      internalID: -3139451173557792233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_94
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 15
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664d55e7758440f50800000000000000
+      internalID: 6846676874128905318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_95
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 12
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9675c88a3bff1c9d0800000000000000
+      internalID: -2755640349882034327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_96
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 9
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63af7f593024b3650800000000000000
+      internalID: 6213632694056122934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BloodLv5_97
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 4
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd584a7c0ec9f1c0800000000000000
+      internalID: -4469314602202014247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BloodLv5_0: 808587184969056984
+      BloodLv5_1: -1415465168299323130
+      BloodLv5_10: 6959269767163315267
+      BloodLv5_11: 173895568336830698
+      BloodLv5_12: 2076668169270757806
+      BloodLv5_13: 5567064041450247071
+      BloodLv5_14: -6511993294083063070
+      BloodLv5_15: 1301311474300982263
+      BloodLv5_16: -5049964472208352900
+      BloodLv5_17: -2625862867842473313
+      BloodLv5_18: -3551671448187631063
+      BloodLv5_19: -809062762370902437
+      BloodLv5_2: -2682946830453136627
+      BloodLv5_20: -1413166507723057613
+      BloodLv5_21: -594555373216367947
+      BloodLv5_22: -9079359707769134596
+      BloodLv5_23: -6946212631500415952
+      BloodLv5_24: 5261666120103152043
+      BloodLv5_25: 6035392203018226688
+      BloodLv5_26: 1438253251418687519
+      BloodLv5_27: 6317460803921335627
+      BloodLv5_28: 5323474113358340420
+      BloodLv5_29: -5953645355110313082
+      BloodLv5_3: 7287376200642029267
+      BloodLv5_30: -3346361603374734254
+      BloodLv5_31: -7145801291890453583
+      BloodLv5_32: -7564977025234002249
+      BloodLv5_33: -1835931387763522892
+      BloodLv5_34: -3489061909746967767
+      BloodLv5_35: 6889671913448012759
+      BloodLv5_36: 6416072132889980821
+      BloodLv5_37: -7394881900463917628
+      BloodLv5_38: 7529306641015648986
+      BloodLv5_39: -2527553862467413624
+      BloodLv5_4: 3929318278731183315
+      BloodLv5_40: -6492713482737751926
+      BloodLv5_41: -5693863462738983307
+      BloodLv5_42: -439802392602248812
+      BloodLv5_43: 1712927996380744825
+      BloodLv5_44: 3046696943101726064
+      BloodLv5_45: -9022123086646823628
+      BloodLv5_46: 7965297830844366802
+      BloodLv5_47: 6680294182757426440
+      BloodLv5_48: -7539437987460022588
+      BloodLv5_49: -7682094680552518670
+      BloodLv5_5: -7033022738187565676
+      BloodLv5_50: 2859269191014900442
+      BloodLv5_51: 4408021003558866279
+      BloodLv5_52: -1353450121688806992
+      BloodLv5_53: -7924519478922102914
+      BloodLv5_54: 8833463919700387762
+      BloodLv5_55: -1191903693433936174
+      BloodLv5_56: -2057245065880446068
+      BloodLv5_57: -7340520573526007882
+      BloodLv5_58: -5761951831941828500
+      BloodLv5_59: -7378581526107947615
+      BloodLv5_6: -2129579874138408959
+      BloodLv5_60: 3322063676374963689
+      BloodLv5_61: 8452679617195179394
+      BloodLv5_62: 5099221792436414323
+      BloodLv5_63: -3732485484837545988
+      BloodLv5_64: -3687060119532924595
+      BloodLv5_65: -3018094032235709451
+      BloodLv5_66: 8433369726193144030
+      BloodLv5_67: 4969711980741134692
+      BloodLv5_68: 1228451702096796563
+      BloodLv5_69: 3222954013247214202
+      BloodLv5_7: 336073549215178557
+      BloodLv5_70: 8897656167931453816
+      BloodLv5_71: 8703179448315941217
+      BloodLv5_72: 2054893941526803195
+      BloodLv5_73: -5101821238500525150
+      BloodLv5_74: -4324719161927516366
+      BloodLv5_75: 3036210842147386808
+      BloodLv5_76: -3766332001224687495
+      BloodLv5_77: -3550181959400384613
+      BloodLv5_78: 6480233985858475017
+      BloodLv5_79: -8439450157167069207
+      BloodLv5_8: 1183778361122682818
+      BloodLv5_80: 2638853020012312546
+      BloodLv5_81: -8606188745420641673
+      BloodLv5_82: 336016788337827441
+      BloodLv5_83: -4393105836468158212
+      BloodLv5_84: -1230986326125061475
+      BloodLv5_85: -6009888967339406297
+      BloodLv5_86: -5287044425536888
+      BloodLv5_87: 2685136448340242816
+      BloodLv5_88: -4065994904621514692
+      BloodLv5_89: 533275402720508345
+      BloodLv5_9: -1139013473209108504
+      BloodLv5_90: 4131100489559768097
+      BloodLv5_91: -4221674757044035988
+      BloodLv5_92: -8042849527263999883
+      BloodLv5_93: -3139451173557792233
+      BloodLv5_94: 6846676874128905318
+      BloodLv5_95: -2755640349882034327
+      BloodLv5_96: 6213632694056122934
+      BloodLv5_97: -4469314602202014247
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

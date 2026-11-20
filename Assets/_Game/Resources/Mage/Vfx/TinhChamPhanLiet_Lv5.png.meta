@@ -1,0 +1,493 @@
+fileFormatVersion: 2
+guid: baca1b599c7a25b46aa973f907a1f709
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6360764770986491362
+    second: TinhChamPhanLiet_Lv5_0
+  - first:
+      213: 4601124132868036424
+    second: TinhChamPhanLiet_Lv5_1
+  - first:
+      213: 9106165169486172989
+    second: TinhChamPhanLiet_Lv5_2
+  - first:
+      213: 9130726780956416183
+    second: TinhChamPhanLiet_Lv5_3
+  - first:
+      213: 1672647036197296749
+    second: TinhChamPhanLiet_Lv5_4
+  - first:
+      213: 3086676007568278274
+    second: TinhChamPhanLiet_Lv5_5
+  - first:
+      213: -3059786002668145124
+    second: TinhChamPhanLiet_Lv5_6
+  - first:
+      213: 4486320776949166928
+    second: TinhChamPhanLiet_Lv5_7
+  - first:
+      213: 8759862465922796041
+    second: TinhChamPhanLiet_Lv5_8
+  - first:
+      213: 7481360467393102758
+    second: TinhChamPhanLiet_Lv5_9
+  - first:
+      213: 2728187167235808664
+    second: TinhChamPhanLiet_Lv5_10
+  - first:
+      213: 5779946458265172598
+    second: TinhChamPhanLiet_Lv5_11
+  - first:
+      213: -1237862631290933524
+    second: TinhChamPhanLiet_Lv5_12
+  - first:
+      213: 1380002597282835169
+    second: TinhChamPhanLiet_Lv5_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TinhChamPhanLiet_Lv5_0
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 641
+        width: 219
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12088d34260ab7a0800000000000000
+      internalID: -6360764770986491362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinhChamPhanLiet_Lv5_1
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 628
+        width: 353
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8479313650a7adf30800000000000000
+      internalID: 4601124132868036424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinhChamPhanLiet_Lv5_2
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 606
+        width: 430
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d331241a9f89f5e70800000000000000
+      internalID: 9106165169486172989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinhChamPhanLiet_Lv5_3
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 552
+        width: 450
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b89d0071abd6be70800000000000000
+      internalID: 9130726780956416183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinhChamPhanLiet_Lv5_4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 543
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a562b0e9f663710800000000000000
+      internalID: 1672647036197296749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinhChamPhanLiet_Lv5_5
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 543
+        width: 62
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20304d7997316da20800000000000000
+      internalID: 3086676007568278274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinhChamPhanLiet_Lv5_6
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 543
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16b04e87d47985d0800000000000000
+      internalID: -3059786002668145124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinhChamPhanLiet_Lv5_7
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 544
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05372822afc924e30800000000000000
+      internalID: 4486320776949166928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinhChamPhanLiet_Lv5_8
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 543
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a0b924088419970800000000000000
+      internalID: 8759862465922796041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinhChamPhanLiet_Lv5_9
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 543
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3cd9705b123d760800000000000000
+      internalID: 7481360467393102758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinhChamPhanLiet_Lv5_10
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 543
+        width: 146
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d9ed726c77cd520800000000000000
+      internalID: 2728187167235808664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinhChamPhanLiet_Lv5_11
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 69
+        width: 450
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a3ca92eae763050800000000000000
+      internalID: 5779946458265172598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinhChamPhanLiet_Lv5_12
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 67
+        width: 450
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee6c2dce7a32dee0800000000000000
+      internalID: -1237862631290933524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TinhChamPhanLiet_Lv5_13
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 89
+        width: 450
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eae828fc01c62310800000000000000
+      internalID: 1380002597282835169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

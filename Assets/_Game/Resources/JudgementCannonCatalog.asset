@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99e593cbc414ca049b6aea69d18e0bd5, type: 3}
+  m_Name: JudgementCannonCatalog
+  m_EditorClassIdentifier: 
+  cannonFrames:
+  - {fileID: -5249155740130077278, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  - {fileID: 1640957592, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  - {fileID: -1857081384, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  - {fileID: 1834965222, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  - {fileID: 1732084991, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  - {fileID: 656102831, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  - {fileID: -1640960426, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  - {fileID: 649688735, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  beamFrames:
+  - {fileID: 319475145, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  - {fileID: 1551996366, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  - {fileID: 1116405239, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  - {fileID: 1072843699, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  - {fileID: -594075381, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  - {fileID: 1571883888, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  shockwaveFrames:
+  - {fileID: -1671846174, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  - {fileID: -909324153, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  - {fileID: -1751536171, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  - {fileID: 1746585038, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  - {fileID: -1345877145, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  - {fileID: -1729526688, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  - {fileID: 103217166, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}
+  - {fileID: 2116135940, guid: 9cde0c5d394def041b3edcb819e7a848, type: 3}

@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 5c826c2d9053e23439b2dcfa550d4f10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7725307073264284427
+    second: Bio_IceFox_Attack4x5_0
+  - first:
+      213: 2353288264594783113
+    second: Bio_IceFox_Attack4x5_1
+  - first:
+      213: 2886531704107249268
+    second: Bio_IceFox_Attack4x5_2
+  - first:
+      213: -4878907019198147915
+    second: Bio_IceFox_Attack4x5_3
+  - first:
+      213: 8184732540663376050
+    second: Bio_IceFox_Attack4x5_4
+  - first:
+      213: -2995667503525183485
+    second: Bio_IceFox_Attack4x5_5
+  - first:
+      213: 8168054247458114725
+    second: Bio_IceFox_Attack4x5_6
+  - first:
+      213: 8095591169647003012
+    second: Bio_IceFox_Attack4x5_7
+  - first:
+      213: 8406058584917790449
+    second: Bio_IceFox_Attack4x5_8
+  - first:
+      213: 4543566030547936477
+    second: Bio_IceFox_Attack4x5_9
+  - first:
+      213: -731157146927298959
+    second: Bio_IceFox_Attack4x5_10
+  - first:
+      213: 6509744639203453271
+    second: Bio_IceFox_Attack4x5_11
+  - first:
+      213: -8748179734310488090
+    second: Bio_IceFox_Attack4x5_12
+  - first:
+      213: 8182448981705726652
+    second: Bio_IceFox_Attack4x5_13
+  - first:
+      213: 6392242213078633635
+    second: Bio_IceFox_Attack4x5_14
+  - first:
+      213: 6608354943891584861
+    second: Bio_IceFox_Attack4x5_15
+  - first:
+      213: -1505325805560422617
+    second: Bio_IceFox_Attack4x5_16
+  - first:
+      213: 3981901583378945283
+    second: Bio_IceFox_Attack4x5_17
+  - first:
+      213: 8017131324876650165
+    second: Bio_IceFox_Attack4x5_18
+  - first:
+      213: 452521878159963569
+    second: Bio_IceFox_Attack4x5_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bio_IceFox_Attack4x5_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 794
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03faba4addc53b60800000000000000
+      internalID: 7725307073264284427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Attack4x5_1
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 782
+        width: 248
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b7449553f88a020800000000000000
+      internalID: 2353288264594783113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Attack4x5_2
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 797
+        width: 240
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e27389a450f0820800000000000000
+      internalID: 2886531704107249268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Attack4x5_3
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 789
+        width: 248
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2d8846ae3aa4cb0800000000000000
+      internalID: -4878907019198147915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Attack4x5_4
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 794
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b822d391e2069170800000000000000
+      internalID: 8184732540663376050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Attack4x5_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 538
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300433bf6404d66d0800000000000000
+      internalID: -2995667503525183485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Attack4x5_6
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 531
+        width: 247
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac8cd5df02ca5170800000000000000
+      internalID: 8168054247458114725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Attack4x5_7
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 534
+        width: 240
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4854999c641595070800000000000000
+      internalID: 8095591169647003012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Attack4x5_8
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 529
+        width: 248
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fec52beeb158a470800000000000000
+      internalID: 8406058584917790449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Attack4x5_9
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 538
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd467506b3dfd0f30800000000000000
+      internalID: 4543566030547936477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Attack4x5_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 282
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176096ed2786ad5f0800000000000000
+      internalID: -731157146927298959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Attack4x5_11
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 280
+        width: 248
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759a93e5242475a50800000000000000
+      internalID: 6509744639203453271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Attack4x5_12
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 271
+        width: 240
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7f629a1e8389680800000000000000
+      internalID: -8748179734310488090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Attack4x5_13
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 269
+        width: 248
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba93531ff5ed8170800000000000000
+      internalID: 8182448981705726652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Attack4x5_14
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 282
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac0fccdc6ec5b850800000000000000
+      internalID: 6392242213078633635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Attack4x5_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 26
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57ba541fc795bb50800000000000000
+      internalID: 6608354943891584861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Attack4x5_16
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 19
+        width: 247
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f9758c7220c1be0800000000000000
+      internalID: -1505325805560422617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Attack4x5_17
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 22
+        width: 240
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3051edf946e824730800000000000000
+      internalID: 3981901583378945283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Attack4x5_18
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 17
+        width: 248
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6fde0a672924f60800000000000000
+      internalID: 8017131324876650165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Attack4x5_19
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 26
+        width: 237
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b531d8204ea74600800000000000000
+      internalID: 452521878159963569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bio_IceFox_Attack4x5_0: 7725307073264284427
+      Bio_IceFox_Attack4x5_1: 2353288264594783113
+      Bio_IceFox_Attack4x5_10: -731157146927298959
+      Bio_IceFox_Attack4x5_11: 6509744639203453271
+      Bio_IceFox_Attack4x5_12: -8748179734310488090
+      Bio_IceFox_Attack4x5_13: 8182448981705726652
+      Bio_IceFox_Attack4x5_14: 6392242213078633635
+      Bio_IceFox_Attack4x5_15: 6608354943891584861
+      Bio_IceFox_Attack4x5_16: -1505325805560422617
+      Bio_IceFox_Attack4x5_17: 3981901583378945283
+      Bio_IceFox_Attack4x5_18: 8017131324876650165
+      Bio_IceFox_Attack4x5_19: 452521878159963569
+      Bio_IceFox_Attack4x5_2: 2886531704107249268
+      Bio_IceFox_Attack4x5_3: -4878907019198147915
+      Bio_IceFox_Attack4x5_4: 8184732540663376050
+      Bio_IceFox_Attack4x5_5: -2995667503525183485
+      Bio_IceFox_Attack4x5_6: 8168054247458114725
+      Bio_IceFox_Attack4x5_7: 8095591169647003012
+      Bio_IceFox_Attack4x5_8: 8406058584917790449
+      Bio_IceFox_Attack4x5_9: 4543566030547936477
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

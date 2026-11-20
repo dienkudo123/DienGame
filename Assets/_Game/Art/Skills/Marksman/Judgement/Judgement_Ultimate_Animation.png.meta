@@ -1,0 +1,654 @@
+fileFormatVersion: 2
+guid: 9cde0c5d394def041b3edcb819e7a848
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5249155740130077278
+    second: Judgement_Ultimate_Animation_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Judgement_Cannon_Fire_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 483
+        width: 271
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a518d26aa04727b0800000000000000
+      internalID: -5249155740130077278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Cannon_Fire_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 483
+        width: 271
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f2ddf084beb1444bf16bf1b78bff62
+      internalID: 1640957592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Cannon_Fire_2
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 483
+        width: 271
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d795c5519d8a03428829750551fd6dd
+      internalID: -1857081384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Cannon_Fire_3
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 483
+        width: 271
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b46f52f23055df418b58970570367bc
+      internalID: 1834965222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Cannon_Fire_4
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 483
+        width: 271
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9f26ce7a6e16b48b536f8e5d35277f
+      internalID: 1732084991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Cannon_Fire_5
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 482
+        width: 271
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac746ef5ead20564c858bb6bf1d887b9
+      internalID: 656102831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Cannon_Fire_6
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 483
+        width: 258
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1909b71e25584f4f9d37369df831da6
+      internalID: -1640960426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Cannon_Fire_7
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 483
+        width: 232
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78045164df9d5a74db6c57378ac944dd
+      internalID: 649688735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Beam_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 240
+        width: 275
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d968765231a35f341a02a5d3ea856a94
+      internalID: 319475145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Beam_1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 240
+        width: 271
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35547496c92d2614e9955a0f33ef4f37
+      internalID: 1551996366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Beam_2
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 269
+        width: 352
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33c4ce279f5e3448bfb7a2023b895f4
+      internalID: 1116405239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Beam_3
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 264
+        width: 382
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7bbfd05c9d1554f9c819272b65603b
+      internalID: 1072843699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Beam_4
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 260
+        width: 379
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdc4675a23540d428c0ca5cd5534297
+      internalID: -594075381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Beam_5
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 243
+        width: 374
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fbc6a5c37ee3342b520c4f44c25235
+      internalID: 1571883888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Shockwave_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 271
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcfb942ebf4aaa4e99b788734f579ab
+      internalID: -1671846174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Shockwave_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2
+        width: 271
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6cb1c415073bc4e87c6213ec3c8e41
+      internalID: -909324153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Shockwave_2
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1
+        width: 271
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8537ae7aa2bcc247bde09b0501e79f9
+      internalID: -1751536171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Shockwave_3
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 15
+        width: 271
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1292b6dcb6dc4e4eaccf7578e44bf35
+      internalID: 1746585038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Shockwave_4
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 16
+        width: 271
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808febfc627e81348bb32e0c19700df5
+      internalID: -1345877145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Shockwave_5
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 6
+        width: 271
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964f57f2015a5974997213d785c79b04
+      internalID: -1729526688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Shockwave_6
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 10
+        width: 271
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5046819, y: 0.49473515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f136c2ed9bcbee64c8c327898519e654
+      internalID: 103217166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Judgement_Shockwave_7
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 6
+        width: 271
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9e7f05850ebf74aa240bb2f1f6969d
+      internalID: 2116135940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b4380b727e6f1ae44b6a5a6e1dd12e5a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Judgement_Beam_0: 319475145
+      Judgement_Beam_1: 1551996366
+      Judgement_Beam_2: 1116405239
+      Judgement_Beam_3: 1072843699
+      Judgement_Beam_4: -594075381
+      Judgement_Beam_5: 1571883888
+      Judgement_Cannon_Fire_0: -5249155740130077278
+      Judgement_Cannon_Fire_1: 1640957592
+      Judgement_Cannon_Fire_2: -1857081384
+      Judgement_Cannon_Fire_3: 1834965222
+      Judgement_Cannon_Fire_4: 1732084991
+      Judgement_Cannon_Fire_5: 656102831
+      Judgement_Cannon_Fire_6: -1640960426
+      Judgement_Cannon_Fire_7: 649688735
+      Judgement_Shockwave_0: -1671846174
+      Judgement_Shockwave_1: -909324153
+      Judgement_Shockwave_2: -1751536171
+      Judgement_Shockwave_3: 1746585038
+      Judgement_Shockwave_4: -1345877145
+      Judgement_Shockwave_5: -1729526688
+      Judgement_Shockwave_6: 103217166
+      Judgement_Shockwave_7: 2116135940
+      Judgement_Ultimate_Animation_12: -948634681
+      Judgement_Ultimate_Animation_14: -476562760
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

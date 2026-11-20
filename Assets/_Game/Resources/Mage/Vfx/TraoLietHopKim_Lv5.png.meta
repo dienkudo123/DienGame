@@ -1,0 +1,743 @@
+fileFormatVersion: 2
+guid: 7e01f36506e225c4faf4ac5a40daa257
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8562858911971975404
+    second: TraoLietHopKim_Lv5_0
+  - first:
+      213: 7595549209020214515
+    second: TraoLietHopKim_Lv5_1
+  - first:
+      213: -2291841155301068537
+    second: TraoLietHopKim_Lv5_2
+  - first:
+      213: -4863450756181104627
+    second: TraoLietHopKim_Lv5_3
+  - first:
+      213: 184293223365190082
+    second: TraoLietHopKim_Lv5_4
+  - first:
+      213: 2314508796053504168
+    second: TraoLietHopKim_Lv5_5
+  - first:
+      213: -5432568619544757588
+    second: TraoLietHopKim_Lv5_6
+  - first:
+      213: -6969826526360477596
+    second: TraoLietHopKim_Lv5_7
+  - first:
+      213: 4890097026862276370
+    second: TraoLietHopKim_Lv5_8
+  - first:
+      213: -1435264267240702719
+    second: TraoLietHopKim_Lv5_9
+  - first:
+      213: 3631562706235345017
+    second: TraoLietHopKim_Lv5_10
+  - first:
+      213: 3255449255509701327
+    second: TraoLietHopKim_Lv5_11
+  - first:
+      213: -8891043263711021139
+    second: TraoLietHopKim_Lv5_12
+  - first:
+      213: -2216441333104607381
+    second: TraoLietHopKim_Lv5_13
+  - first:
+      213: 3173526546951913824
+    second: TraoLietHopKim_Lv5_14
+  - first:
+      213: -4982742179900272443
+    second: TraoLietHopKim_Lv5_15
+  - first:
+      213: 4756926165468331744
+    second: TraoLietHopKim_Lv5_16
+  - first:
+      213: -6380076597165566510
+    second: TraoLietHopKim_Lv5_17
+  - first:
+      213: -3382276203662118698
+    second: TraoLietHopKim_Lv5_18
+  - first:
+      213: -3763939367657820703
+    second: TraoLietHopKim_Lv5_19
+  - first:
+      213: 4097348270657570452
+    second: TraoLietHopKim_Lv5_20
+  - first:
+      213: 3512556309155093545
+    second: TraoLietHopKim_Lv5_21
+  - first:
+      213: 4131273799143364770
+    second: TraoLietHopKim_Lv5_22
+  - first:
+      213: -5785838204708676407
+    second: TraoLietHopKim_Lv5_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_0
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 559
+        width: 436
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f5f12003d9a2980800000000000000
+      internalID: -8562858911971975404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_1
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 952
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc26ad33cfc86960800000000000000
+      internalID: 7595549209020214515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_2
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 634
+        width: 328
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701b8a8ac9eb130e0800000000000000
+      internalID: -2291841155301068537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_3
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 590
+        width: 408
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08683f0e4d818cb0800000000000000
+      internalID: -4863450756181104627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_4
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 893
+        width: 73
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1a131d5bdbe8200800000000000000
+      internalID: 184293223365190082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_5
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 777
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0494abc79ce1020800000000000000
+      internalID: 2314508796053504168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_6
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 651
+        width: 218
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caab91e9f93ab94b0800000000000000
+      internalID: -5432568619544757588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_7
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 780
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4606036b3b3364f90800000000000000
+      internalID: -6969826526360477596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_8
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 639
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21fd15b465d1dd340800000000000000
+      internalID: 4890097026862276370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 49
+        width: 436
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d7e48d0cae41ce0800000000000000
+      internalID: -1435264267240702719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_10
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 82
+        width: 391
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978c6bc5a07e56230800000000000000
+      internalID: 3631562706235345017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_11
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 441
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc237fa89ddad2d20800000000000000
+      internalID: 3255449255509701327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_12
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 269
+        width: 306
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7ffd7224bac9480800000000000000
+      internalID: -8891043263711021139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_13
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 391
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f7ecac95e9d31e0800000000000000
+      internalID: -2216441333104607381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_14
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 362
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06147549491aa0c20800000000000000
+      internalID: 3173526546951913824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_15
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 346
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c050b7136eb9dab0800000000000000
+      internalID: -4982742179900272443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_16
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 346
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee308be42ff30240800000000000000
+      internalID: 4756926165468331744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_17
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 334
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5d922532a6577a0800000000000000
+      internalID: -6380076597165566510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_18
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 322
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0767c76bdbf01d0800000000000000
+      internalID: -3382276203662118698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_19
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 323
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eda5aa561dc3cbc0800000000000000
+      internalID: -3763939367657820703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_20
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 108
+        width: 339
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4960b912b84bcd830800000000000000
+      internalID: 4097348270657570452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_21
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 262
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c1fb45a5b1fb030800000000000000
+      internalID: 3512556309155093545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_22
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 132
+        width: 150
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a891d3c1ab355930800000000000000
+      internalID: 4131273799143364770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TraoLietHopKim_Lv5_23
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 190
+        width: 75
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc9478bec294bfa0800000000000000
+      internalID: -5785838204708676407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

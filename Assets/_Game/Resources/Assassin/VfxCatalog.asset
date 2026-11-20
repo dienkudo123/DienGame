@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a5b6bcc104ef7441b39711c83df85c3, type: 3}
+  m_Name: VfxCatalog
+  m_EditorClassIdentifier: 
+  meleeNormal: {fileID: 2800000, guid: dfca2c41da327d848a4cf4fcd4c96cb6, type: 3}
+  meleeLv5: {fileID: 2800000, guid: a2035b9f190f5f44aa50bcdb8ff34a8b, type: 3}
+  bloodNormal: {fileID: 2800000, guid: 7e490d44e4c316d4397bad4639d08910, type: 3}
+  bloodLv5: {fileID: 2800000, guid: 44e14d96730735e4ba2acfe90a02f894, type: 3}
+  knifeNormal: {fileID: 2800000, guid: ff4a7b3f51955ef44b53f13abce897c0, type: 3}
+  knifeLv5: {fileID: 2800000, guid: b9d8e3799bac1ba49b25f034edcd12dd, type: 3}
+  deathMark: {fileID: 2800000, guid: 364f1bd486cfd4a4c867bdad3f9ce924, type: 3}
+  orbitNormal: {fileID: 2800000, guid: 75f2fa57e2669bf4e99c67b2b9f4152e, type: 3}
+  orbitLv5: {fileID: 2800000, guid: 19249836ef502c34898de87972250043, type: 3}
+  pillarNormal: {fileID: 2800000, guid: 683fe1cbaeca2544283b02bd95607c79, type: 3}
+  pillarLv5: {fileID: 2800000, guid: 2f6c7f5068cb8804da2d760812f1cbbc, type: 3}

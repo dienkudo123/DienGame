@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: ecb3d4589d1567f4ea5fb57b96e796bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6516153319704736965
+    second: Run_Right_0
+  - first:
+      213: -2839920697772955266
+    second: Run_Right_1
+  - first:
+      213: 7208069657261778899
+    second: Run_Right_2
+  - first:
+      213: 199431691375022220
+    second: Run_Right_3
+  - first:
+      213: -5725805088427100416
+    second: Run_Right_4
+  - first:
+      213: -6582602656611942771
+    second: Run_Right_5
+  - first:
+      213: -8586309670332941084
+    second: Run_Right_6
+  - first:
+      213: -3478116100766867786
+    second: Run_Right_7
+  - first:
+      213: 4598988245780532006
+    second: Run_Right_8
+  - first:
+      213: -7500506058189604698
+    second: Run_Right_9
+  - first:
+      213: 2612586054770385409
+    second: Run_Right_10
+  - first:
+      213: 6634726932093411246
+    second: Run_Right_11
+  - first:
+      213: -8699253634964118286
+    second: Run_Right_12
+  - first:
+      213: 2052287274652636101
+    second: Run_Right_13
+  - first:
+      213: -6137721342254223993
+    second: Run_Right_14
+  - first:
+      213: -7931416473788118016
+    second: Run_Right_15
+  - first:
+      213: -8260928718359273221
+    second: Run_Right_16
+  - first:
+      213: -5862221668899994045
+    second: Run_Right_17
+  - first:
+      213: -1010217820824202692
+    second: Run_Right_18
+  - first:
+      213: -8240655395364706302
+    second: Run_Right_19
+  - first:
+      213: 1813706090466061951
+    second: Run_Right_20
+  - first:
+      213: 7587851299672064226
+    second: Run_Right_21
+  - first:
+      213: -4005298690485256863
+    second: Run_Right_22
+  - first:
+      213: -8363774891018674222
+    second: Run_Right_23
+  - first:
+      213: 3892755290990072963
+    second: Run_Right_24
+  - first:
+      213: 1194357534614258409
+    second: Run_Right_25
+  - first:
+      213: 6182865094177012474
+    second: Run_Right_26
+  - first:
+      213: 4564664889985836116
+    second: Run_Right_27
+  - first:
+      213: -2249472357198368567
+    second: Run_Right_28
+  - first:
+      213: 2905119477882717213
+    second: Run_Right_29
+  - first:
+      213: 7997233372420490393
+    second: Run_Right_30
+  - first:
+      213: 2024234082513950202
+    second: Run_Right_31
+  - first:
+      213: -4805630366816851164
+    second: Run_Right_32
+  - first:
+      213: 9127135847537351489
+    second: Run_Right_33
+  - first:
+      213: -55793365549805123
+    second: Run_Right_34
+  - first:
+      213: 8845383411946434328
+    second: Run_Right_35
+  - first:
+      213: 650054974260150565
+    second: Run_Right_36
+  - first:
+      213: 6939521856650545235
+    second: Run_Right_37
+  - first:
+      213: 6988005086577113086
+    second: Run_Right_38
+  - first:
+      213: -3641863733051146170
+    second: Run_Right_39
+  - first:
+      213: 4154659363151001311
+    second: Run_Right_40
+  - first:
+      213: 6229204687075060376
+    second: Run_Right_41
+  - first:
+      213: 2126159093742106751
+    second: Run_Right_42
+  - first:
+      213: -4260125871106507097
+    second: Run_Right_43
+  - first:
+      213: -9206400456927061776
+    second: Run_Right_44
+  - first:
+      213: -13832452757074570
+    second: Run_Right_45
+  - first:
+      213: -1435253966319733523
+    second: Run_Right_46
+  - first:
+      213: 3731981969171133376
+    second: Run_Right_47
+  - first:
+      213: -3400364611000004941
+    second: Run_Right_48
+  - first:
+      213: -2931774627617695881
+    second: Run_Right_49
+  - first:
+      213: 3873431336047942307
+    second: Run_Right_50
+  - first:
+      213: 7385951295992913689
+    second: Run_Right_51
+  - first:
+      213: 3211754151619703635
+    second: Run_Right_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Run_Right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 388
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b440d6419f195a0800000000000000
+      internalID: -6516153319704736965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Right_1
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0
+        width: 441
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79a6f20c239698d0800000000000000
+      internalID: -2839920697772955266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Right_2
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 413
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d72c5dc925380460800000000000000
+      internalID: 7208069657261778899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 0
+        width: 429
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c801d51111684c200800000000000000
+      internalID: 199431691375022220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_Right_4
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 0
+        width: 397
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007bd23db9ad980b0800000000000000
+      internalID: -5725805088427100416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e5e016ab5f04c1b4d91861fb00be3eee
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Run_Right_0: -6516153319704736965
+      Run_Right_1: -2839920697772955266
+      Run_Right_2: 7208069657261778899
+      Run_Right_3: 199431691375022220
+      Run_Right_4: -5725805088427100416
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

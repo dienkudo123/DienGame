@@ -1,0 +1,26 @@
+{
+  "version": "UI-v7",
+  "baseline": "DienGame_UI_V6_FIX_FULL.zip",
+  "deleted_files": [],
+  "modified_files": [
+    "_Game/Editor/DienGameUIBoundsAudit.cs",
+    "_Game/Scripts/Client/DienGameUITheme.cs",
+    "_Game/Scripts/Client/LobbyUI.cs",
+    "_Game/Scripts/Client/WorldHubPanels.cs",
+    "_Game/Scripts/Gameplay/Run/GameRunUI.cs",
+    "_Game/Scripts/Gameplay/Skills/Mage/MageCompanionJoystick.cs",
+    "_Game/Scripts/Gameplay/UI/GameShellUI.cs",
+    "_Game/Scripts/Gameplay/UI/GameplayJoystickVisualFix.cs",
+    "_Game/Scripts/Gameplay/Upgrades/LevelUpUI.cs"
+  ],
+  "added_files": [
+    "README_DIENGAME_UI_V7.md",
+    "_Game/Scripts/Client/DienGameSafeAreaRoot.cs",
+    "_Game/Scripts/Client/DienGameSafeAreaRoot.cs.meta"
+  ],
+  "static_qa": {
+    "geometry_cases": 7,
+    "legacy_gameplay_art_preserved": true,
+    "unity_playmode_verified": false
+  }
+}

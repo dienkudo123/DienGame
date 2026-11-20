@@ -1,0 +1,2243 @@
+fileFormatVersion: 2
+guid: 6bfbbb707f471a0478c5c6d44f968224
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4525085090318322832
+    second: PhaoSinhThe_0
+  - first:
+      213: 7867442543635132149
+    second: PhaoSinhThe_1
+  - first:
+      213: -4664626861237454696
+    second: PhaoSinhThe_2
+  - first:
+      213: 1797083180418646274
+    second: PhaoSinhThe_3
+  - first:
+      213: 6336296166651887617
+    second: PhaoSinhThe_4
+  - first:
+      213: 1855594939738375764
+    second: PhaoSinhThe_5
+  - first:
+      213: -3708622089347870016
+    second: PhaoSinhThe_6
+  - first:
+      213: 3497837017645233101
+    second: PhaoSinhThe_7
+  - first:
+      213: 3650803319734182265
+    second: PhaoSinhThe_8
+  - first:
+      213: 8510269043604384696
+    second: PhaoSinhThe_9
+  - first:
+      213: 821789891607956033
+    second: PhaoSinhThe_10
+  - first:
+      213: 5170829585786131147
+    second: PhaoSinhThe_11
+  - first:
+      213: -439820308910669607
+    second: PhaoSinhThe_12
+  - first:
+      213: -7986674801880716718
+    second: PhaoSinhThe_13
+  - first:
+      213: 3110213573130738085
+    second: PhaoSinhThe_14
+  - first:
+      213: 7511174973837282684
+    second: PhaoSinhThe_15
+  - first:
+      213: 2957656908564141258
+    second: PhaoSinhThe_16
+  - first:
+      213: 2124032650720534317
+    second: PhaoSinhThe_17
+  - first:
+      213: 8509405125279636817
+    second: PhaoSinhThe_18
+  - first:
+      213: 4298233005300652563
+    second: PhaoSinhThe_19
+  - first:
+      213: -7916972530319045300
+    second: PhaoSinhThe_20
+  - first:
+      213: -4439033630414467442
+    second: PhaoSinhThe_21
+  - first:
+      213: 9058370169464690566
+    second: PhaoSinhThe_22
+  - first:
+      213: -5918831666191085833
+    second: PhaoSinhThe_23
+  - first:
+      213: 1436402623026152811
+    second: PhaoSinhThe_24
+  - first:
+      213: -4413664892129709820
+    second: PhaoSinhThe_25
+  - first:
+      213: -835228212903041767
+    second: PhaoSinhThe_26
+  - first:
+      213: -3310207619085300869
+    second: PhaoSinhThe_27
+  - first:
+      213: -1693004699709900707
+    second: PhaoSinhThe_28
+  - first:
+      213: 7088421102013560249
+    second: PhaoSinhThe_29
+  - first:
+      213: 353019149482191762
+    second: PhaoSinhThe_30
+  - first:
+      213: -1709408851879986794
+    second: PhaoSinhThe_31
+  - first:
+      213: 7620797336546938011
+    second: PhaoSinhThe_32
+  - first:
+      213: -1631940482287448536
+    second: PhaoSinhThe_33
+  - first:
+      213: 6441172460571716581
+    second: PhaoSinhThe_34
+  - first:
+      213: -4688986992443648529
+    second: PhaoSinhThe_35
+  - first:
+      213: -8204015017360077787
+    second: PhaoSinhThe_36
+  - first:
+      213: -4654422484295457262
+    second: PhaoSinhThe_37
+  - first:
+      213: 2752024563320037263
+    second: PhaoSinhThe_38
+  - first:
+      213: -1901256327792586217
+    second: PhaoSinhThe_39
+  - first:
+      213: -8221916083580746243
+    second: PhaoSinhThe_40
+  - first:
+      213: -4793058544960009495
+    second: PhaoSinhThe_41
+  - first:
+      213: 7586199383128459384
+    second: PhaoSinhThe_42
+  - first:
+      213: -3909993101658530860
+    second: PhaoSinhThe_43
+  - first:
+      213: 2987250863849481224
+    second: PhaoSinhThe_44
+  - first:
+      213: 4091476541858620722
+    second: PhaoSinhThe_45
+  - first:
+      213: 2451728148714115983
+    second: PhaoSinhThe_46
+  - first:
+      213: 5772928472040936865
+    second: PhaoSinhThe_47
+  - first:
+      213: 2665289747533311516
+    second: PhaoSinhThe_48
+  - first:
+      213: -4351683010246509946
+    second: PhaoSinhThe_49
+  - first:
+      213: 4154109108214470273
+    second: PhaoSinhThe_50
+  - first:
+      213: -7019487505572019681
+    second: PhaoSinhThe_51
+  - first:
+      213: 9197692290814469724
+    second: PhaoSinhThe_52
+  - first:
+      213: -2863585455188187861
+    second: PhaoSinhThe_53
+  - first:
+      213: -1072783702295921391
+    second: PhaoSinhThe_54
+  - first:
+      213: 65126754808303400
+    second: PhaoSinhThe_55
+  - first:
+      213: 2028040436197428757
+    second: PhaoSinhThe_56
+  - first:
+      213: 5809178530602131400
+    second: PhaoSinhThe_57
+  - first:
+      213: -9195880978048386253
+    second: PhaoSinhThe_58
+  - first:
+      213: 8181313611858052420
+    second: PhaoSinhThe_59
+  - first:
+      213: 742305369071287632
+    second: PhaoSinhThe_60
+  - first:
+      213: -923266611583525540
+    second: PhaoSinhThe_61
+  - first:
+      213: 3195290260465790925
+    second: PhaoSinhThe_62
+  - first:
+      213: -4721561518309874327
+    second: PhaoSinhThe_63
+  - first:
+      213: -6392131971615373250
+    second: PhaoSinhThe_64
+  - first:
+      213: 2037417824426677804
+    second: PhaoSinhThe_65
+  - first:
+      213: 4208693111275519205
+    second: PhaoSinhThe_66
+  - first:
+      213: 956570259697457970
+    second: PhaoSinhThe_67
+  - first:
+      213: 5457752379324217247
+    second: PhaoSinhThe_68
+  - first:
+      213: 2410027422240926125
+    second: PhaoSinhThe_69
+  - first:
+      213: 1039183867530318518
+    second: PhaoSinhThe_70
+  - first:
+      213: 2876056855430336603
+    second: PhaoSinhThe_71
+  - first:
+      213: 4094517668194794186
+    second: PhaoSinhThe_72
+  - first:
+      213: -2089381150387807968
+    second: PhaoSinhThe_73
+  - first:
+      213: 5723206809184728382
+    second: PhaoSinhThe_74
+  - first:
+      213: 7709199081628785475
+    second: PhaoSinhThe_75
+  - first:
+      213: -8052530963348949863
+    second: PhaoSinhThe_76
+  - first:
+      213: 2689494126771892905
+    second: PhaoSinhThe_77
+  - first:
+      213: 3126791786323904851
+    second: PhaoSinhThe_78
+  - first:
+      213: 8708395783709249826
+    second: PhaoSinhThe_79
+  - first:
+      213: -3897920237458450336
+    second: PhaoSinhThe_80
+  - first:
+      213: 5198231723124491331
+    second: PhaoSinhThe_81
+  - first:
+      213: 5655889224307605439
+    second: PhaoSinhThe_82
+  - first:
+      213: 2181534837360600827
+    second: PhaoSinhThe_83
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PhaoSinhThe_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 359
+        width: 463
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c07da2ae45cce30800000000000000
+      internalID: 4525085090318322832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_1
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 799
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5feea285f45ce2d60800000000000000
+      internalID: 7867442543635132149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_2
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 700
+        width: 96
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898323e759ae34fb0800000000000000
+      internalID: -4664626861237454696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_3
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 338
+        width: 396
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201cea891a580f810800000000000000
+      internalID: 1797083180418646274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_4
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 362
+        width: 326
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10084fcdacb0fe750800000000000000
+      internalID: 6336296166651887617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_5
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 815
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4564e1e24c560c910800000000000000
+      internalID: 1855594939738375764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_6
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 33
+        width: 534
+        height: 836
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2d04edbd3588cc0800000000000000
+      internalID: -3708622089347870016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_7
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 796
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3b4f63c30da8030800000000000000
+      internalID: 3497837017645233101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_8
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 795
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971a299c6424aa230800000000000000
+      internalID: 3650803319734182265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_9
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 790
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbea071b9c8a1670800000000000000
+      internalID: 8510269043604384696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_10
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 773
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a8c496d85976b00800000000000000
+      internalID: 821789891607956033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_11
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 781
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2dcdeac1a72c740800000000000000
+      internalID: 5170829585786131147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_12
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 707
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0806262c175e9f0800000000000000
+      internalID: -439820308910669607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_13
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 731
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a26593591a92190800000000000000
+      internalID: -7986674801880716718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_14
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 711
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a95e0224c2b92b20800000000000000
+      internalID: 3110213573130738085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_15
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 692
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d0061c7dd0d3860800000000000000
+      internalID: 7511174973837282684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_16
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 664
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4127ab945bb0920800000000000000
+      internalID: 2957656908564141258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_17
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 662
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f578531741a7d10800000000000000
+      internalID: 2124032650720534317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_18
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 606
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d5e2e60ea771670800000000000000
+      internalID: 8509405125279636817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_19
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 572
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a1ec2352466ab30800000000000000
+      internalID: 4298233005300652563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_20
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 584
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4dcec9fd63412290800000000000000
+      internalID: -7916972530319045300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_21
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 567
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e0221ae626562c0800000000000000
+      internalID: -4439033630414467442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_22
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 553
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68710f20dabc5bd70800000000000000
+      internalID: 9058370169464690566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_23
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 539
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fec85b75f51cdda0800000000000000
+      internalID: -5918831666191085833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_24
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 547
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65c9e343902fe310800000000000000
+      internalID: 1436402623026152811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_25
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 521
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401fefa4a238fb2c0800000000000000
+      internalID: -4413664892129709820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_26
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 416
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915a7879d5ca864f0800000000000000
+      internalID: -835228212903041767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_27
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 491
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b01ab65b7cf02d0800000000000000
+      internalID: -3310207619085300869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_28
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 469
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5879be023d3188e0800000000000000
+      internalID: -1693004699709900707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_29
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 469
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5b6ebaf612f5260800000000000000
+      internalID: 7088421102013560249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_30
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 463
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29bebcbcb0d26e400800000000000000
+      internalID: 353019149482191762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_31
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 465
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699f8cfb4b5f648e0800000000000000
+      internalID: -1709408851879986794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_32
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 445
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c8f160dc282c960800000000000000
+      internalID: 7620797336546938011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_33
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 467
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e4daa17ce2a59e0800000000000000
+      internalID: -1631940482287448536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_34
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 474
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebe761e934a36950800000000000000
+      internalID: 6441172460571716581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_35
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 465
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe518f67c2f5deeb0800000000000000
+      internalID: -4688986992443648529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_36
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 466
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c4846fecb752e80800000000000000
+      internalID: -8204015017360077787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_37
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 461
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2166af4296b286fb0800000000000000
+      internalID: -4654422484295457262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_38
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 457
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f17dd62c7213620800000000000000
+      internalID: 2752024563320037263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_39
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 440
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71295f271716d95e0800000000000000
+      internalID: -1901256327792586217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_40
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 456
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5491132e2e5ed80800000000000000
+      internalID: -8221916083580746243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_41
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 430
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea0208e5a2ab7db0800000000000000
+      internalID: -4793058544960009495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_42
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 432
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878c8a24528974960800000000000000
+      internalID: 7586199383128459384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_43
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 450
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db5a657df9ecb9c0800000000000000
+      internalID: -3909993101658530860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_44
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 455
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8042ab265d8d47920800000000000000
+      internalID: 2987250863849481224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_45
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 450
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235a35cbc38d7c830800000000000000
+      internalID: 4091476541858620722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_46
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 448
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f835eede2c9460220800000000000000
+      internalID: 2451728148714115983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_47
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 448
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a51db9ebdf8d1050800000000000000
+      internalID: 5772928472040936865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_48
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 435
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ea63177e20df420800000000000000
+      internalID: 2665289747533311516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_49
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 434
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a772fbb57bb93c0800000000000000
+      internalID: -4351683010246509946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_50
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 426
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1869659793c56a930800000000000000
+      internalID: 4154109108214470273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_51
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 436
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f124615fd45c59e90800000000000000
+      internalID: -7019487505572019681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_52
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 410
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5668533864c4af70800000000000000
+      internalID: 9197692290814469724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_53
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 410
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25688f43308248d0800000000000000
+      internalID: -2863585455188187861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_54
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 402
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11db2d718e4bc11f0800000000000000
+      internalID: -1072783702295921391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_55
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 390
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f09bd307067e000800000000000000
+      internalID: 65126754808303400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_56
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 388
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e0dad180c052c10800000000000000
+      internalID: 2028040436197428757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_57
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 386
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf9d5168195e9050800000000000000
+      internalID: 5809178530602131400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_58
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 378
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b77aae8faa16080800000000000000
+      internalID: -9195880978048386253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_59
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 374
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4450ede226dd98170800000000000000
+      internalID: 8181313611858052420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_60
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 350
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05dfb5edcc23d4a00800000000000000
+      internalID: 742305369071287632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_61
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 23
+        width: 370
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5dd59f88e5ef23f0800000000000000
+      internalID: -923266611583525540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_62
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 332
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf24510093f75c20800000000000000
+      internalID: 3195290260465790925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_63
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 358
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9656cf3a0d4a97eb0800000000000000
+      internalID: -4721561518309874327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_64
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 263
+        width: 38
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38c27ab6d59a47a0800000000000000
+      internalID: -6392131971615373250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_65
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 0
+        width: 457
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26500477bc564c10800000000000000
+      internalID: 2037417824426677804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_66
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 19
+        width: 364
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecf53a0618486a30800000000000000
+      internalID: 4208693111275519205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_67
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 217
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b58f3459b664d00800000000000000
+      internalID: 956570259697457970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_68
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 225
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97b9a16fd4ddbb40800000000000000
+      internalID: 5457752379324217247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_69
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 102
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9ee91fb23227120800000000000000
+      internalID: 2410027422240926125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_70
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 142
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b21670c83ceb6e00800000000000000
+      internalID: 1039183867530318518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_71
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 123
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5090c5d87ec9e720800000000000000
+      internalID: 2876056855430336603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_72
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 39
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acabf432026a2d830800000000000000
+      internalID: 4094517668194794186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_73
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 88
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029dcbae9e60103e0800000000000000
+      internalID: -2089381150387807968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_74
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 90
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e357d85254aec6f40800000000000000
+      internalID: 5723206809184728382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_75
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 51
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b504b38b39cfa60800000000000000
+      internalID: 7709199081628785475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_76
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99470c2c0c9af3090800000000000000
+      internalID: -8052530963348949863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_77
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 53
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2fcb3a8a0035520800000000000000
+      internalID: 2689494126771892905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_78
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 62
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359027e2098946b20800000000000000
+      internalID: 3126791786323904851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_79
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 47
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221df7383df6ad870800000000000000
+      internalID: 8708395783709249826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_80
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 53
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0689b73323ec7e9c0800000000000000
+      internalID: -3897920237458450336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_81
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 47
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3448005f534d32840800000000000000
+      internalID: 5198231723124491331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_82
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 15
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf70d78841cd7e40800000000000000
+      internalID: 5655889224307605439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhaoSinhThe_83
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 0
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6a406506e564e10800000000000000
+      internalID: 2181534837360600827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

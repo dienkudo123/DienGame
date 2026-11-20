@@ -1,0 +1,77 @@
+{
+  "base": "DienGame_Phase10_QuyTang_FULL.zip / Assets",
+  "status": "STATIC VALIDATION PASS; Unity compile, Play Mode and Android not run",
+  "protected_file_checks": [
+    "_Game/Resources/Mage/ChimeraWalk4x4.png",
+    "_Game/Resources/Mage/ChimeraAttack4x5.png",
+    "_Game/Art/Characters/Player/Assassin8Dir/Run8Dir.png",
+    "_Game/Art/Characters/Player/Assassin8Dir/Slash8Dir.png",
+    "_Game/Scenes/GameplayTest_AssassinPreview.unity",
+    "_Game/Scenes/GameplayTest_Mage.unity",
+    "_Game/Scenes/GameplayTest.unity",
+    "_Game/Scenes/Lobby.unity"
+  ],
+  "unchanged_count": 1509,
+  "changed_files": [
+    "_Game/Editor/DienGameWarriorSceneInstaller.cs",
+    "_Game/Scripts/Gameplay/Skills/Warrior/WarriorLevelUpController.cs",
+    "_Game/Scripts/Gameplay/Skills/Warrior/WarriorMeleeAttack.cs",
+    "_Game/Scripts/Gameplay/Skills/Warrior/WarriorVisual.cs"
+  ],
+  "added_files": [
+    "README_DIENGAME_PHASE10_FINAL.md",
+    "README_DIENGAME_PHASE10_FINAL.md.meta",
+    "_Game/Editor/DienGamePhase10FinalValidator.cs",
+    "_Game/Editor/DienGamePhase10FinalValidator.cs.meta",
+    "_Game/Resources/Warrior.meta",
+    "_Game/Resources/Warrior/WarriorRun8x4.png",
+    "_Game/Resources/Warrior/WarriorRun8x4.png.meta",
+    "_Game/Resources/Warrior/WarriorSlash8x4.png",
+    "_Game/Resources/Warrior/WarriorSlash8x4.png.meta",
+    "_Game/Scripts/Gameplay/Skills/Warrior/WarriorArt.cs",
+    "_Game/Scripts/Gameplay/Skills/Warrior/WarriorArt.cs.meta"
+  ],
+  "removed_files": [],
+  "guids_unique": 830,
+  "atlas_checks": [
+    {
+      "file": "WarriorRun8x4.png",
+      "size": [
+        896,
+        1792
+      ],
+      "frames": 32,
+      "nonempty": true
+    },
+    {
+      "file": "WarriorSlash8x4.png",
+      "size": [
+        896,
+        1792
+      ],
+      "frames": 32,
+      "nonempty": true
+    }
+  ],
+  "checks": [
+    "19 equipment definitions in existing EquipmentCatalog",
+    "Warrior body 8x4 art loader + fallback",
+    "no double core-calibration interval in WarriorMeleeAttack",
+    "reachable target selection plus nearest-target cap",
+    "no auto level-10 boost at Warrior scene start",
+    "Warrior build fails fast on missing Warrior controllers",
+    "original Chimera/Assassin/Mage/Marksman art and scenes unchanged",
+    "all scene configuration still requires Unity Editor installer"
+  ],
+  "relative_normal_attack_dps_no_effects": {
+    "balanced": 0.94,
+    "greatsword": 0.685,
+    "flame_without_burn": 0.79,
+    "frost": 0.846
+  },
+  "known_limitations": [
+    "New Warrior art is a repaint/armor adaptation from the original 8-direction Assassin poses, not an independently illustrated character.",
+    "Warrior YAML scene is installed by Unity Editor, not pre-configured by this offline packaging step.",
+    "PlayerPrefs QA unlocks and actual device performance still require Unity Play Mode / Android tests."
+  ]
+}

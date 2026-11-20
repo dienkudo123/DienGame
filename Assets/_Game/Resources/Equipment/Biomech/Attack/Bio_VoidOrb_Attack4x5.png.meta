@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: caa8c57b11f7a244b85ae09e26f119ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7022405618488005628
+    second: Bio_VoidOrb_Attack4x5_0
+  - first:
+      213: 5925728460910651316
+    second: Bio_VoidOrb_Attack4x5_1
+  - first:
+      213: -8398690838217893799
+    second: Bio_VoidOrb_Attack4x5_2
+  - first:
+      213: 8037964227269463306
+    second: Bio_VoidOrb_Attack4x5_3
+  - first:
+      213: 214920911650012446
+    second: Bio_VoidOrb_Attack4x5_4
+  - first:
+      213: 6435169619046838549
+    second: Bio_VoidOrb_Attack4x5_5
+  - first:
+      213: 4626801476063037700
+    second: Bio_VoidOrb_Attack4x5_6
+  - first:
+      213: -4047789586775709185
+    second: Bio_VoidOrb_Attack4x5_7
+  - first:
+      213: -5451576322218968363
+    second: Bio_VoidOrb_Attack4x5_8
+  - first:
+      213: 7195206707771443725
+    second: Bio_VoidOrb_Attack4x5_9
+  - first:
+      213: 5245515509665105725
+    second: Bio_VoidOrb_Attack4x5_10
+  - first:
+      213: -4159441043874749761
+    second: Bio_VoidOrb_Attack4x5_11
+  - first:
+      213: 7993642769407796415
+    second: Bio_VoidOrb_Attack4x5_12
+  - first:
+      213: 3370276623872024207
+    second: Bio_VoidOrb_Attack4x5_13
+  - first:
+      213: 3218240641900314067
+    second: Bio_VoidOrb_Attack4x5_14
+  - first:
+      213: -5675980138650179168
+    second: Bio_VoidOrb_Attack4x5_15
+  - first:
+      213: 757847240047871915
+    second: Bio_VoidOrb_Attack4x5_16
+  - first:
+      213: -7863442726016116683
+    second: Bio_VoidOrb_Attack4x5_17
+  - first:
+      213: -5362353349229003777
+    second: Bio_VoidOrb_Attack4x5_18
+  - first:
+      213: -775428816216892357
+    second: Bio_VoidOrb_Attack4x5_19
+  - first:
+      213: -2093549078754875839
+    second: Bio_VoidOrb_Attack4x5_20
+  - first:
+      213: -174450306361261375
+    second: Bio_VoidOrb_Attack4x5_21
+  - first:
+      213: -90602451619534976
+    second: Bio_VoidOrb_Attack4x5_22
+  - first:
+      213: -7324069733669898299
+    second: Bio_VoidOrb_Attack4x5_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 780
+        width: 238
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf35fa624b8947160800000000000000
+      internalID: 7022405618488005628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_1
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 772
+        width: 249
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7600ca3aa6c3250800000000000000
+      internalID: 5925728460910651316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 997
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958d1b94e2bd17b80800000000000000
+      internalID: -8398690838217893799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_3
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 786
+        width: 241
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d81b3b0e59c8f60800000000000000
+      internalID: 8037964227269463306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_4
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 780
+        width: 247
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1db3b13e6d8bf200800000000000000
+      internalID: 214920911650012446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_5
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 780
+        width: 238
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5113cac6ca05e4950800000000000000
+      internalID: 6435169619046838549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 524
+        width: 238
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4098dfabd63b53040800000000000000
+      internalID: 4626801476063037700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_7
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 521
+        width: 249
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff965b221dc53d7c0800000000000000
+      internalID: -4047789586775709185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_8
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 746
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da3538f73c1854b0800000000000000
+      internalID: -5451576322218968363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_9
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 523
+        width: 241
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a893ef0628ad360800000000000000
+      internalID: 7195206707771443725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_10
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 520
+        width: 247
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3704696090dbc840800000000000000
+      internalID: 5245515509665105725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_11
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 524
+        width: 238
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb26aa38862b646c0800000000000000
+      internalID: -4159441043874749761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 268
+        width: 238
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4ebe32fbf1fee60800000000000000
+      internalID: 7993642769407796415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_13
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 270
+        width: 249
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ed1b0abb0a5ce20800000000000000
+      internalID: 3370276623872024207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_14
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 495
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd713610dc79ac20800000000000000
+      internalID: 3218240641900314067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_15
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 260
+        width: 241
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a96593f22eda31b0800000000000000
+      internalID: -5675980138650179168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_16
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 260
+        width: 247
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba74011bc0a648a00800000000000000
+      internalID: 757847240047871915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_17
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 268
+        width: 238
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5381e24c0807fd290800000000000000
+      internalID: -7863442726016116683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 12
+        width: 238
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb34133a081595b0800000000000000
+      internalID: -5362353349229003777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_19
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 9
+        width: 249
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c5acc999f1d35f0800000000000000
+      internalID: -775428816216892357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_20
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 234
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14628f8743832f2e0800000000000000
+      internalID: -2093549078754875839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_21
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 11
+        width: 241
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c20162ee5a349df0800000000000000
+      internalID: -174450306361261375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_22
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 8
+        width: 247
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087207fdc8d1ebef0800000000000000
+      internalID: -90602451619534976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Attack4x5_23
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 12
+        width: 238
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c77a6eb16dab5a90800000000000000
+      internalID: -7324069733669898299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bio_VoidOrb_Attack4x5_0: 7022405618488005628
+      Bio_VoidOrb_Attack4x5_1: 5925728460910651316
+      Bio_VoidOrb_Attack4x5_10: 5245515509665105725
+      Bio_VoidOrb_Attack4x5_11: -4159441043874749761
+      Bio_VoidOrb_Attack4x5_12: 7993642769407796415
+      Bio_VoidOrb_Attack4x5_13: 3370276623872024207
+      Bio_VoidOrb_Attack4x5_14: 3218240641900314067
+      Bio_VoidOrb_Attack4x5_15: -5675980138650179168
+      Bio_VoidOrb_Attack4x5_16: 757847240047871915
+      Bio_VoidOrb_Attack4x5_17: -7863442726016116683
+      Bio_VoidOrb_Attack4x5_18: -5362353349229003777
+      Bio_VoidOrb_Attack4x5_19: -775428816216892357
+      Bio_VoidOrb_Attack4x5_2: -8398690838217893799
+      Bio_VoidOrb_Attack4x5_20: -2093549078754875839
+      Bio_VoidOrb_Attack4x5_21: -174450306361261375
+      Bio_VoidOrb_Attack4x5_22: -90602451619534976
+      Bio_VoidOrb_Attack4x5_23: -7324069733669898299
+      Bio_VoidOrb_Attack4x5_3: 8037964227269463306
+      Bio_VoidOrb_Attack4x5_4: 214920911650012446
+      Bio_VoidOrb_Attack4x5_5: 6435169619046838549
+      Bio_VoidOrb_Attack4x5_6: 4626801476063037700
+      Bio_VoidOrb_Attack4x5_7: -4047789586775709185
+      Bio_VoidOrb_Attack4x5_8: -5451576322218968363
+      Bio_VoidOrb_Attack4x5_9: 7195206707771443725
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

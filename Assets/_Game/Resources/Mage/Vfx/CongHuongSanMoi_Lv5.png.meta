@@ -1,0 +1,818 @@
+fileFormatVersion: 2
+guid: 3f3a728b38eaa044788eb379242222e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5497563538200177899
+    second: CongHuongSanMoi_Lv5_0
+  - first:
+      213: 4891964248783542322
+    second: CongHuongSanMoi_Lv5_1
+  - first:
+      213: 7556424073006849559
+    second: CongHuongSanMoi_Lv5_2
+  - first:
+      213: -5389139161658189381
+    second: CongHuongSanMoi_Lv5_3
+  - first:
+      213: -4938160676153385993
+    second: CongHuongSanMoi_Lv5_4
+  - first:
+      213: -6213337766777744200
+    second: CongHuongSanMoi_Lv5_5
+  - first:
+      213: -4098266446700875513
+    second: CongHuongSanMoi_Lv5_6
+  - first:
+      213: 8766587748646865158
+    second: CongHuongSanMoi_Lv5_7
+  - first:
+      213: 8985310933153715873
+    second: CongHuongSanMoi_Lv5_8
+  - first:
+      213: -2622406989956460148
+    second: CongHuongSanMoi_Lv5_9
+  - first:
+      213: -83615048971659179
+    second: CongHuongSanMoi_Lv5_10
+  - first:
+      213: -1825470335680213010
+    second: CongHuongSanMoi_Lv5_11
+  - first:
+      213: -8233502927177389767
+    second: CongHuongSanMoi_Lv5_12
+  - first:
+      213: 6037119727795242501
+    second: CongHuongSanMoi_Lv5_13
+  - first:
+      213: 5871294902477066036
+    second: CongHuongSanMoi_Lv5_14
+  - first:
+      213: 7165946898840579979
+    second: CongHuongSanMoi_Lv5_15
+  - first:
+      213: 4095338473092086441
+    second: CongHuongSanMoi_Lv5_16
+  - first:
+      213: -2440189898402861350
+    second: CongHuongSanMoi_Lv5_17
+  - first:
+      213: -3973621080378110785
+    second: CongHuongSanMoi_Lv5_18
+  - first:
+      213: -567871512649890747
+    second: CongHuongSanMoi_Lv5_19
+  - first:
+      213: 6670741770633950572
+    second: CongHuongSanMoi_Lv5_20
+  - first:
+      213: -8617669150686057798
+    second: CongHuongSanMoi_Lv5_21
+  - first:
+      213: 4299211562079005347
+    second: CongHuongSanMoi_Lv5_22
+  - first:
+      213: 2419477419516396661
+    second: CongHuongSanMoi_Lv5_23
+  - first:
+      213: -8232124988773936709
+    second: CongHuongSanMoi_Lv5_24
+  - first:
+      213: 1542058059908349882
+    second: CongHuongSanMoi_Lv5_25
+  - first:
+      213: -1638206615149481134
+    second: CongHuongSanMoi_Lv5_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_0
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 640
+        width: 397
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: becaf8029e44b4c40800000000000000
+      internalID: 5497563538200177899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_1
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 896
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23857a6c09fb3e340800000000000000
+      internalID: 4891964248783542322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_2
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 893
+        width: 57
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e98c3a8afcdd860800000000000000
+      internalID: 7556424073006849559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_3
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 564
+        width: 428
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb997304c7ee535b0800000000000000
+      internalID: -5389139161658189381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_4
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 640
+        width: 305
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb131e4701287bb0800000000000000
+      internalID: -4938160676153385993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_5
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 852
+        width: 78
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b491b5883ac5c9a0800000000000000
+      internalID: -6213337766777744200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_6
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 767
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701fd7951680027c0800000000000000
+      internalID: -4098266446700875513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_7
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 679
+        width: 153
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609436a2c1d29a970800000000000000
+      internalID: 8766587748646865158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_8
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 818
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a69f0fffac32bc70800000000000000
+      internalID: 8985310933153715873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_9
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 822
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81d42b9cb65b9bd0800000000000000
+      internalID: -2622406989956460148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_10
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 791
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558da245e80f6def0800000000000000
+      internalID: -83615048971659179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_11
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 752
+        width: 9
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef84c5c660aaa6e0800000000000000
+      internalID: -1825470335680213010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_12
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 698
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939e370f5b8bcbd80800000000000000
+      internalID: -8233502927177389767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_13
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 680
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5060db9086828c350800000000000000
+      internalID: 6037119727795242501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_14
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 670
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f05b93b970b7150800000000000000
+      internalID: 5871294902477066036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_15
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 671
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f64b8dcbe827360800000000000000
+      internalID: 7165946898840579979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_16
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 639
+        width: 80
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aaf4aba4a095d830800000000000000
+      internalID: 4095338473092086441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_17
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 636
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade63315734b22ed0800000000000000
+      internalID: -2440189898402861350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_18
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 620
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc0f083eacdad8c0800000000000000
+      internalID: -3973621080378110785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_19
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 619
+        width: 13
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54480723ed38e18f0800000000000000
+      internalID: -567871512649890747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_20
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 613
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c653ffa1c4c339c50800000000000000
+      internalID: 6670741770633950572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_21
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 52
+        width: 439
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abae389d093e76880800000000000000
+      internalID: -8617669150686057798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_22
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 79
+        width: 439
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aaa8f3332ed9ab30800000000000000
+      internalID: 4299211562079005347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_23
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 106
+        width: 407
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5748a54e4e5b39120800000000000000
+      internalID: 2419477419516396661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_24
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 276
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1538930fd91cd80800000000000000
+      internalID: -8232124988773936709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_25
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 228
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf7dd3a2ad766510800000000000000
+      internalID: 1542058059908349882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CongHuongSanMoi_Lv5_26
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 71
+        width: 167
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253f15b53cbe349e0800000000000000
+      internalID: -1638206615149481134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

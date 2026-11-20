@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 4f2a1e8430da4244cb6a1029393853cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3820847962683934495
+    second: ManChanSongThe_0
+  - first:
+      213: 8790747057474127029
+    second: ManChanSongThe_1
+  - first:
+      213: -1565254103996462144
+    second: ManChanSongThe_2
+  - first:
+      213: 2424631532748351733
+    second: ManChanSongThe_3
+  - first:
+      213: 5789122700178930288
+    second: ManChanSongThe_4
+  - first:
+      213: -2258511666714625031
+    second: ManChanSongThe_5
+  - first:
+      213: 7977291190280213454
+    second: ManChanSongThe_6
+  - first:
+      213: -386047577897168406
+    second: ManChanSongThe_7
+  - first:
+      213: -8061586889155025095
+    second: ManChanSongThe_8
+  - first:
+      213: -5496090013965032429
+    second: ManChanSongThe_9
+  - first:
+      213: -5893539531024047736
+    second: ManChanSongThe_10
+  - first:
+      213: -5522782526584585799
+    second: ManChanSongThe_11
+  - first:
+      213: -7633961180311905055
+    second: ManChanSongThe_12
+  - first:
+      213: -5002326907572364644
+    second: ManChanSongThe_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ManChanSongThe_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 397
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f170d847af0660530800000000000000
+      internalID: 3820847962683934495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManChanSongThe_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 412
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b44e079fd10ff970800000000000000
+      internalID: 8790747057474127029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManChanSongThe_2
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 341
+        width: 210
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb811c7fa9174ae0800000000000000
+      internalID: -1565254103996462144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManChanSongThe_3
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 331
+        width: 214
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f82da4688506a120800000000000000
+      internalID: 2424631532748351733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManChanSongThe_4
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 331
+        width: 214
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ab0597c68175050800000000000000
+      internalID: 5789122700178930288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManChanSongThe_5
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 395
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb3660fa9728a0e0800000000000000
+      internalID: -2258511666714625031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManChanSongThe_6
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 385
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec35182721805be60800000000000000
+      internalID: 7977291190280213454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManChanSongThe_7
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 387
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae11a05f5cb74aaf0800000000000000
+      internalID: -386047577897168406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManChanSongThe_8
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 374
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937e7f9bf6d7f1090800000000000000
+      internalID: -8061586889155025095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManChanSongThe_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 360
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314ea087047f9b3b0800000000000000
+      internalID: -5496090013965032429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManChanSongThe_10
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 335
+        width: 79
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881e6979501f53ea0800000000000000
+      internalID: -5893539531024047736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManChanSongThe_11
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 77
+        width: 213
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b101339d822b53b0800000000000000
+      internalID: -5522782526584585799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManChanSongThe_12
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 77
+        width: 209
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec1362c0c8be0690800000000000000
+      internalID: -7633961180311905055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManChanSongThe_13
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 79
+        width: 208
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a55c75e2a249ab0800000000000000
+      internalID: -5002326907572364644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ManChanSongThe_0: 3820847962683934495
+      ManChanSongThe_1: 8790747057474127029
+      ManChanSongThe_10: -5893539531024047736
+      ManChanSongThe_11: -5522782526584585799
+      ManChanSongThe_12: -7633961180311905055
+      ManChanSongThe_13: -5002326907572364644
+      ManChanSongThe_2: -1565254103996462144
+      ManChanSongThe_3: 2424631532748351733
+      ManChanSongThe_4: 5789122700178930288
+      ManChanSongThe_5: -2258511666714625031
+      ManChanSongThe_6: 7977291190280213454
+      ManChanSongThe_7: -386047577897168406
+      ManChanSongThe_8: -8061586889155025095
+      ManChanSongThe_9: -5496090013965032429
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

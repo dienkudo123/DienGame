@@ -1,0 +1,911 @@
+fileFormatVersion: 2
+guid: 60ce8871291e1e3448aa5ff85c478ee2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2641011858172188730
+    second: PiercingBullet_Normal_0
+  - first:
+      213: -1207332201953426015
+    second: PiercingBullet_Normal_1
+  - first:
+      213: -7033972035226194676
+    second: PiercingBullet_Normal_2
+  - first:
+      213: -3867802643182224203
+    second: PiercingBullet_Normal_3
+  - first:
+      213: 6481171002587947627
+    second: PiercingBullet_Normal_4
+  - first:
+      213: -291136198835226725
+    second: PiercingBullet_Normal_5
+  - first:
+      213: 5917156714461222462
+    second: PiercingBullet_Normal_6
+  - first:
+      213: -1591783583427593805
+    second: PiercingBullet_Normal_7
+  - first:
+      213: -8171496476741388553
+    second: PiercingBullet_Normal_8
+  - first:
+      213: 8694466847377979203
+    second: PiercingBullet_Normal_9
+  - first:
+      213: 6619638725490349327
+    second: PiercingBullet_Normal_10
+  - first:
+      213: -5377552370667651396
+    second: PiercingBullet_Normal_11
+  - first:
+      213: 8680810771206487454
+    second: PiercingBullet_Normal_12
+  - first:
+      213: 8053922182106940704
+    second: PiercingBullet_Normal_13
+  - first:
+      213: 2688455419819634994
+    second: PiercingBullet_Normal_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 543
+        width: 290
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c76d0a25bd395bd0800000000000000
+      internalID: -2641011858172188730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_1
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 543
+        width: 269
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a50da052c1be3fe0800000000000000
+      internalID: -1207332201953426015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_2
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 543
+        width: 266
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0daf4893bf426e90800000000000000
+      internalID: -7033972035226194676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_3
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 543
+        width: 259
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc7ecf0dfdc25ac0800000000000000
+      internalID: -3867802643182224203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_4
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 543
+        width: 269
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6221d920beb1f950800000000000000
+      internalID: 6481171002587947627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_5
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 543
+        width: 264
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b973b2f6b2da5fbf0800000000000000
+      internalID: -291136198835226725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_6
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 543
+        width: 256
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3657cd6ea6fd1250800000000000000
+      internalID: 5917156714461222462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_7
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 543
+        width: 271
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9ff76b349d8e9e0800000000000000
+      internalID: -1591783583427593805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 293
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f63974bf33099e80800000000000000
+      internalID: -8171496476741388553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 362
+        width: 274
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347ff5d4883f8a870800000000000000
+      internalID: 8694466847377979203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_10
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 361
+        width: 266
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f059546395eaddb50800000000000000
+      internalID: 6619638725490349327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_11
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 362
+        width: 265
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe7b414c981f55b0800000000000000
+      internalID: -5377552370667651396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_12
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 362
+        width: 261
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9db52c476f687870800000000000000
+      internalID: 8680810771206487454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_13
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 362
+        width: 261
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0258f199d8745cf60800000000000000
+      internalID: 8053922182106940704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_14
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 362
+        width: 264
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231b2d4d5ff4f4520800000000000000
+      internalID: 2688455419819634994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_15
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 362
+        width: 271
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e40b48d7aa6d41419789d6973d4610c
+      internalID: 163666344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 181
+        width: 282
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b7792af8b750f49a2f0cbf92a206ea
+      internalID: -1509086104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_17
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 181
+        width: 263
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803a0465f4dc7cf4a94e0c655ee9cf5e
+      internalID: -1048980472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_18
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 181
+        width: 271
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1a4b74aeb6f1a47a1dd21556548af6
+      internalID: 1726478294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_19
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 181
+        width: 263
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d12ec5f60461164d808f301e94fac94
+      internalID: -963357713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_20
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 181
+        width: 266
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8af36caf66731499f1258561aa943f
+      internalID: 1929915804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_21
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 181
+        width: 258
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94877018b324ad4dbe2a9e81afb0f45
+      internalID: 496945278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_22
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 181
+        width: 260
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e1029dab3bc854d916d10224c905e5
+      internalID: 1071723640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_23
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 181
+        width: 271
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886c9487e2cf33f4fa1af4cb7743c072
+      internalID: 932785114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 302
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cb923f5ab39ee49a385265f2eda896
+      internalID: -715899707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_25
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 0
+        width: 265
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96cce6b3bd47c7449dfe838bfa1bc8e
+      internalID: -762805538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_26
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 0
+        width: 261
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0663e5d2c9912b544a365278e5fb9d08
+      internalID: -126264170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_27
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 0
+        width: 249
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04236927b6f13634dbbbd4ad05d2c4ed
+      internalID: -1250735174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_28
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 0
+        width: 271
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa880cfcde9363e459a2ab82665aae02
+      internalID: 837857697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_29
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 0
+        width: 271
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e6124206d18134cab8e488afe30dbe
+      internalID: -1300661696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_30
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 0
+        width: 271
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d6b3c9dd7e4b946b3ba8073fece418
+      internalID: 1281007694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PiercingBullet_Normal_31
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 0
+        width: 271
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344ec4568abee8046be8388f3e08db14
+      internalID: -2131048750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a1bf654f963616d4a945b2c7f373091e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PiercingBullet_Normal_0: -2641011858172188730
+      PiercingBullet_Normal_1: -1207332201953426015
+      PiercingBullet_Normal_10: 6619638725490349327
+      PiercingBullet_Normal_11: -5377552370667651396
+      PiercingBullet_Normal_12: 8680810771206487454
+      PiercingBullet_Normal_13: 8053922182106940704
+      PiercingBullet_Normal_14: 2688455419819634994
+      PiercingBullet_Normal_15: 163666344
+      PiercingBullet_Normal_16: -1509086104
+      PiercingBullet_Normal_17: -1048980472
+      PiercingBullet_Normal_18: 1726478294
+      PiercingBullet_Normal_19: -963357713
+      PiercingBullet_Normal_2: -7033972035226194676
+      PiercingBullet_Normal_20: 1929915804
+      PiercingBullet_Normal_21: 496945278
+      PiercingBullet_Normal_22: 1071723640
+      PiercingBullet_Normal_23: 932785114
+      PiercingBullet_Normal_24: -715899707
+      PiercingBullet_Normal_25: -762805538
+      PiercingBullet_Normal_26: -126264170
+      PiercingBullet_Normal_27: -1250735174
+      PiercingBullet_Normal_28: 837857697
+      PiercingBullet_Normal_29: -1300661696
+      PiercingBullet_Normal_3: -3867802643182224203
+      PiercingBullet_Normal_30: 1281007694
+      PiercingBullet_Normal_31: -2131048750
+      PiercingBullet_Normal_4: 6481171002587947627
+      PiercingBullet_Normal_5: -291136198835226725
+      PiercingBullet_Normal_6: 5917156714461222462
+      PiercingBullet_Normal_7: -1591783583427593805
+      PiercingBullet_Normal_8: -8171496476741388553
+      PiercingBullet_Normal_9: 8694466847377979203
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

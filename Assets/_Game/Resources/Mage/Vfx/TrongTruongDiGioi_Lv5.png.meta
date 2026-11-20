@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: c6187c054c5d6234699ec647be51551f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8303727328604126155
+    second: TrongTruongDiGioi_Lv5_0
+  - first:
+      213: 4492160245740354790
+    second: TrongTruongDiGioi_Lv5_1
+  - first:
+      213: 3987930973272441327
+    second: TrongTruongDiGioi_Lv5_2
+  - first:
+      213: 5925083132119283416
+    second: TrongTruongDiGioi_Lv5_3
+  - first:
+      213: -5853784689300525744
+    second: TrongTruongDiGioi_Lv5_4
+  - first:
+      213: 7846495062476726103
+    second: TrongTruongDiGioi_Lv5_5
+  - first:
+      213: 6769946831508150799
+    second: TrongTruongDiGioi_Lv5_6
+  - first:
+      213: 3086561736350151550
+    second: TrongTruongDiGioi_Lv5_7
+  - first:
+      213: 6357239270158643149
+    second: TrongTruongDiGioi_Lv5_8
+  - first:
+      213: 491522402084408429
+    second: TrongTruongDiGioi_Lv5_9
+  - first:
+      213: 181394828835376533
+    second: TrongTruongDiGioi_Lv5_10
+  - first:
+      213: 3968219797738637302
+    second: TrongTruongDiGioi_Lv5_11
+  - first:
+      213: 4874323475643717617
+    second: TrongTruongDiGioi_Lv5_12
+  - first:
+      213: 7912965265047071383
+    second: TrongTruongDiGioi_Lv5_13
+  - first:
+      213: -4515271785326699413
+    second: TrongTruongDiGioi_Lv5_14
+  - first:
+      213: -394153604846032570
+    second: TrongTruongDiGioi_Lv5_15
+  - first:
+      213: -6709806072340292487
+    second: TrongTruongDiGioi_Lv5_16
+  - first:
+      213: 4098589886199782467
+    second: TrongTruongDiGioi_Lv5_17
+  - first:
+      213: 6066365127382576473
+    second: TrongTruongDiGioi_Lv5_18
+  - first:
+      213: 3597132244804778440
+    second: TrongTruongDiGioi_Lv5_19
+  - first:
+      213: 8285449915912392439
+    second: TrongTruongDiGioi_Lv5_20
+  - first:
+      213: -8203337366906887495
+    second: TrongTruongDiGioi_Lv5_21
+  - first:
+      213: 1188324579946200673
+    second: TrongTruongDiGioi_Lv5_22
+  - first:
+      213: 5752639882253844738
+    second: TrongTruongDiGioi_Lv5_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TrongTruongDiGioi_Lv5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53409da5dfb33cc80800000000000000
+      internalID: -8303727328604126155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrongTruongDiGioi_Lv5_1
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 444
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec3c7961fb575e30800000000000000
+      internalID: 4492160245740354790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrongTruongDiGioi_Lv5_2
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 444
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe18eaa571af75730800000000000000
+      internalID: 3987930973272441327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrongTruongDiGioi_Lv5_3
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 444
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6f0aa57bf1a3250800000000000000
+      internalID: 5925083132119283416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrongTruongDiGioi_Lv5_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 565
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d2f9af6dd23cea0800000000000000
+      internalID: -5853784689300525744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrongTruongDiGioi_Lv5_5
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 0
+        width: 508
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f18c2dfa954ec60800000000000000
+      internalID: 7846495062476726103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TrongTruongDiGioi_Lv5_6
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1
+        width: 541
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a135846cea3fd50800000000000000
+      internalID: 6769946831508150799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TrongTruongDiGioi_Lv5_0: -8303727328604126155
+      TrongTruongDiGioi_Lv5_1: 4492160245740354790
+      TrongTruongDiGioi_Lv5_2: 3987930973272441327
+      TrongTruongDiGioi_Lv5_3: 5925083132119283416
+      TrongTruongDiGioi_Lv5_4: -5853784689300525744
+      TrongTruongDiGioi_Lv5_5: 7846495062476726103
+      TrongTruongDiGioi_Lv5_6: 6769946831508150799
+      TrongTruongDiGioi_Lv5_7: 3086561736350151550
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

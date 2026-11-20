@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 1e6d1db7f1d1b9b4aafcb26ff68c4def
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8848991760999776542
+    second: Islands_WorldMap_0
+  - first:
+      213: 839288677186751325
+    second: Islands_WorldMap_1
+  - first:
+      213: 8655985318024194786
+    second: Islands_WorldMap_2
+  - first:
+      213: 196164437930261779
+    second: Islands_WorldMap_3
+  - first:
+      213: -3261033325308603635
+    second: Islands_WorldMap_4
+  - first:
+      213: 6209029497101813543
+    second: Islands_WorldMap_5
+  - first:
+      213: 2367760326078130694
+    second: Islands_WorldMap_6
+  - first:
+      213: -7398446751307134233
+    second: Islands_WorldMap_7
+  - first:
+      213: -2884689099362635880
+    second: Islands_WorldMap_8
+  - first:
+      213: -2715324477470660642
+    second: Islands_WorldMap_9
+  - first:
+      213: -4714362256799984338
+    second: Islands_WorldMap_10
+  - first:
+      213: -63074353748218063
+    second: Islands_WorldMap_11
+  - first:
+      213: -2319703013379913550
+    second: Islands_WorldMap_12
+  - first:
+      213: 611188805895929407
+    second: Islands_WorldMap_13
+  - first:
+      213: 5166603058567009941
+    second: Islands_WorldMap_14
+  - first:
+      213: 272102408593343932
+    second: Islands_WorldMap_15
+  - first:
+      213: 6649952409931855573
+    second: Islands_WorldMap_16
+  - first:
+      213: 1996022079977337989
+    second: Islands_WorldMap_17
+  - first:
+      213: -7716543832076919520
+    second: Islands_WorldMap_18
+  - first:
+      213: -8489787437266541104
+    second: Islands_WorldMap_19
+  - first:
+      213: -2486431057023269304
+    second: Islands_WorldMap_20
+  - first:
+      213: -8826896113712986455
+    second: Islands_WorldMap_21
+  - first:
+      213: -6177116409453449161
+    second: Islands_WorldMap_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Islands_WorldMap_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456
+        width: 445
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eeff3990e0123580800000000000000
+      internalID: -8848991760999776542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_1
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 973
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b49bbea90c5ab00800000000000000
+      internalID: 839288677186751325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_2
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 197
+        width: 645
+        height: 815
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea24dd09cc302870800000000000000
+      internalID: 8655985318024194786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 988
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31db568548ae8b200800000000000000
+      internalID: 196164437930261779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_4
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 329
+        width: 436
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d031544e77b7eb2d0800000000000000
+      internalID: -3261033325308603635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_5
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 963
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7270da64e67ea2650800000000000000
+      internalID: 6209029497101813543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_6
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 927
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a662db879fbd020800000000000000
+      internalID: 2367760326078130694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_7
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 963
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea02bad0ef635990800000000000000
+      internalID: -7398446751307134233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_8
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 939
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f6c014c8687f7d0800000000000000
+      internalID: -2884689099362635880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_9
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 937
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7207e26ca315ad0800000000000000
+      internalID: -2715324477470660642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_10
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 885
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e259de45188339eb0800000000000000
+      internalID: -4714362256799984338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_11
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 893
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f666e953aef1ff0800000000000000
+      internalID: -63074353748218063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_12
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 863
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8461f4662cecfd0800000000000000
+      internalID: -2319703013379913550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_13
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 833
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e3f121bf06b7800800000000000000
+      internalID: 611188805895929407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 769
+        height: 576
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5965551ab1673b740800000000000000
+      internalID: 5166603058567009941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 279
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb50cbee2b3b6c300800000000000000
+      internalID: 272102408593343932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_16
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 0
+        width: 595
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6bd3fdb70694c50800000000000000
+      internalID: 6649952409931855573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 109
+        width: 6
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584b2e0a18b43bb10800000000000000
+      internalID: 1996022079977337989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_18
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 87
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02dd25bc44459e490800000000000000
+      internalID: -7716543832076919520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_19
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 85
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5672f7e473e2a80800000000000000
+      internalID: -8489787437266541104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_20
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 12
+        width: 65
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84601a7902c6e7dd0800000000000000
+      internalID: -2486431057023269304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_21
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 91
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a68cd060c0908580800000000000000
+      internalID: -8826896113712986455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Islands_WorldMap_22
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 0
+        width: 87
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7307a467a59764aa0800000000000000
+      internalID: -6177116409453449161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Islands_WorldMap_0: -8848991760999776542
+      Islands_WorldMap_1: 839288677186751325
+      Islands_WorldMap_10: -4714362256799984338
+      Islands_WorldMap_11: -63074353748218063
+      Islands_WorldMap_12: -2319703013379913550
+      Islands_WorldMap_13: 611188805895929407
+      Islands_WorldMap_14: 5166603058567009941
+      Islands_WorldMap_15: 272102408593343932
+      Islands_WorldMap_16: 6649952409931855573
+      Islands_WorldMap_17: 1996022079977337989
+      Islands_WorldMap_18: -7716543832076919520
+      Islands_WorldMap_19: -8489787437266541104
+      Islands_WorldMap_2: 8655985318024194786
+      Islands_WorldMap_20: -2486431057023269304
+      Islands_WorldMap_21: -8826896113712986455
+      Islands_WorldMap_22: -6177116409453449161
+      Islands_WorldMap_3: 196164437930261779
+      Islands_WorldMap_4: -3261033325308603635
+      Islands_WorldMap_5: 6209029497101813543
+      Islands_WorldMap_6: 2367760326078130694
+      Islands_WorldMap_7: -7398446751307134233
+      Islands_WorldMap_8: -2884689099362635880
+      Islands_WorldMap_9: -2715324477470660642
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

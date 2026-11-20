@@ -1,0 +1,3237 @@
+fileFormatVersion: 2
+guid: 364f1bd486cfd4a4c867bdad3f9ce924
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7283577472746331612
+    second: DeathMark_0
+  - first:
+      213: 837129101106646660
+    second: DeathMark_1
+  - first:
+      213: 4906975769411701316
+    second: DeathMark_2
+  - first:
+      213: -8042990145694468114
+    second: DeathMark_3
+  - first:
+      213: 264304810297776162
+    second: DeathMark_4
+  - first:
+      213: 5311189415960173784
+    second: DeathMark_5
+  - first:
+      213: -6123021867279146402
+    second: DeathMark_6
+  - first:
+      213: 3886183687390105715
+    second: DeathMark_7
+  - first:
+      213: -4099631285554760082
+    second: DeathMark_8
+  - first:
+      213: 4875056241216798520
+    second: DeathMark_9
+  - first:
+      213: -7042978117587276275
+    second: DeathMark_10
+  - first:
+      213: -8130159594589764546
+    second: DeathMark_11
+  - first:
+      213: 3935975674834633559
+    second: DeathMark_12
+  - first:
+      213: -6584521406223583766
+    second: DeathMark_13
+  - first:
+      213: -9147865668850775372
+    second: DeathMark_14
+  - first:
+      213: -5517590130476437247
+    second: DeathMark_15
+  - first:
+      213: 1693541100739697683
+    second: DeathMark_16
+  - first:
+      213: -251380662010695986
+    second: DeathMark_17
+  - first:
+      213: 2914416984856667944
+    second: DeathMark_18
+  - first:
+      213: -2699600981965877755
+    second: DeathMark_19
+  - first:
+      213: 256335076732206718
+    second: DeathMark_20
+  - first:
+      213: 3600474668061205048
+    second: DeathMark_21
+  - first:
+      213: 298683235432011382
+    second: DeathMark_22
+  - first:
+      213: 951105087216775473
+    second: DeathMark_23
+  - first:
+      213: -8825724803060523588
+    second: DeathMark_24
+  - first:
+      213: -5161027984539058947
+    second: DeathMark_25
+  - first:
+      213: 7917798639425938711
+    second: DeathMark_26
+  - first:
+      213: 4876277909723308933
+    second: DeathMark_27
+  - first:
+      213: -3728927355402429848
+    second: DeathMark_28
+  - first:
+      213: -8912870539101315189
+    second: DeathMark_29
+  - first:
+      213: -3404143129248207387
+    second: DeathMark_30
+  - first:
+      213: 8754425697567476327
+    second: DeathMark_31
+  - first:
+      213: -8305076261305800297
+    second: DeathMark_32
+  - first:
+      213: -8665436949603614003
+    second: DeathMark_33
+  - first:
+      213: -7420239866343401811
+    second: DeathMark_34
+  - first:
+      213: 8601972126621715867
+    second: DeathMark_35
+  - first:
+      213: 2607396545979387684
+    second: DeathMark_36
+  - first:
+      213: -5890085456775195478
+    second: DeathMark_37
+  - first:
+      213: -4952349158946380763
+    second: DeathMark_38
+  - first:
+      213: -3409469334997064104
+    second: DeathMark_39
+  - first:
+      213: -675384263989961766
+    second: DeathMark_40
+  - first:
+      213: 12290379329353829
+    second: DeathMark_41
+  - first:
+      213: -8110039239814017502
+    second: DeathMark_42
+  - first:
+      213: 1191575384521681826
+    second: DeathMark_43
+  - first:
+      213: -5308522539530823404
+    second: DeathMark_44
+  - first:
+      213: 8362016408674451131
+    second: DeathMark_45
+  - first:
+      213: -6523668162773850482
+    second: DeathMark_46
+  - first:
+      213: -5826617786796449451
+    second: DeathMark_47
+  - first:
+      213: 6392052446386321671
+    second: DeathMark_48
+  - first:
+      213: 9181494454457825229
+    second: DeathMark_49
+  - first:
+      213: -5612151427413292635
+    second: DeathMark_50
+  - first:
+      213: 3679166534880788300
+    second: DeathMark_51
+  - first:
+      213: 5928377745801931639
+    second: DeathMark_52
+  - first:
+      213: 4832104261394523645
+    second: DeathMark_53
+  - first:
+      213: 5845110017042706196
+    second: DeathMark_54
+  - first:
+      213: 1290106399577197735
+    second: DeathMark_55
+  - first:
+      213: -7495452981363462405
+    second: DeathMark_56
+  - first:
+      213: -4060564774217340760
+    second: DeathMark_57
+  - first:
+      213: -4876333434516004727
+    second: DeathMark_58
+  - first:
+      213: -6791421756072700867
+    second: DeathMark_59
+  - first:
+      213: 5897531236169951297
+    second: DeathMark_60
+  - first:
+      213: 9178958452936269596
+    second: DeathMark_61
+  - first:
+      213: 8968010653085019065
+    second: DeathMark_62
+  - first:
+      213: 1816912745844875176
+    second: DeathMark_63
+  - first:
+      213: 2296248971755798006
+    second: DeathMark_64
+  - first:
+      213: 8689908002131579327
+    second: DeathMark_65
+  - first:
+      213: -7207883026750526310
+    second: DeathMark_66
+  - first:
+      213: -3986257104436763457
+    second: DeathMark_67
+  - first:
+      213: 5293987065938777086
+    second: DeathMark_68
+  - first:
+      213: -2553305337269687668
+    second: DeathMark_69
+  - first:
+      213: -1271614316425298984
+    second: DeathMark_70
+  - first:
+      213: 7507689811062291514
+    second: DeathMark_71
+  - first:
+      213: 4041449182180307941
+    second: DeathMark_72
+  - first:
+      213: -32306209433268709
+    second: DeathMark_73
+  - first:
+      213: -890529582581472602
+    second: DeathMark_74
+  - first:
+      213: 6216568885596344164
+    second: DeathMark_75
+  - first:
+      213: 3745248450479388163
+    second: DeathMark_76
+  - first:
+      213: 8549935317282146581
+    second: DeathMark_77
+  - first:
+      213: 6226800138492561242
+    second: DeathMark_78
+  - first:
+      213: 146341671394272638
+    second: DeathMark_79
+  - first:
+      213: -7509621805345719666
+    second: DeathMark_80
+  - first:
+      213: 2112562272590221178
+    second: DeathMark_81
+  - first:
+      213: -4682970101343800763
+    second: DeathMark_82
+  - first:
+      213: -570730126469197383
+    second: DeathMark_83
+  - first:
+      213: 7215670903853230200
+    second: DeathMark_84
+  - first:
+      213: -2967063805338042780
+    second: DeathMark_85
+  - first:
+      213: -6539641876226582804
+    second: DeathMark_86
+  - first:
+      213: -8457858698796008518
+    second: DeathMark_87
+  - first:
+      213: 5565385235865010006
+    second: DeathMark_88
+  - first:
+      213: -7427631220615801195
+    second: DeathMark_89
+  - first:
+      213: 628470443875467249
+    second: DeathMark_90
+  - first:
+      213: -2194263176005617641
+    second: DeathMark_91
+  - first:
+      213: 2043239408904401557
+    second: DeathMark_92
+  - first:
+      213: -4013415898822620376
+    second: DeathMark_93
+  - first:
+      213: 6925580383726659796
+    second: DeathMark_94
+  - first:
+      213: -3177706076051398892
+    second: DeathMark_95
+  - first:
+      213: 4670790109042968947
+    second: DeathMark_96
+  - first:
+      213: -1843859827394452586
+    second: DeathMark_97
+  - first:
+      213: -6279875261058409759
+    second: DeathMark_98
+  - first:
+      213: 1271297598133373825
+    second: DeathMark_99
+  - first:
+      213: 4821861999650595673
+    second: DeathMark_100
+  - first:
+      213: 9020197405999363695
+    second: DeathMark_101
+  - first:
+      213: -3786354447086362764
+    second: DeathMark_102
+  - first:
+      213: 3599083716184418444
+    second: DeathMark_103
+  - first:
+      213: -1171412668545992395
+    second: DeathMark_104
+  - first:
+      213: 159062071710941368
+    second: DeathMark_105
+  - first:
+      213: -8348901778455328770
+    second: DeathMark_106
+  - first:
+      213: 6346006964260825330
+    second: DeathMark_107
+  - first:
+      213: 7450360783859190800
+    second: DeathMark_108
+  - first:
+      213: -909130043713601029
+    second: DeathMark_109
+  - first:
+      213: 3868856540882215702
+    second: DeathMark_110
+  - first:
+      213: -8934539788992706900
+    second: DeathMark_111
+  - first:
+      213: 809870184343973072
+    second: DeathMark_112
+  - first:
+      213: 7645591619388862156
+    second: DeathMark_113
+  - first:
+      213: -392058368481316644
+    second: DeathMark_114
+  - first:
+      213: 4886025810157819429
+    second: DeathMark_115
+  - first:
+      213: -8328553312769278321
+    second: DeathMark_116
+  - first:
+      213: 7200616255498314312
+    second: DeathMark_117
+  - first:
+      213: -7534797051468870771
+    second: DeathMark_118
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DeathMark_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 122
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422eaeae0e88bea90800000000000000
+      internalID: -7283577472746331612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 348
+        width: 34
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e8a9e6b741e9b00800000000000000
+      internalID: 837129101106646660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 447
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44acb39c674191440800000000000000
+      internalID: 4906975769411701316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 437
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7f9e9731f816090800000000000000
+      internalID: -8042990145694468114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_4
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 447
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228d93a13dffaa300800000000000000
+      internalID: 264304810297776162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_5
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 446
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcde1942a225b940800000000000000
+      internalID: 5311189415960173784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_6
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 425
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52a0e88d08a60ba0800000000000000
+      internalID: -6123021867279146402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 463
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3701eca497f7ee530800000000000000
+      internalID: 3886183687390105715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_8
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 474
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e663e6a011f2b17c0800000000000000
+      internalID: -4099631285554760082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_9
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 455
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f37cd72dda7a340800000000000000
+      internalID: 4875056241216798520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_10
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 425
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e6c54a7b0524e90800000000000000
+      internalID: -7042978117587276275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_11
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 210
+        width: 276
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e344e359ceedb2f80800000000000000
+      internalID: -8130159594589764546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_12
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 483
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753c817c5056f9630800000000000000
+      internalID: 3935975674834633559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_13
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 232
+        width: 245
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae57616daa41f94a0800000000000000
+      internalID: -6584521406223583766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_14
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 474
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba882344a04c0180800000000000000
+      internalID: -9147865668850775372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_15
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 469
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10130c082059d63b0800000000000000
+      internalID: -5517590130476437247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_16
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 483
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c1d1a88aaa08710800000000000000
+      internalID: 1693541100739697683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_17
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 477
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece2379ae9ae28cf0800000000000000
+      internalID: -251380662010695986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_18
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 261
+        width: 258
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8272fb57ec6127820800000000000000
+      internalID: 2914416984856667944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_19
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 472
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ec0a2c537198ad0800000000000000
+      internalID: -2699600981965877755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 432
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e7818e46fae8300800000000000000
+      internalID: 256335076732206718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_21
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 431
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832a49c62a477f130800000000000000
+      internalID: 3600474668061205048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_22
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 418
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6761a44f1d2252400800000000000000
+      internalID: 298683235432011382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_23
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 413
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1317f93a901033d00800000000000000
+      internalID: 951105087216775473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_24
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 338
+        width: 139
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd19346d0ab48580800000000000000
+      internalID: -8825724803060523588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_25
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 378
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfcf2b174685068b0800000000000000
+      internalID: -5161027984539058947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_26
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 416
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715ed0a89eba1ed60800000000000000
+      internalID: 7917798639425938711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_27
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 407
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583642b5ce40ca340800000000000000
+      internalID: 4876277909723308933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_28
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 402
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a5004b350304cc0800000000000000
+      internalID: -3728927355402429848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_29
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 391
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f52d3977f1f4480800000000000000
+      internalID: -8912870539101315189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_30
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 389
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ede2902cdd02c0d0800000000000000
+      internalID: -3404143129248207387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_31
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 396
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a8f0cf9c7fd7970800000000000000
+      internalID: 8754425697567476327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_32
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 389
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799a65c74217ebc80800000000000000
+      internalID: -8305076261305800297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2055b710f2eb780800000000000000
+      internalID: -8665436949603614003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_34
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 335
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6d86ad723060990800000000000000
+      internalID: -7420239866343401811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_35
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 326
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d491fe218506770800000000000000
+      internalID: 8601972126621715867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_36
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 312
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f8eaf08555f2420800000000000000
+      internalID: 2607396545979387684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_37
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 329
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4583ceb76324ea0800000000000000
+      internalID: -5890085456775195478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_38
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 377
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524eb49bda8b54bb0800000000000000
+      internalID: -4952349158946380763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_39
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 353
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856a9e634b12fa0d0800000000000000
+      internalID: -3409469334997064104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_40
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 329
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb5df9179d80a6f0800000000000000
+      internalID: -675384263989961766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_41
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 345
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568b41ee80aab2000800000000000000
+      internalID: 12290379329353829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_42
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 353
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e086cb74a537f80800000000000000
+      internalID: -8110039239814017502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_43
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 354
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aba38dbf73598010800000000000000
+      internalID: 1191575384521681826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_44
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 334
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4195c1540e65456b0800000000000000
+      internalID: -5308522539530823404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_45
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 291
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe370dae99db0470800000000000000
+      internalID: 8362016408674451131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_46
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 259
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86e65dae564775a0800000000000000
+      internalID: -6523668162773850482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_47
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 311
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55166006ef1b32fa0800000000000000
+      internalID: -5826617786796449451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_48
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 309
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709f58c55d125b850800000000000000
+      internalID: 6392052446386321671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_49
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 283
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc77d298f883b6f70800000000000000
+      internalID: 9181494454457825229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_50
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 255
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9445fd202ad12b0800000000000000
+      internalID: -5612151427413292635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_51
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 305
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ff21d68760f0330800000000000000
+      internalID: 3679166534880788300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_52
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 295
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bead06624d54250800000000000000
+      internalID: 5928377745801931639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_53
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 298
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5621269351f0340800000000000000
+      internalID: 4832104261394523645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_54
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 299
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f68ee77900e1150800000000000000
+      internalID: 5845110017042706196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_55
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 267
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7acc1456fe067e110800000000000000
+      internalID: 1290106399577197735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_56
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 297
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe203fd93dcaf790800000000000000
+      internalID: -7495452981363462405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_57
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 297
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8af450ad9f5a7c0800000000000000
+      internalID: -4060564774217340760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_58
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 252
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9802055c398c35cb0800000000000000
+      internalID: -4876333434516004727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_59
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 296
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d345d6535e500c1a0800000000000000
+      internalID: -6791421756072700867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_60
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 287
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1482eafa96d38d150800000000000000
+      internalID: 5897531236169951297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_61
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 301
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fd55ba416326f70800000000000000
+      internalID: 9178958452936269596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_62
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 290
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb2d07ac26c47c70800000000000000
+      internalID: 8968010653085019065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_63
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 283
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af96f31488f63910800000000000000
+      internalID: 1816912745844875176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_64
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 286
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd3c55164aeddf10800000000000000
+      internalID: 2296248971755798006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_65
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 279
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb190ed6941c89870800000000000000
+      internalID: 8689908002131579327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_66
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 282
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ca7ff739478fb90800000000000000
+      internalID: -7207883026750526310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_67
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 265
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb46baa9848fda8c0800000000000000
+      internalID: -3986257104436763457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 270
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef31bce0035087940800000000000000
+      internalID: 5293987065938777086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_69
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 273
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a6ee0e256d09cd0800000000000000
+      internalID: -2553305337269687668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_70
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 273
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db3b2a34815a5ee0800000000000000
+      internalID: -1271614316425298984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_71
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 274
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cff201b1ca03860800000000000000
+      internalID: 7507689811062291514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_72
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 264
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e376a16e9c161830800000000000000
+      internalID: 4041449182180307941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_73
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 255
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ec0b67ca93d8ff0800000000000000
+      internalID: -32306209433268709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_74
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 265
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a22148101434a3f0800000000000000
+      internalID: -890529582581472602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_75
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 257
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f47b3f670b54650800000000000000
+      internalID: 6216568885596344164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 245
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306f76e5f9bc9f330800000000000000
+      internalID: 3745248450479388163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_77
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 249
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5194b2f1fd877a670800000000000000
+      internalID: 8549935317282146581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_78
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 255
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57c3362cb90a6650800000000000000
+      internalID: 6226800138492561242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_79
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 250
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75ea4b89f8e70200800000000000000
+      internalID: 146341671394272638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_80
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 257
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a37d671c678c790800000000000000
+      internalID: -7509621805345719666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_81
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 273
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fc1afa134515d10800000000000000
+      internalID: 2112562272590221178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_82
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 224
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542b0a7118fb20fb0800000000000000
+      internalID: -4682970101343800763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_83
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 218
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1903d49fb5418f0800000000000000
+      internalID: -570730126469197383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_84
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 0
+        width: 240
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8782b40f476332460800000000000000
+      internalID: 7215670903853230200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_85
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 206
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e38e0703fd2d6d0800000000000000
+      internalID: -2967063805338042780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_86
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 208
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6de31bc568e35a0800000000000000
+      internalID: -6539641876226582804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_87
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 181
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abbf0d93356af9a80800000000000000
+      internalID: -8457858698796008518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_88
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 162
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65fffe5a2683c3d40800000000000000
+      internalID: 5565385235865010006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_89
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 131
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596189412c0cbe890800000000000000
+      internalID: -7427631220615801195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_90
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 162
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff7707f986c8b800800000000000000
+      internalID: 628470443875467249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_91
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 134
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718f67264496c81e0800000000000000
+      internalID: -2194263176005617641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_92
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 134
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59273d6ba6b0b5c10800000000000000
+      internalID: 2043239408904401557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_93
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 119
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82bc5c6018b7d48c0800000000000000
+      internalID: -4013415898822620376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_94
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 122
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8e07b6aaa9c1060800000000000000
+      internalID: 6925580383726659796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_95
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 113
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f1b58f82586e3d0800000000000000
+      internalID: -3177706076051398892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_96
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 108
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3790ae57bdaf1d040800000000000000
+      internalID: 4670790109042968947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_97
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 108
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6936a84914b4966e0800000000000000
+      internalID: -1843859827394452586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_98
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea99d6e8b669d8a0800000000000000
+      internalID: -6279875261058409759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_99
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 83
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b0c8c0e6e84a110800000000000000
+      internalID: 1271297598133373825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_100
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 81
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953e02df0f1bae240800000000000000
+      internalID: 4821861999650595673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_101
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 76
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66fd7cefbd2e2d70800000000000000
+      internalID: 9020197405999363695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_102
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 49
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f52bbf0ba247bc0800000000000000
+      internalID: -3786354447086362764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_103
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 31
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88a014329382f130800000000000000
+      internalID: 3599083716184418444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_104
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 38
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5397ce5626e4ebfe0800000000000000
+      internalID: -1171412668545992395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_105
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 39
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b081998c1a153200800000000000000
+      internalID: 159062071710941368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_106
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 19
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef70b8e111eb22c80800000000000000
+      internalID: -8348901778455328770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_107
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 31
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8ebee16bb811850800000000000000
+      internalID: 6346006964260825330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 23
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c8d62c8aff46760800000000000000
+      internalID: 7450360783859190800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_109
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 30
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1c0d1ca0f1263f0800000000000000
+      internalID: -909130043713601029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_110
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 31
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6132b3e9680f0b530800000000000000
+      internalID: 3868856540882215702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_111
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 9
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca60f7d2663220480800000000000000
+      internalID: -8934539788992706900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_112
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 15
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dca00c44ac3d3b00800000000000000
+      internalID: 809870184343973072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_113
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 8
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce606bd1199a1a60800000000000000
+      internalID: 7645591619388862156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_114
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 8
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0b377bdf02f8af0800000000000000
+      internalID: -392058368481316644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_115
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 10
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526d8d94696aec340800000000000000
+      internalID: 4886025810157819429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_116
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 14
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8efb7b73e80b6c80800000000000000
+      internalID: -8328553312769278321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_117
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 15
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84261e8755abde360800000000000000
+      internalID: 7200616255498314312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathMark_118
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 15
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b8984b0060f6790800000000000000
+      internalID: -7534797051468870771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DeathMark_0: -7283577472746331612
+      DeathMark_1: 837129101106646660
+      DeathMark_10: -7042978117587276275
+      DeathMark_100: 4821861999650595673
+      DeathMark_101: 9020197405999363695
+      DeathMark_102: -3786354447086362764
+      DeathMark_103: 3599083716184418444
+      DeathMark_104: -1171412668545992395
+      DeathMark_105: 159062071710941368
+      DeathMark_106: -8348901778455328770
+      DeathMark_107: 6346006964260825330
+      DeathMark_108: 7450360783859190800
+      DeathMark_109: -909130043713601029
+      DeathMark_11: -8130159594589764546
+      DeathMark_110: 3868856540882215702
+      DeathMark_111: -8934539788992706900
+      DeathMark_112: 809870184343973072
+      DeathMark_113: 7645591619388862156
+      DeathMark_114: -392058368481316644
+      DeathMark_115: 4886025810157819429
+      DeathMark_116: -8328553312769278321
+      DeathMark_117: 7200616255498314312
+      DeathMark_118: -7534797051468870771
+      DeathMark_12: 3935975674834633559
+      DeathMark_13: -6584521406223583766
+      DeathMark_14: -9147865668850775372
+      DeathMark_15: -5517590130476437247
+      DeathMark_16: 1693541100739697683
+      DeathMark_17: -251380662010695986
+      DeathMark_18: 2914416984856667944
+      DeathMark_19: -2699600981965877755
+      DeathMark_2: 4906975769411701316
+      DeathMark_20: 256335076732206718
+      DeathMark_21: 3600474668061205048
+      DeathMark_22: 298683235432011382
+      DeathMark_23: 951105087216775473
+      DeathMark_24: -8825724803060523588
+      DeathMark_25: -5161027984539058947
+      DeathMark_26: 7917798639425938711
+      DeathMark_27: 4876277909723308933
+      DeathMark_28: -3728927355402429848
+      DeathMark_29: -8912870539101315189
+      DeathMark_3: -8042990145694468114
+      DeathMark_30: -3404143129248207387
+      DeathMark_31: 8754425697567476327
+      DeathMark_32: -8305076261305800297
+      DeathMark_33: -8665436949603614003
+      DeathMark_34: -7420239866343401811
+      DeathMark_35: 8601972126621715867
+      DeathMark_36: 2607396545979387684
+      DeathMark_37: -5890085456775195478
+      DeathMark_38: -4952349158946380763
+      DeathMark_39: -3409469334997064104
+      DeathMark_4: 264304810297776162
+      DeathMark_40: -675384263989961766
+      DeathMark_41: 12290379329353829
+      DeathMark_42: -8110039239814017502
+      DeathMark_43: 1191575384521681826
+      DeathMark_44: -5308522539530823404
+      DeathMark_45: 8362016408674451131
+      DeathMark_46: -6523668162773850482
+      DeathMark_47: -5826617786796449451
+      DeathMark_48: 6392052446386321671
+      DeathMark_49: 9181494454457825229
+      DeathMark_5: 5311189415960173784
+      DeathMark_50: -5612151427413292635
+      DeathMark_51: 3679166534880788300
+      DeathMark_52: 5928377745801931639
+      DeathMark_53: 4832104261394523645
+      DeathMark_54: 5845110017042706196
+      DeathMark_55: 1290106399577197735
+      DeathMark_56: -7495452981363462405
+      DeathMark_57: -4060564774217340760
+      DeathMark_58: -4876333434516004727
+      DeathMark_59: -6791421756072700867
+      DeathMark_6: -6123021867279146402
+      DeathMark_60: 5897531236169951297
+      DeathMark_61: 9178958452936269596
+      DeathMark_62: 8968010653085019065
+      DeathMark_63: 1816912745844875176
+      DeathMark_64: 2296248971755798006
+      DeathMark_65: 8689908002131579327
+      DeathMark_66: -7207883026750526310
+      DeathMark_67: -3986257104436763457
+      DeathMark_68: 5293987065938777086
+      DeathMark_69: -2553305337269687668
+      DeathMark_7: 3886183687390105715
+      DeathMark_70: -1271614316425298984
+      DeathMark_71: 7507689811062291514
+      DeathMark_72: 4041449182180307941
+      DeathMark_73: -32306209433268709
+      DeathMark_74: -890529582581472602
+      DeathMark_75: 6216568885596344164
+      DeathMark_76: 3745248450479388163
+      DeathMark_77: 8549935317282146581
+      DeathMark_78: 6226800138492561242
+      DeathMark_79: 146341671394272638
+      DeathMark_8: -4099631285554760082
+      DeathMark_80: -7509621805345719666
+      DeathMark_81: 2112562272590221178
+      DeathMark_82: -4682970101343800763
+      DeathMark_83: -570730126469197383
+      DeathMark_84: 7215670903853230200
+      DeathMark_85: -2967063805338042780
+      DeathMark_86: -6539641876226582804
+      DeathMark_87: -8457858698796008518
+      DeathMark_88: 5565385235865010006
+      DeathMark_89: -7427631220615801195
+      DeathMark_9: 4875056241216798520
+      DeathMark_90: 628470443875467249
+      DeathMark_91: -2194263176005617641
+      DeathMark_92: 2043239408904401557
+      DeathMark_93: -4013415898822620376
+      DeathMark_94: 6925580383726659796
+      DeathMark_95: -3177706076051398892
+      DeathMark_96: 4670790109042968947
+      DeathMark_97: -1843859827394452586
+      DeathMark_98: -6279875261058409759
+      DeathMark_99: 1271297598133373825
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

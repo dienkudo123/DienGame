@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf5dfb40f690e254a98e1ee20ccb487d, type: 3}
+  m_Name: SkillIconCatalog
+  m_EditorClassIdentifier: 
+  piercingBullet: {fileID: 889754872418408786, guid: 7a413cdb610924242895f295ac1510eb, type: 3}
+  thunderBullet: {fileID: 5178065798971185393, guid: 7a413cdb610924242895f295ac1510eb, type: 3}
+  combatDrone: {fileID: -2651607631583271877, guid: 7a413cdb610924242895f295ac1510eb, type: 3}
+  airStrike: {fileID: 8928465058570775420, guid: 7a413cdb610924242895f295ac1510eb, type: 3}
+  judgement: {fileID: -57594365591870966, guid: 7a413cdb610924242895f295ac1510eb, type: 3}

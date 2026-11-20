@@ -1,0 +1,1193 @@
+fileFormatVersion: 2
+guid: 4b2510572bbf6f241866f508c0c2bdbc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1008460558246635410
+    second: SongTrungOanhKich_Lv5_0
+  - first:
+      213: -3251708457422102242
+    second: SongTrungOanhKich_Lv5_1
+  - first:
+      213: -1041696564143386395
+    second: SongTrungOanhKich_Lv5_2
+  - first:
+      213: -8178457080395044541
+    second: SongTrungOanhKich_Lv5_3
+  - first:
+      213: 8152213356553649094
+    second: SongTrungOanhKich_Lv5_4
+  - first:
+      213: 1610282630370175545
+    second: SongTrungOanhKich_Lv5_5
+  - first:
+      213: -5627825680825090659
+    second: SongTrungOanhKich_Lv5_6
+  - first:
+      213: -3305951835730916933
+    second: SongTrungOanhKich_Lv5_7
+  - first:
+      213: 5789741012832027949
+    second: SongTrungOanhKich_Lv5_8
+  - first:
+      213: 9178640235139941093
+    second: SongTrungOanhKich_Lv5_9
+  - first:
+      213: 8645939790199796393
+    second: SongTrungOanhKich_Lv5_10
+  - first:
+      213: 5598498444743323789
+    second: SongTrungOanhKich_Lv5_11
+  - first:
+      213: -8311369592500377728
+    second: SongTrungOanhKich_Lv5_12
+  - first:
+      213: -2493307872726085505
+    second: SongTrungOanhKich_Lv5_13
+  - first:
+      213: -3276431110209703263
+    second: SongTrungOanhKich_Lv5_14
+  - first:
+      213: 8804621077960674621
+    second: SongTrungOanhKich_Lv5_15
+  - first:
+      213: -2857443950508004955
+    second: SongTrungOanhKich_Lv5_16
+  - first:
+      213: -7928677709473026926
+    second: SongTrungOanhKich_Lv5_17
+  - first:
+      213: 8611256312704588907
+    second: SongTrungOanhKich_Lv5_18
+  - first:
+      213: 4725623354950160667
+    second: SongTrungOanhKich_Lv5_19
+  - first:
+      213: 4470152703222729373
+    second: SongTrungOanhKich_Lv5_20
+  - first:
+      213: 2948315326846308898
+    second: SongTrungOanhKich_Lv5_21
+  - first:
+      213: -1983071108105210485
+    second: SongTrungOanhKich_Lv5_22
+  - first:
+      213: -4527321348602931611
+    second: SongTrungOanhKich_Lv5_23
+  - first:
+      213: 2209152476951028409
+    second: SongTrungOanhKich_Lv5_24
+  - first:
+      213: 1423202301420545795
+    second: SongTrungOanhKich_Lv5_25
+  - first:
+      213: 3207440508222034251
+    second: SongTrungOanhKich_Lv5_26
+  - first:
+      213: 1563094226510361928
+    second: SongTrungOanhKich_Lv5_27
+  - first:
+      213: -1918292578179210429
+    second: SongTrungOanhKich_Lv5_28
+  - first:
+      213: -2883177696454637154
+    second: SongTrungOanhKich_Lv5_29
+  - first:
+      213: -1090920112330953586
+    second: SongTrungOanhKich_Lv5_30
+  - first:
+      213: -6116142381127511034
+    second: SongTrungOanhKich_Lv5_31
+  - first:
+      213: -5528437469380427003
+    second: SongTrungOanhKich_Lv5_32
+  - first:
+      213: 8390954924424580669
+    second: SongTrungOanhKich_Lv5_33
+  - first:
+      213: -445371126358149491
+    second: SongTrungOanhKich_Lv5_34
+  - first:
+      213: 8223695277316177890
+    second: SongTrungOanhKich_Lv5_35
+  - first:
+      213: 6777258145697277669
+    second: SongTrungOanhKich_Lv5_36
+  - first:
+      213: 4567066547089199501
+    second: SongTrungOanhKich_Lv5_37
+  - first:
+      213: -7357221184394469174
+    second: SongTrungOanhKich_Lv5_38
+  - first:
+      213: -2374313620777158821
+    second: SongTrungOanhKich_Lv5_39
+  - first:
+      213: -8856256511566716636
+    second: SongTrungOanhKich_Lv5_40
+  - first:
+      213: 17950244482745428
+    second: SongTrungOanhKich_Lv5_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_0
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 683
+        width: 260
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6897bf177a3102f0800000000000000
+      internalID: -1008460558246635410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_1
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 915
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11e832e26c9fd2d0800000000000000
+      internalID: -3251708457422102242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_2
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 726
+        width: 376
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e01d7a7e762b81f0800000000000000
+      internalID: -1041696564143386395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_3
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 571
+        width: 427
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3496640ed98408e80800000000000000
+      internalID: -8178457080395044541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_4
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 890
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb33920bda722170800000000000000
+      internalID: 8152213356553649094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_5
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 726
+        width: 130
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a223b458fd85610800000000000000
+      internalID: 1610282630370175545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_6
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 828
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d799c5c52f5e1b0800000000000000
+      internalID: -5627825680825090659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_7
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 610
+        width: 267
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb945b23256ee12d0800000000000000
+      internalID: -3305951835730916933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_8
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 828
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d250d5b96ca495050800000000000000
+      internalID: 5789741012832027949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_9
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 812
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2cf90d9a4116f70800000000000000
+      internalID: 9178640235139941093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_10
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 668
+        width: 149
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a236485e6c8cf770800000000000000
+      internalID: 8645939790199796393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_11
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 780
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80b0826cacd1bd40800000000000000
+      internalID: 5598498444743323789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_12
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 574
+        width: 376
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0872802246518ac80800000000000000
+      internalID: -8311369592500377728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_13
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 715
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f701a7a23bdf56dd0800000000000000
+      internalID: -2493307872726085505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_14
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 717
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a279e8b347c782d0800000000000000
+      internalID: -3276431110209703263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_15
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 671
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d43c5b83c403a70800000000000000
+      internalID: 8804621077960674621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_16
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 630
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9a16ccdd15858d0800000000000000
+      internalID: -2857443950508004955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_17
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 662
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c6d4491ada7f190800000000000000
+      internalID: -7928677709473026926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_18
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 591
+        width: 50
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cd894fdf3518770800000000000000
+      internalID: 8611256312704588907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_19
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 556
+        width: 97
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1118166769c49140800000000000000
+      internalID: 4725623354950160667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_20
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 545
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ac75f133c290e30800000000000000
+      internalID: 4470152703222729373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_21
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 53
+        width: 448
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222938e3b258ae820800000000000000
+      internalID: 2948315326846308898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_22
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 55
+        width: 446
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b857c0d7557ba74e0800000000000000
+      internalID: -1983071108105210485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_23
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 183
+        width: 275
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566da706839bb21c0800000000000000
+      internalID: -4527321348602931611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_24
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 366
+        width: 37
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b22753297c78ae10800000000000000
+      internalID: 2209152476951028409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_25
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 314
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307a0b3e3fa30c310800000000000000
+      internalID: 1423202301420545795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_26
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 321
+        width: 67
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41d5c2062e138c20800000000000000
+      internalID: 3207440508222034251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_27
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 316
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8453d99dae931b510800000000000000
+      internalID: 1563094226510361928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_28
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 119
+        width: 137
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3432c5e401bd065e0800000000000000
+      internalID: -1918292578179210429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_29
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 291
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e990e7a2925ecf7d0800000000000000
+      internalID: -2883177696454637154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_30
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 228
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c2f2210f54cd0f0800000000000000
+      internalID: -1090920112330953586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_31
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 225
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604de29b8e81f1ba0800000000000000
+      internalID: -6116142381127511034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_32
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 160
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503ce9a996b0743b0800000000000000
+      internalID: -5528437469380427003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_33
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 154
+        width: 126
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e44aceb09a27470800000000000000
+      internalID: 8390954924424580669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_34
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 180
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86f43cf159b1d9f0800000000000000
+      internalID: -445371126358149491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_35
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 141
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2effc71a84f602270800000000000000
+      internalID: 8223695277316177890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_36
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 131
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6a8654068ad0e50800000000000000
+      internalID: 6777258145697277669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_37
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 105
+        width: 50
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8152d4c3da716f30800000000000000
+      internalID: 4567066547089199501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_38
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 63
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac060322056e5e990800000000000000
+      internalID: -7357221184394469174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_39
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 87
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57b430775ebc0fd0800000000000000
+      internalID: -2374313620777158821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_40
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 77
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421635c00a1481580800000000000000
+      internalID: -8856256511566716636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SongTrungOanhKich_Lv5_41
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 64
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454860af6a5cf3000800000000000000
+      internalID: 17950244482745428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

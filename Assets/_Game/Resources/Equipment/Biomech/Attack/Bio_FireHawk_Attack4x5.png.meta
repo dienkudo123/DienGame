@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: a0c46d2fb5e764145896af351f756fcf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3142343483522157830
+    second: Bio_FireHawk_Attack4x5_0
+  - first:
+      213: 8453107680002250084
+    second: Bio_FireHawk_Attack4x5_1
+  - first:
+      213: 8964673991796520740
+    second: Bio_FireHawk_Attack4x5_2
+  - first:
+      213: -6939335501915580059
+    second: Bio_FireHawk_Attack4x5_3
+  - first:
+      213: 8400540905215547250
+    second: Bio_FireHawk_Attack4x5_4
+  - first:
+      213: -2747066573554440067
+    second: Bio_FireHawk_Attack4x5_5
+  - first:
+      213: 2714457945266851641
+    second: Bio_FireHawk_Attack4x5_6
+  - first:
+      213: -4884675547732088526
+    second: Bio_FireHawk_Attack4x5_7
+  - first:
+      213: -2272568712952945634
+    second: Bio_FireHawk_Attack4x5_8
+  - first:
+      213: -1155968529349737502
+    second: Bio_FireHawk_Attack4x5_9
+  - first:
+      213: 5242928377732946871
+    second: Bio_FireHawk_Attack4x5_10
+  - first:
+      213: 8549820998473607811
+    second: Bio_FireHawk_Attack4x5_11
+  - first:
+      213: 2450475077608654896
+    second: Bio_FireHawk_Attack4x5_12
+  - first:
+      213: 6495790019943210473
+    second: Bio_FireHawk_Attack4x5_13
+  - first:
+      213: 4602797270793982372
+    second: Bio_FireHawk_Attack4x5_14
+  - first:
+      213: 8884688268393963898
+    second: Bio_FireHawk_Attack4x5_15
+  - first:
+      213: 8467168011408374098
+    second: Bio_FireHawk_Attack4x5_16
+  - first:
+      213: 1589525754329087700
+    second: Bio_FireHawk_Attack4x5_17
+  - first:
+      213: -1801557048765009569
+    second: Bio_FireHawk_Attack4x5_18
+  - first:
+      213: 8253199705630951953
+    second: Bio_FireHawk_Attack4x5_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bio_FireHawk_Attack4x5_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 784
+        width: 236
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2f56620472464d0800000000000000
+      internalID: -3142343483522157830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Attack4x5_1
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 772
+        width: 248
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46519a206a87f4570800000000000000
+      internalID: 8453107680002250084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Attack4x5_2
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 788
+        width: 240
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427f638af7be86c70800000000000000
+      internalID: 8964673991796520740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Attack4x5_3
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 779
+        width: 247
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569901f802782bf90800000000000000
+      internalID: -6939335501915580059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Attack4x5_4
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 784
+        width: 236
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277d2800277b49470800000000000000
+      internalID: 8400540905215547250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Attack4x5_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 528
+        width: 236
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7820f4818570e9d0800000000000000
+      internalID: -2747066573554440067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Attack4x5_6
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 521
+        width: 247
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f0e519e11bba520800000000000000
+      internalID: 2714457945266851641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Attack4x5_7
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 525
+        width: 240
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239646e2875263cb0800000000000000
+      internalID: -4884675547732088526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Attack4x5_8
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 519
+        width: 247
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14e5c0dbc63670e0800000000000000
+      internalID: -2272568712952945634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Attack4x5_9
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 528
+        width: 236
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e304944fbc25ffe0800000000000000
+      internalID: -1155968529349737502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Attack4x5_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 272
+        width: 236
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb5691d49f92c840800000000000000
+      internalID: 5242928377732946871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Attack4x5_11
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 270
+        width: 248
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ae13336e017a670800000000000000
+      internalID: 8549820998473607811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Attack4x5_12
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 262
+        width: 240
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038cfc39916d10220800000000000000
+      internalID: 2450475077608654896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Attack4x5_13
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 259
+        width: 247
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed1e326b9ea52a50800000000000000
+      internalID: 6495790019943210473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Attack4x5_14
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 272
+        width: 236
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a110da2bbb60ef30800000000000000
+      internalID: 4602797270793982372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Attack4x5_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 16
+        width: 236
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71e3b138e0cc4b70800000000000000
+      internalID: 8884688268393963898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Attack4x5_16
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 9
+        width: 247
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259fb85027c618570800000000000000
+      internalID: 8467168011408374098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Attack4x5_17
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 13
+        width: 240
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4debe1c70412f0610800000000000000
+      internalID: 1589525754329087700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Attack4x5_18
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 7
+        width: 247
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51b2c1c8659ff6e0800000000000000
+      internalID: -1801557048765009569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Attack4x5_19
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 16
+        width: 236
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11acd7aa761498270800000000000000
+      internalID: 8253199705630951953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bio_FireHawk_Attack4x5_0: -3142343483522157830
+      Bio_FireHawk_Attack4x5_1: 8453107680002250084
+      Bio_FireHawk_Attack4x5_10: 5242928377732946871
+      Bio_FireHawk_Attack4x5_11: 8549820998473607811
+      Bio_FireHawk_Attack4x5_12: 2450475077608654896
+      Bio_FireHawk_Attack4x5_13: 6495790019943210473
+      Bio_FireHawk_Attack4x5_14: 4602797270793982372
+      Bio_FireHawk_Attack4x5_15: 8884688268393963898
+      Bio_FireHawk_Attack4x5_16: 8467168011408374098
+      Bio_FireHawk_Attack4x5_17: 1589525754329087700
+      Bio_FireHawk_Attack4x5_18: -1801557048765009569
+      Bio_FireHawk_Attack4x5_19: 8253199705630951953
+      Bio_FireHawk_Attack4x5_2: 8964673991796520740
+      Bio_FireHawk_Attack4x5_3: -6939335501915580059
+      Bio_FireHawk_Attack4x5_4: 8400540905215547250
+      Bio_FireHawk_Attack4x5_5: -2747066573554440067
+      Bio_FireHawk_Attack4x5_6: 2714457945266851641
+      Bio_FireHawk_Attack4x5_7: -4884675547732088526
+      Bio_FireHawk_Attack4x5_8: -2272568712952945634
+      Bio_FireHawk_Attack4x5_9: -1155968529349737502
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

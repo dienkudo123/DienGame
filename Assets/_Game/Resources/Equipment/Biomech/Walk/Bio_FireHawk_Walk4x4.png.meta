@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 6b125dc64c47851419154199b1f92d52
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -312209201802604140
+    second: Bio_FireHawk_Walk4x4_0
+  - first:
+      213: -7422666720773514471
+    second: Bio_FireHawk_Walk4x4_1
+  - first:
+      213: 5749288836472492266
+    second: Bio_FireHawk_Walk4x4_2
+  - first:
+      213: 3155046094605684756
+    second: Bio_FireHawk_Walk4x4_3
+  - first:
+      213: -1106407797577837318
+    second: Bio_FireHawk_Walk4x4_4
+  - first:
+      213: 3424749611226450683
+    second: Bio_FireHawk_Walk4x4_5
+  - first:
+      213: 1439210411921401071
+    second: Bio_FireHawk_Walk4x4_6
+  - first:
+      213: 149719458241258175
+    second: Bio_FireHawk_Walk4x4_7
+  - first:
+      213: 7599949551679258956
+    second: Bio_FireHawk_Walk4x4_8
+  - first:
+      213: 6112024321657312973
+    second: Bio_FireHawk_Walk4x4_9
+  - first:
+      213: 8757414951429390459
+    second: Bio_FireHawk_Walk4x4_10
+  - first:
+      213: -4106434719153841788
+    second: Bio_FireHawk_Walk4x4_11
+  - first:
+      213: -4042730982418601115
+    second: Bio_FireHawk_Walk4x4_12
+  - first:
+      213: -6903899035917240903
+    second: Bio_FireHawk_Walk4x4_13
+  - first:
+      213: -3404154122784244916
+    second: Bio_FireHawk_Walk4x4_14
+  - first:
+      213: -4340599180427315256
+    second: Bio_FireHawk_Walk4x4_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bio_FireHawk_Walk4x4_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 781
+        width: 239
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49192f6926fcaabf0800000000000000
+      internalID: -312209201802604140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Walk4x4_1
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 785
+        width: 238
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b5e26c1f36df890800000000000000
+      internalID: -7422666720773514471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Walk4x4_2
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 779
+        width: 243
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0df095cb399cf40800000000000000
+      internalID: 5749288836472492266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Walk4x4_3
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 784
+        width: 238
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41094f6f4b9f8cb20800000000000000
+      internalID: 3155046094605684756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Walk4x4_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 523
+        width: 241
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af496a858ff35a0f0800000000000000
+      internalID: -1106407797577837318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Walk4x4_5
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 530
+        width: 238
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa4fc550a7278f20800000000000000
+      internalID: 3424749611226450683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Walk4x4_6
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 525
+        width: 239
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe46e9f8e3a19f310800000000000000
+      internalID: 1439210411921401071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Walk4x4_7
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 529
+        width: 238
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb22f64dd09e31200800000000000000
+      internalID: 149719458241258175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Walk4x4_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 268
+        width: 239
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c414bbad9d1787960800000000000000
+      internalID: 7599949551679258956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Walk4x4_9
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 274
+        width: 237
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc69ee6dcb542d450800000000000000
+      internalID: 6112024321657312973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Walk4x4_10
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 268
+        width: 240
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70c4a2ef76988970800000000000000
+      internalID: 8757414951429390459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Walk4x4_11
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 273
+        width: 237
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489118731630307c0800000000000000
+      internalID: -4106434719153841788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Walk4x4_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 10
+        width: 241
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b297e379555e7c0800000000000000
+      internalID: -4042730982418601115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Walk4x4_13
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 17
+        width: 237
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5bdfeb76c6030a0800000000000000
+      internalID: -6903899035917240903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Walk4x4_14
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 14
+        width: 239
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b73ce7cd302c0d0800000000000000
+      internalID: -3404154122784244916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_FireHawk_Walk4x4_15
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 16
+        width: 237
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7374afa0813c3c0800000000000000
+      internalID: -4340599180427315256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bio_FireHawk_Walk4x4_0: -312209201802604140
+      Bio_FireHawk_Walk4x4_1: -7422666720773514471
+      Bio_FireHawk_Walk4x4_10: 8757414951429390459
+      Bio_FireHawk_Walk4x4_11: -4106434719153841788
+      Bio_FireHawk_Walk4x4_12: -4042730982418601115
+      Bio_FireHawk_Walk4x4_13: -6903899035917240903
+      Bio_FireHawk_Walk4x4_14: -3404154122784244916
+      Bio_FireHawk_Walk4x4_15: -4340599180427315256
+      Bio_FireHawk_Walk4x4_2: 5749288836472492266
+      Bio_FireHawk_Walk4x4_3: 3155046094605684756
+      Bio_FireHawk_Walk4x4_4: -1106407797577837318
+      Bio_FireHawk_Walk4x4_5: 3424749611226450683
+      Bio_FireHawk_Walk4x4_6: 1439210411921401071
+      Bio_FireHawk_Walk4x4_7: 149719458241258175
+      Bio_FireHawk_Walk4x4_8: 7599949551679258956
+      Bio_FireHawk_Walk4x4_9: 6112024321657312973
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,211 @@
+[
+  {
+    "name": "IceBoulderGrand",
+    "height": 1.7,
+    "colliderWidth": 0.64,
+    "colliderHeight": 0.72,
+    "type": "rock",
+    "size": [
+      385,
+      249
+    ]
+  },
+  {
+    "name": "IceBoulderRidge",
+    "height": 1.52,
+    "colliderWidth": 0.55,
+    "colliderHeight": 0.57,
+    "type": "rock",
+    "size": [
+      222,
+      178
+    ]
+  },
+  {
+    "name": "IceBoulderTall",
+    "height": 1.78,
+    "colliderWidth": 0.47,
+    "colliderHeight": 0.63,
+    "type": "rock",
+    "size": [
+      212,
+      209
+    ]
+  },
+  {
+    "name": "IceBoulderSmall",
+    "height": 1.22,
+    "colliderWidth": 0.46,
+    "colliderHeight": 0.48,
+    "type": "rock",
+    "size": [
+      189,
+      129
+    ]
+  },
+  {
+    "name": "IceCrystalGrand",
+    "height": 2.25,
+    "colliderWidth": 0.57,
+    "colliderHeight": 0.53,
+    "type": "crystal",
+    "size": [
+      279,
+      191
+    ]
+  },
+  {
+    "name": "IceCrystalMid",
+    "height": 1.83,
+    "colliderWidth": 0.46,
+    "colliderHeight": 0.48,
+    "type": "crystal",
+    "size": [
+      199,
+      159
+    ]
+  },
+  {
+    "name": "IceCrystalSmall",
+    "height": 1.42,
+    "colliderWidth": 0.43,
+    "colliderHeight": 0.47,
+    "type": "crystal",
+    "size": [
+      152,
+      137
+    ]
+  },
+  {
+    "name": "IceCrystalObelisk",
+    "height": 2.22,
+    "colliderWidth": 0.37,
+    "colliderHeight": 0.56,
+    "type": "crystal",
+    "size": [
+      117,
+      231
+    ]
+  },
+  {
+    "name": "IceWallGrand",
+    "height": 1.92,
+    "colliderWidth": 0.76,
+    "colliderHeight": 0.5,
+    "type": "wall",
+    "size": [
+      461,
+      183
+    ]
+  },
+  {
+    "name": "IceWallBroken",
+    "height": 1.37,
+    "colliderWidth": 0.67,
+    "colliderHeight": 0.48,
+    "type": "wall",
+    "size": [
+      265,
+      158
+    ]
+  },
+  {
+    "name": "IceWallShort",
+    "height": 1.05,
+    "colliderWidth": 0.62,
+    "colliderHeight": 0.38,
+    "type": "wall",
+    "size": [
+      183,
+      118
+    ]
+  },
+  {
+    "name": "IceGateRuined",
+    "height": 1.95,
+    "colliderWidth": 0.62,
+    "colliderHeight": 0.54,
+    "type": "wall",
+    "size": [
+      275,
+      161
+    ]
+  },
+  {
+    "name": "IcePillarTall",
+    "height": 2.22,
+    "colliderWidth": 0.35,
+    "colliderHeight": 0.52,
+    "type": "pillar",
+    "size": [
+      135,
+      195
+    ]
+  },
+  {
+    "name": "IcePillarRound",
+    "height": 1.65,
+    "colliderWidth": 0.39,
+    "colliderHeight": 0.48,
+    "type": "pillar",
+    "size": [
+      96,
+      166
+    ]
+  },
+  {
+    "name": "IcePillarRunic",
+    "height": 1.81,
+    "colliderWidth": 0.52,
+    "colliderHeight": 0.52,
+    "type": "pillar",
+    "size": [
+      191,
+      154
+    ]
+  },
+  {
+    "name": "IceShrine",
+    "height": 1.94,
+    "colliderWidth": 0.65,
+    "colliderHeight": 0.63,
+    "type": "shrine",
+    "size": [
+      218,
+      188
+    ]
+  },
+  {
+    "name": "IceSpikes",
+    "height": 1.18,
+    "colliderWidth": 0.82,
+    "colliderHeight": 0.38,
+    "type": "spike",
+    "size": [
+      233,
+      142
+    ]
+  },
+  {
+    "name": "IceSpikesShort",
+    "height": 0.96,
+    "colliderWidth": 0.82,
+    "colliderHeight": 0.38,
+    "type": "spike",
+    "size": [
+      207,
+      117
+    ]
+  },
+  {
+    "name": "IceFlagstones",
+    "height": 1.28,
+    "colliderWidth": 0.52,
+    "colliderHeight": 0.35,
+    "type": "floor",
+    "size": [
+      137,
+      117
+    ]
+  }
+]

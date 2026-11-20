@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 5888b66468330d44980c9d9e41c86e35
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6591689504103178673
+    second: Bio_IceFox_Walk4x4_0
+  - first:
+      213: -3066113848022882018
+    second: Bio_IceFox_Walk4x4_1
+  - first:
+      213: 4792982985911689598
+    second: Bio_IceFox_Walk4x4_2
+  - first:
+      213: 3540946901637100245
+    second: Bio_IceFox_Walk4x4_3
+  - first:
+      213: 5201886231297604718
+    second: Bio_IceFox_Walk4x4_4
+  - first:
+      213: -2744389759844032761
+    second: Bio_IceFox_Walk4x4_5
+  - first:
+      213: -3497449514614236094
+    second: Bio_IceFox_Walk4x4_6
+  - first:
+      213: 662921585558902087
+    second: Bio_IceFox_Walk4x4_7
+  - first:
+      213: 8484141057653163899
+    second: Bio_IceFox_Walk4x4_8
+  - first:
+      213: -8530485970245254323
+    second: Bio_IceFox_Walk4x4_9
+  - first:
+      213: -384457692092630661
+    second: Bio_IceFox_Walk4x4_10
+  - first:
+      213: -2965471885514033201
+    second: Bio_IceFox_Walk4x4_11
+  - first:
+      213: -7035119546612952872
+    second: Bio_IceFox_Walk4x4_12
+  - first:
+      213: -7992490595416989879
+    second: Bio_IceFox_Walk4x4_13
+  - first:
+      213: -6944163766938421440
+    second: Bio_IceFox_Walk4x4_14
+  - first:
+      213: 1572706431052723656
+    second: Bio_IceFox_Walk4x4_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bio_IceFox_Walk4x4_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 791
+        width: 237
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e524ef15d9584a0800000000000000
+      internalID: -6591689504103178673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Walk4x4_1
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 795
+        width: 238
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19a0bf33b9f275d0800000000000000
+      internalID: -3066113848022882018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Walk4x4_2
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 789
+        width: 242
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71e1c1a1a8148240800000000000000
+      internalID: 4792982985911689598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Walk4x4_3
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 794
+        width: 238
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d279904278f32130800000000000000
+      internalID: 3540946901637100245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Walk4x4_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 533
+        width: 240
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c3d7277ffc03840800000000000000
+      internalID: 5201886231297604718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Walk4x4_5
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 539
+        width: 238
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fd647cd08f9e9d0800000000000000
+      internalID: -2744389759844032761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Walk4x4_6
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 535
+        width: 239
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c5e8d5230967fc0800000000000000
+      internalID: -3497449514614236094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Walk4x4_7
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 538
+        width: 238
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7455d257bab233900800000000000000
+      internalID: 662921585558902087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Walk4x4_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 278
+        width: 239
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7749bd4759bdb570800000000000000
+      internalID: 8484141057653163899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Walk4x4_9
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 283
+        width: 237
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43041ed430ad9980800000000000000
+      internalID: -8530485970245254323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Walk4x4_10
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 277
+        width: 240
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79f6a714c12aaaf0800000000000000
+      internalID: -384457692092630661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Walk4x4_11
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 282
+        width: 237
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc73788280788d6d0800000000000000
+      internalID: -2965471885514033201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Walk4x4_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 20
+        width: 240
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d05ab7cb0c3e5e90800000000000000
+      internalID: -7035119546612952872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Walk4x4_13
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 27
+        width: 237
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f15854628f41190800000000000000
+      internalID: -7992490595416989879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Walk4x4_14
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 23
+        width: 238
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0473f7188df51af90800000000000000
+      internalID: -6944163766938421440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_IceFox_Walk4x4_15
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 26
+        width: 237
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5bede9a2063d510800000000000000
+      internalID: 1572706431052723656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bio_IceFox_Walk4x4_0: -6591689504103178673
+      Bio_IceFox_Walk4x4_1: -3066113848022882018
+      Bio_IceFox_Walk4x4_10: -384457692092630661
+      Bio_IceFox_Walk4x4_11: -2965471885514033201
+      Bio_IceFox_Walk4x4_12: -7035119546612952872
+      Bio_IceFox_Walk4x4_13: -7992490595416989879
+      Bio_IceFox_Walk4x4_14: -6944163766938421440
+      Bio_IceFox_Walk4x4_15: 1572706431052723656
+      Bio_IceFox_Walk4x4_2: 4792982985911689598
+      Bio_IceFox_Walk4x4_3: 3540946901637100245
+      Bio_IceFox_Walk4x4_4: 5201886231297604718
+      Bio_IceFox_Walk4x4_5: -2744389759844032761
+      Bio_IceFox_Walk4x4_6: -3497449514614236094
+      Bio_IceFox_Walk4x4_7: 662921585558902087
+      Bio_IceFox_Walk4x4_8: 8484141057653163899
+      Bio_IceFox_Walk4x4_9: -8530485970245254323
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

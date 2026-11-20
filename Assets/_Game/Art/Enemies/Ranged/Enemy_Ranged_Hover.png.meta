@@ -1,0 +1,294 @@
+fileFormatVersion: 2
+guid: f215ba5f65bcd164b8389ba281073da2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8298319804249451089
+    second: Enemy_Ranged_Hover_0
+  - first:
+      213: -5912159867947595492
+    second: Enemy_Ranged_Hover_1
+  - first:
+      213: -5647447541375320893
+    second: Enemy_Ranged_Hover_2
+  - first:
+      213: -5975571610457537777
+    second: Enemy_Ranged_Hover_3
+  - first:
+      213: 8714174619361038908
+    second: Enemy_Ranged_Hover_4
+  - first:
+      213: 642384382084888002
+    second: Enemy_Ranged_Hover_5
+  - first:
+      213: -1468372515299449998
+    second: Enemy_Ranged_Hover_6
+  - first:
+      213: 770425385727971177
+    second: Enemy_Ranged_Hover_7
+  - first:
+      213: 5079011356745588640
+    second: Enemy_Ranged_Hover_8
+  - first:
+      213: 8006387005977620039
+    second: Enemy_Ranged_Hover_9
+  - first:
+      213: -1369689945921051884
+    second: Enemy_Ranged_Hover_10
+  - first:
+      213: -6417941654046952773
+    second: Enemy_Ranged_Hover_11
+  - first:
+      213: -6195256466096971986
+    second: Enemy_Ranged_Hover_12
+  - first:
+      213: -2109919626461855693
+    second: Enemy_Ranged_Hover_13
+  - first:
+      213: 3745736642881252672
+    second: Enemy_Ranged_Hover_14
+  - first:
+      213: 3339524390597542566
+    second: Enemy_Ranged_Hover_15
+  - first:
+      213: -295410932052158641
+    second: Enemy_Ranged_Hover_16
+  - first:
+      213: 8916509588749201995
+    second: Enemy_Ranged_Hover_17
+  - first:
+      213: 1561191053087040632
+    second: Enemy_Ranged_Hover_18
+  - first:
+      213: 8768570440623717922
+    second: Enemy_Ranged_Hover_19
+  - first:
+      213: -8935751054087829823
+    second: Enemy_Ranged_Hover_20
+  - first:
+      213: 8394119076197835330
+    second: Enemy_Ranged_Hover_21
+  - first:
+      213: 6338651631223063290
+    second: Enemy_Ranged_Hover_22
+  - first:
+      213: 8102612921552149854
+    second: Enemy_Ranged_Hover_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemy_Ranged_Hover_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 543
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa55f1bba1276dc80800000000000000
+      internalID: -8298319804249451089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_Hover_1
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 0
+        width: 543
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19c9af8ce9c3fda0800000000000000
+      internalID: -5912159867947595492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_Hover_2
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 543
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ccbba0f16c30a1b0800000000000000
+      internalID: -5647447541375320893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Ranged_Hover_3
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 0
+        width: 543
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0305ccb741821da0800000000000000
+      internalID: -5975571610457537777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 446bd3bbee0db1e4d90cadd0b3799add
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Enemy_Ranged_Hover_0: -8298319804249451089
+      Enemy_Ranged_Hover_1: -5912159867947595492
+      Enemy_Ranged_Hover_2: -5647447541375320893
+      Enemy_Ranged_Hover_3: -5975571610457537777
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

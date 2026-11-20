@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 6c2dd3c800026cc4eab02a3b7c07f4ac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4890956734607871537
+    second: Bio_VoidOrb_Walk4x4_0
+  - first:
+      213: 9198519305249171875
+    second: Bio_VoidOrb_Walk4x4_1
+  - first:
+      213: 4799541571115593488
+    second: Bio_VoidOrb_Walk4x4_2
+  - first:
+      213: -1581692231715878568
+    second: Bio_VoidOrb_Walk4x4_3
+  - first:
+      213: -5652411696850917285
+    second: Bio_VoidOrb_Walk4x4_4
+  - first:
+      213: 3798119618609104418
+    second: Bio_VoidOrb_Walk4x4_5
+  - first:
+      213: 3982754018503399329
+    second: Bio_VoidOrb_Walk4x4_6
+  - first:
+      213: -7155519643603890372
+    second: Bio_VoidOrb_Walk4x4_7
+  - first:
+      213: -1021860309333696003
+    second: Bio_VoidOrb_Walk4x4_8
+  - first:
+      213: -7306016268205341511
+    second: Bio_VoidOrb_Walk4x4_9
+  - first:
+      213: 3003439003142404373
+    second: Bio_VoidOrb_Walk4x4_10
+  - first:
+      213: 4451945481398867248
+    second: Bio_VoidOrb_Walk4x4_11
+  - first:
+      213: 7269164918759706417
+    second: Bio_VoidOrb_Walk4x4_12
+  - first:
+      213: -2710893176886111040
+    second: Bio_VoidOrb_Walk4x4_13
+  - first:
+      213: -2197306350200274875
+    second: Bio_VoidOrb_Walk4x4_14
+  - first:
+      213: -6278820263441830209
+    second: Bio_VoidOrb_Walk4x4_15
+  - first:
+      213: -3505419065840957456
+    second: Bio_VoidOrb_Walk4x4_16
+  - first:
+      213: -4081424947023658294
+    second: Bio_VoidOrb_Walk4x4_17
+  - first:
+      213: 8733499878399597216
+    second: Bio_VoidOrb_Walk4x4_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Walk4x4_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 778
+        width: 240
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1b4e563c4df1cb0800000000000000
+      internalID: -4890956734607871537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Walk4x4_1
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 782
+        width: 239
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a923f08294b7af70800000000000000
+      internalID: 9198519305249171875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Walk4x4_2
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 777
+        width: 244
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01fa01f31a56b9240800000000000000
+      internalID: 4799541571115593488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Walk4x4_3
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 998
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8598490ab43bc0ae0800000000000000
+      internalID: -1581692231715878568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Walk4x4_4
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 781
+        width: 239
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5820fc62899e81b0800000000000000
+      internalID: -5652411696850917285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Walk4x4_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 521
+        width: 242
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22643a97ba1a5b430800000000000000
+      internalID: 3798119618609104418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Walk4x4_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 740
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a797a4ada5954730800000000000000
+      internalID: 3982754018503399329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Walk4x4_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 526
+        width: 239
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f09a3bbcc72bc90800000000000000
+      internalID: -7155519643603890372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Walk4x4_8
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 522
+        width: 240
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df12814767f91d1f0800000000000000
+      internalID: -1021860309333696003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Walk4x4_9
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 525
+        width: 239
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4456ab9e0db9a90800000000000000
+      internalID: -7306016268205341511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Walk4x4_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 265
+        width: 240
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5193bd64cdb5ea920800000000000000
+      internalID: 3003439003142404373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Walk4x4_11
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 483
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0355f22f3dc78cd30800000000000000
+      internalID: 4451945481398867248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Walk4x4_12
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 270
+        width: 240
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f476cdaf241e460800000000000000
+      internalID: 7269164918759706417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Walk4x4_13
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 266
+        width: 241
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c45cafb409f06ad0800000000000000
+      internalID: -2710893176886111040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Walk4x4_14
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 269
+        width: 240
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5404a9d24899181e0800000000000000
+      internalID: -2197306350200274875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Walk4x4_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 241
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe660dac362dd8a0800000000000000
+      internalID: -6278820263441830209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Walk4x4_16
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 14
+        width: 240
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f70baf9eef3a5fc0800000000000000
+      internalID: -3505419065840957456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Walk4x4_17
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 11
+        width: 240
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2cc3f82addb57c0800000000000000
+      internalID: -4081424947023658294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bio_VoidOrb_Walk4x4_18
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 13
+        width: 240
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aadce90edf933970800000000000000
+      internalID: 8733499878399597216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bio_VoidOrb_Walk4x4_0: -4890956734607871537
+      Bio_VoidOrb_Walk4x4_1: 9198519305249171875
+      Bio_VoidOrb_Walk4x4_10: 3003439003142404373
+      Bio_VoidOrb_Walk4x4_11: 4451945481398867248
+      Bio_VoidOrb_Walk4x4_12: 7269164918759706417
+      Bio_VoidOrb_Walk4x4_13: -2710893176886111040
+      Bio_VoidOrb_Walk4x4_14: -2197306350200274875
+      Bio_VoidOrb_Walk4x4_15: -6278820263441830209
+      Bio_VoidOrb_Walk4x4_16: -3505419065840957456
+      Bio_VoidOrb_Walk4x4_17: -4081424947023658294
+      Bio_VoidOrb_Walk4x4_18: 8733499878399597216
+      Bio_VoidOrb_Walk4x4_2: 4799541571115593488
+      Bio_VoidOrb_Walk4x4_3: -1581692231715878568
+      Bio_VoidOrb_Walk4x4_4: -5652411696850917285
+      Bio_VoidOrb_Walk4x4_5: 3798119618609104418
+      Bio_VoidOrb_Walk4x4_6: 3982754018503399329
+      Bio_VoidOrb_Walk4x4_7: -7155519643603890372
+      Bio_VoidOrb_Walk4x4_8: -1021860309333696003
+      Bio_VoidOrb_Walk4x4_9: -7306016268205341511
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
